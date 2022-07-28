@@ -16,12 +16,12 @@ Los pasos que debes seguir son:
 6. A continuación seleccionamos "Custom-logic"
 7. Debemos ingresar la dirección del contrato inteligente que desplegamos en Remix
 8. Ingresamos los siguientes valores Upkeep name, Gas limit: 200000, Starting balance (LINK):5, Your email address
-9. Aprobamos la transacción
-10. Ya podemos ver como nuestro NFT va a cambiar metadata dependiendo del tiempo que hayamos al momento de desplegar el contrato y que sera el que ejecute el keeper de chainlink.
-11. Para validar que efectivamete la metadata de nuestro NFT esta cambiando correctamente podemos usar las funciones de tokenURI que nos permite saber que metada tiene el determinado NFT o la función flowerStage que puede retornar un número entre 0-2.
+9. Aprobamos la transacción y esperamos que se proceso para la red de chainlink.
+10. Ya podemos ver como nuestro NFT va a cambiar metadata dependiendo del tiempo que hayamos establecido al momento de desplegar el contrato y sera el que ejecute el keeper de chainlink.
+11. Para validar que efectivamete la metadata de nuestro NFT esta cambiando, podemos usar las funciones de tokenURI que nos permite saber que metada tiene determinado NFT o la función flowerStage que retorna un número entre 0-2 y podriamos ver como va incrementado.
 12. Si quiere visualizar como cambia la metadata de tu NFT en opensea tienes que ingresar a la colección que creaste, ingresar en el primer elemento y en la esquina superior derecha selección la opción actualizar metadata, finalmente debes actualizar la ventana para poder ver los cambios.
 
-![Actualizar metadata](image/uptadeMetadata.jpg)
+![Actualizar metadata](image/uptadeMetadata_1.jpg)
 
 ## Reto 2
 
@@ -34,7 +34,6 @@ Los pasos que debes seguir son:
 1. Crear una interfaz gráfica con react que permita subir la archivos de la metadata y que desde allí se encargue de subirlo a la red IPFS de su preferencia 
 2. Desplegar el contrato inteligente.
 3. Realizar las pruebas de funcionamiento
-
 
 
 ## Recursos
