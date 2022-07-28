@@ -31,7 +31,7 @@ Los pasos que debes seguir son:
 
 ## Reto 3 (Opcional)
 
-1. Crear una interfaz gráfica con react que permita subir la archivos de la metadata y que desde allí se encargue de subirlo a la red IPFS de su preferencia 
+1. Crear una interfaz gráfica con react que permita subir la imagen, el nombre, la descripción,  caracteristicas del NFT y que se encargue de generar el archivo JSON de metadata y lo suba a la red IPFS de su preferencia 
 2. Desplegar el contrato inteligente.
 3. Realizar las pruebas de funcionamiento
 
