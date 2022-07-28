@@ -19,7 +19,23 @@ Los pasos que debes seguir son:
 9. Aprobamos la transacción
 10. Ya podemos ver como nuestro NFT va a cambiar metadata dependiendo del tiempo que hayamos al momento de desplegar el contrato y que sera el que ejecute el keeper de chainlink.
 11. Para validar que efectivamete la metadata de nuestro NFT esta cambiando correctamente podemos usar las funciones de tokenURI que nos permite saber que metada tiene el determinado NFT o la función flowerStage que puede retornar un número entre 0-2.
-12. Si quiere visualizar como cambia la metadata de tu NFT en opensea 
+12. Si quiere visualizar como cambia la metadata de tu NFT en opensea tienes que ingresar a la colección que creaste, ingresar en el primer elemento y en la esquina superior derecha selección la opción actualizar metadata, finalmente debes actualizar la ventana para poder ver los cambios.
+
+![Actualizar metadata](image/uptadeMetadata.jpg)
+
+## Reto 2
+
+1. Modifica el código original del repositorio para permitir que tu NFT tenga 5 cambios de metadata.
+2. Realizar el despliegue del contrato módifico 
+3. Crear una nueva automatización por tiempo como se ejecuto en el paso 1.
+
+## Reto 3 (Opcional)
+
+1. Crear una interfaz gráfica con react que permita subir la archivos de la metadata y que desde allí se encargue de subirlo a la red IPFS de su preferencia 
+2. Desplegar el contrato inteligente.
+3. Realizar las pruebas de funcionamiento
+
+
 
 ## Recursos
 
