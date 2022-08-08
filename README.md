@@ -23,11 +23,24 @@ Los pasos que debes seguir son:
 
 ![Actualizar metadata](image/uptadeMetadata_1.jpg)
 
+RETO SOLUCIONADO:
+
+Contrato Modificado: SeedAutomatic.sol
+
+Desplegado en rinkeby: 0x81751c052307Ba3FA6520B423D96d06721D3c044 (https://rinkeby.etherscan.io/address/0x81751c052307Ba3FA6520B423D96d06721D3c044)
+
+![Metadata final en opensea](image/Problema_reto_open_sea_1.png)
+
+![Llamadas chainlink](image/chain_link_automatic_upkeep.png)
+
+
 ## Reto 2
 
 1. Modifica el código original del repositorio para permitir que tu NFT tenga 5 cambios de metadata.
 2. Realizar el despliegue del contrato módifico 
 3. Crear una nueva automatización por tiempo como se ejecuto en el paso 1.
+
+
 
 ## Reto 3 (Opcional)
 
