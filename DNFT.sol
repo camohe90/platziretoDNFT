@@ -13,15 +13,18 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
  
    // Metadata information for each stage of the NFT on IPFS.
     string[] IpfsUri = [
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/seed.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-sprout.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-blooms.json"
+        "https://gateway.pinata.cloud/ipfs/QmTVmLCLEZNHteoJdQ6vPi6vvctP5aN2t4QGf1NtzCx8wA/fase_1.json",
+        "https://gateway.pinata.cloud/ipfs/QmTVmLCLEZNHteoJdQ6vPi6vvctP5aN2t4QGf1NtzCx8wA/fase_2.json",
+        "https://gateway.pinata.cloud/ipfs/QmTVmLCLEZNHteoJdQ6vPi6vvctP5aN2t4QGf1NtzCx8wA/fase_3.json",
+        "https://gateway.pinata.cloud/ipfs/QmTVmLCLEZNHteoJdQ6vPi6vvctP5aN2t4QGf1NtzCx8wA/fase_4.json",
+        "https://gateway.pinata.cloud/ipfs/QmTVmLCLEZNHteoJdQ6vPi6vvctP5aN2t4QGf1NtzCx8wA/fase_5.json",
+        "https://gateway.pinata.cloud/ipfs/QmTVmLCLEZNHteoJdQ6vPi6vvctP5aN2t4QGf1NtzCx8wA/fase_6.json"
     ]; 
 
     uint256 lastTimeStamp;
     uint256 interval;
 
-    constructor(uint _interval) ERC721("Flower Platzi", "fPLTZ") {
+    constructor(uint _interval) ERC721("Flower Platzi - Ed", "MYFPZ") {
         interval = _interval;
         lastTimeStamp = block.timestamp;
     }
@@ -29,7 +32,7 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     function checkUpkeep(bytes calldata /* checkData */) external view override returns (bool upkeepNeeded, bytes memory /* performData */) {
         uint256 tokenId = tokenIdCounter.current() - 1;
         bool done;
-        if (flowerStage(tokenId) >= 2) {
+        if (flowerStage(tokenId) >= 6) {
             done = true;
         }
 
@@ -55,7 +58,7 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     }
 
     function growFlower(uint256 _tokenId) public {
-        if(flowerStage(_tokenId) >= 2){return;}
+        if(flowerStage(_tokenId) >= 6){return;}
         // Get the current stage of the flower and add 1
         uint256 newVal = flowerStage(_tokenId) + 1;
         // store the new URI
@@ -72,40 +75,37 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
             return 0;
         }
         // Sprout
-        if (
-            compareStrings(_uri, IpfsUri[1]) 
-        ) {
+        if (compareStrings(_uri, IpfsUri[1])) {
             return 1;
         }
-        // Must be a Bloom
-        return 2;
+        // Sprout with leafs
+        if (compareStrings(_uri, IpfsUri[2])) {
+            return 2;
+        }
+        // Sprout with branchs
+        if (compareStrings(_uri, IpfsUri[3])) {
+            return 3;
+        }
+        // Plant with flowers
+        if (compareStrings(_uri, IpfsUri[4])) {
+            return 4;
+        }
+        // Must be a plant with fruits
+        return 5;
     }
 
     // helper function to compare strings
-    function compareStrings(string memory a, string memory b)
-        public
-        pure
-        returns (bool)
-    {
-        return (keccak256(abi.encodePacked((a))) ==
-            keccak256(abi.encodePacked((b))));
+    function compareStrings(string memory a, string memory b) public pure returns (bool){
+        return (keccak256(abi.encodePacked((a))) == keccak256(abi.encodePacked((b))));
     }
 
     // The following functions is an override required by Solidity.
-    function _burn(uint256 tokenId)
-        internal
-        override(ERC721, ERC721URIStorage)
-    {
+    function _burn(uint256 tokenId) internal override(ERC721, ERC721URIStorage){
         super._burn(tokenId);
     }
 
     // The following functions is an override required by Solidity.
-    function tokenURI(uint256 tokenId)
-        public
-        view
-        override(ERC721, ERC721URIStorage)
-        returns (string memory)
-    {
+    function tokenURI(uint256 tokenId) public view override(ERC721, ERC721URIStorage) returns (string memory){
         return super.tokenURI(tokenId);
     }
 }

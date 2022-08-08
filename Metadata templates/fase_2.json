@@ -1,0 +1,15 @@
+{
+    "name": "Semilla germinando",
+    "description": "Se puede observar un brote apareciendo de la semilla",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRkwEBPQb9KfAai1nAWeZUT6CQz9msvYwGTe2buQQKTxK/fase_2.jpg",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Creciendo"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "VERDE"
+        }
+    ]
+}
