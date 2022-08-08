@@ -1,0 +1,15 @@
+{
+    "name": "Planta con frutos",
+    "description": "Se puede observar frutos saliendo de las ramas de la planta",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRkwEBPQb9KfAai1nAWeZUT6CQz9msvYwGTe2buQQKTxK/fase_6.jpg",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Adulta"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "MORADO"
+        }
+    ]
+}

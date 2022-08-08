@@ -1,0 +1,15 @@
+{
+    "name": "Planta adulta",
+    "description": "Se puede observar flores saliendo de las ramas de la planta",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRkwEBPQb9KfAai1nAWeZUT6CQz9msvYwGTe2buQQKTxK/fase_5.jpg",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Creciendo"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "ROSADO"
+        }
+    ]
+}

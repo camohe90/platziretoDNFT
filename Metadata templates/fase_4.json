@@ -1,0 +1,15 @@
+{
+    "name": "Planta mediana",
+    "description": "Se puede observar ramas saliendo de la planta",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRkwEBPQb9KfAai1nAWeZUT6CQz9msvYwGTe2buQQKTxK/fase_4.jpg",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Creciendo"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "VERDE"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Semilla",
+    "description": "Estado de la planta en semilla, crecerá en una bella flor",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRkwEBPQb9KfAai1nAWeZUT6CQz9msvYwGTe2buQQKTxK/fase_1.jpg",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Semilla"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "VERDE"
+        }
+    ]
+}
