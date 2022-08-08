@@ -1,0 +1,15 @@
+{
+    "name": "Flor Muriendo",
+    "description": "Flor NFT muriendo",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXQRt5vaFzMjeW2c6PurwhX74kwq77NRWN1VfUpSCLSs5",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Muriendo"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "NEGRO"
+        }
+    ]
+}
