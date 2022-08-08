@@ -21,6 +21,11 @@ Los pasos que debes seguir son:
 11. Para validar que efectivamete la metadata de nuestro NFT esta cambiando, podemos usar las funciones de tokenURI que nos permite saber que metada tiene determinado NFT o la función flowerStage que retorna un número entre 0-2 y podriamos ver como va incrementado.
 12. Si quiere visualizar como cambia la metadata de tu NFT en opensea tienes que ingresar a la colección que creaste, ingresar en el primer elemento y en la esquina superior derecha selección la opción actualizar metadata, finalmente debes actualizar la ventana para poder ver los cambios.
 
+dir en chainlink
+https://keepers.chain.link/rinkeby/51319350263583326021579187877596188410501493300639580007822173649953673190801
+dir del contrato
+0x96ccE9DB990bA7869F98B913307957a88AE1AABB
+
 ![Actualizar metadata](image/uptadeMetadata_1.jpg)
 
 ## Reto 2
