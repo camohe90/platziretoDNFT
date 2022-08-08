@@ -1,0 +1,15 @@
+{
+    "name": "Goku - Kakaroto",
+    "description": "Goku NFT que ira evolucionando según su entrenamiento",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVUFHHzBJcPGhLL5GxaXyKzVk9AC2QgFBPqFAu5GtWLbY",
+    "attributes": [
+        {
+            "trait-type": "NivelGoku",
+            "value": "Goku Dios Blue"
+        },
+        {
+            "trait-type": "Historia",
+            "value": "Dragon ball Super"
+        }
+    ]
+}
