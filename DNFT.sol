@@ -15,13 +15,15 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     string[] IpfsUri = [
         "https://gateway.pinata.cloud/ipfs/QmTPZ5tzz4yqGQCviLV3tfEG5HpEa73DzGQq1fUpxVAtUE",
         "https://gateway.pinata.cloud/ipfs/QmbuN6tAUJicZsYyvCXAPugjuvMm7PRK6eNmQBQ9MW1hAP",
-        "https://gateway.pinata.cloud/ipfs/QmTPPhYLuDTkzyiDaMyw6oFyJbVmQ83yEE99hVei3HtFM3"
+        "https://gateway.pinata.cloud/ipfs/QmTPPhYLuDTkzyiDaMyw6oFyJbVmQ83yEE99hVei3HtFM3",
+        "https://gateway.pinata.cloud/ipfs/QmV3ZW1qqHNqUvt94dVHZz8T7U1vBMijoXs9FJatVdP1TY",
+        "https://gateway.pinata.cloud/ipfs/QmYjohGH8nepmfKJkQYGbRcxJuPZRjuY8u8LvXa2qwro7r"
     ]; 
 
     uint256 lastTimeStamp;
     uint256 interval;
 
-    constructor(uint _interval) ERC721("Flower Platzi", "fPLTZ") {
+    constructor(uint _interval) ERC721("Five Test", "FIVE") {
         interval = _interval;
         lastTimeStamp = block.timestamp;
     }
@@ -29,7 +31,7 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     function checkUpkeep(bytes calldata /* checkData */) external view override returns (bool upkeepNeeded, bytes memory /* performData */) {
         uint256 tokenId = tokenIdCounter.current() - 1;
         bool done;
-        if (flowerStage(tokenId) >= 2) {
+        if (flowerStage(tokenId) >= 4) {
             done = true;
         }
 
@@ -55,7 +57,7 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     }
 
     function growFlower(uint256 _tokenId) public {
-        if(flowerStage(_tokenId) >= 2){return;}
+        if(flowerStage(_tokenId) >= 4){return;}
         // Get the current stage of the flower and add 1
         uint256 newVal = flowerStage(_tokenId) + 1;
         // store the new URI
@@ -67,18 +69,24 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     // determine the stage of the flower growth
     function flowerStage(uint256 _tokenId) public view returns (uint256) {
         string memory _uri = tokenURI(_tokenId);
-        // Seed
+        // Line 1
         if (compareStrings(_uri, IpfsUri[0])) {
             return 0;
         }
-        // Sprout
-        if (
-            compareStrings(_uri, IpfsUri[1]) 
-        ) {
+        // Line 2
+        if (compareStrings(_uri, IpfsUri[1])) {
             return 1;
         }
-        // Must be a Bloom
-        return 2;
+        // Line 3
+        if (compareStrings(_uri, IpfsUri[2])) {
+            return 2;
+        }
+        // Line 4
+        if (compareStrings(_uri, IpfsUri[3])) {
+            return 3;
+        }
+        // Line 5
+        return 4;
     }
 
     // helper function to compare strings

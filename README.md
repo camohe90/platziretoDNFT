@@ -22,9 +22,9 @@ Los pasos que debes seguir son:
 12. Si quiere visualizar como cambia la metadata de tu NFT en opensea tienes que ingresar a la colección que creaste, ingresar en el primer elemento y en la esquina superior derecha selección la opción actualizar metadata, finalmente debes actualizar la ventana para poder ver los cambios.
 
 dir en chainlink
-https://keepers.chain.link/rinkeby/51319350263583326021579187877596188410501493300639580007822173649953673190801
+https://keepers.chain.link/rinkeby/65267845291918057090076484299385328296039918538666328066730734341724225733982
 dir del contrato
-0x96ccE9DB990bA7869F98B913307957a88AE1AABB
+0xe4AB78CC6Da2b947709D3326F270Ae67fBc5CB62
 
 ![Actualizar metadata](image/uptadeMetadata_1.jpg)
 
