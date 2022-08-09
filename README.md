@@ -4,7 +4,9 @@ This repository comes from platzi's team, all code from them are in the branch f
 The branch feature/ChallengesTasks is generate to modify all code to resolve all challenges that they ask to me.
 Finally the main branch will have all changes made by Edgar A Guevara.
 
-## Reto 1
+## Reto 1 [x] 
+    El contracto que corresponde a la solucion es (EAGNFTPLATZIV2.sol)
+    Las imagenes de los cambios realizados estan en (challenges_images/1-challenge)
 
 Vamos a aprender a crear NFT's dinámicos, lo que significa que pueden cambiar su metadata dependiendo de ciertas condiciones que definamos. 
 
