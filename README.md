@@ -1,12 +1,14 @@
 # Aprendamos a crear NFT's dinámicos
 
-This repository comes from platzi's team, all code from them are in the branch feature/BaseCodeFromPlatzi.
+**This repository comes from platzi's team, all code from them are in the branch feature/BaseCodeFromPlatzi.
 The branch feature/ChallengesTasks is generate to modify all code to resolve all challenges that they ask to me.
-Finally the main branch will have all changes made by Edgar A Guevara.
+Finally the main branch will have all changes made by Edgar A Guevara.**
 
-## Reto 1 [x] 
-    El contracto que corresponde a la solucion es (EAGNFTPLATZIV2.sol)
-    Las imagenes de los cambios realizados estan en (challenges_images/1-challenge)
+## Reto 1 
+- [x] El contracto que corresponde a la solucion es [EAGNFTPLATZIV2.sol](EAGNFTPLATZIV2.sol)
+- [x] El address del contrato es [0xCA7fDc8108d6aE613560Eb90914E476C36C9a089](https://rinkeby.etherscan.io/tx/0x4a28b1d8f0eba9cd943b4541f30bb6e9cafba79c7eee3abe54688ce1f1b4be55)
+- [x] [El keeper](https://keepers.chain.link/rinkeby/113146944213892747501237992778215351925251115619902374563115239652528580586652)
+- [x] Las imagenes de los cambios realizados estan en [challenges_images/1-challenge](challenges_images/1-challengel)
 
 Vamos a aprender a crear NFT's dinámicos, lo que significa que pueden cambiar su metadata dependiendo de ciertas condiciones que definamos. 
 
