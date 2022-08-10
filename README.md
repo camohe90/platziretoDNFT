@@ -23,6 +23,13 @@ Los pasos que debes seguir son:
 
 ![Actualizar metadata](image/uptadeMetadata_1.jpg)
 
+
+### Solución Reto 1 - Catzi
+
+[NFT Dinamico OpenSea](https://testnets.opensea.io/assets/rinkeby/0x3e4ae524c256f0f29caeec43f1c5cabdee748217/0)
+
+[Contrato en rinkeby 0x3e4Ae524C256f0F29caeEc43F1c5Cabdee748217](https://rinkeby.etherscan.io/address/0x3e4ae524c256f0f29caeec43f1c5cabdee748217)
+
 ## Reto 2
 
 1. Modifica el código original del repositorio para permitir que tu NFT tenga 5 cambios de metadata.
