@@ -1,0 +1,15 @@
+{
+    "name": "Gato Junior",
+    "description": "Gato Junior, rompe todo lo que se cruza",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXQsAQk18pLGtfg2knesd17kLFwC6PEAH6eKLpmn8Qhr5",
+    "attributes": [
+        {
+            "trait-type": "EtapaGato",
+            "value": "Junior"
+        },
+        {
+            "trait-type": "CaracterGato",
+            "value": "Curioso"
+        }
+    ]
+}

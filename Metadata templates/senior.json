@@ -1,0 +1,15 @@
+{
+    "name": "Gato Senior",
+    "description": "Gato Senior, propietario de todos los rincones de la casa. No se escapa ni una mosca..",
+    "image": "https://gateway.pinata.cloud/ipfs/QmV8U3DsVNHsrnDcsosuCYmpRtAqadam1zrCW5dDk9hUrB",
+    "attributes": [
+        {
+            "trait-type": "EtapaGato",
+            "value": "Senior"
+        },
+        {
+            "trait-type": "CaracterGato",
+            "value": "Intelectual"
+        }
+    ]
+}

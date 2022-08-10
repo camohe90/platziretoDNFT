@@ -1,0 +1,15 @@
+{
+    "name": "Gato Kitten",
+    "description": "Gato kitten, tiernito y amasable",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXQsAQk18pLGtfg2knesd17kLFwC6PEAH6eKLpmn8Qhr5",
+    "attributes": [
+        {
+            "trait-type": "EtapaGato",
+            "value": "Kitten"
+        },
+        {
+            "trait-type": "CaracterGato",
+            "value": "Sociable"
+        }
+    ]
+}
