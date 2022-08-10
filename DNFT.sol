@@ -29,7 +29,7 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     function checkUpkeep(bytes calldata /* checkData */) external view override returns (bool upkeepNeeded, bytes memory /* performData */) {
         uint256 tokenId = tokenIdCounter.current() - 1;
         bool done;
-        if (flowerStage(tokenId) >= 2) {
+        if (catStage(tokenId) >= 2) {
             done = true;
         }
 
@@ -54,30 +54,30 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
         _setTokenURI(tokenId, IpfsUri[0]);
     }
 
-    function growFlower(uint256 _tokenId) public {
-        if(flowerStage(_tokenId) >= 2){return;}
+    function advanceInStage(uint256 _tokenId) external {
+        if(catStage(_tokenId) >= 2){return;}
         // Get the current stage of the flower and add 1
-        uint256 newVal = flowerStage(_tokenId) + 1;
+        uint256 newVal = catStage(_tokenId) + 1;
         // store the new URI
         string memory newUri = IpfsUri[newVal];
         // Update the URI
         _setTokenURI(_tokenId, newUri);
     }
 
-    // determine the stage of the flower growth
-    function flowerStage(uint256 _tokenId) public view returns (uint256) {
+    // determine the stage of the cat 
+    function catStage(uint256 _tokenId) public view returns (uint256) {
         string memory _uri = tokenURI(_tokenId);
-        // Seed
+        // Kitten
         if (compareStrings(_uri, IpfsUri[0])) {
             return 0;
         }
-        // Sprout
+        // Junior 
         if (
             compareStrings(_uri, IpfsUri[1]) 
         ) {
             return 1;
         }
-        // Must be a Bloom
+        // Must be a Senior 
         return 2;
     }
 
