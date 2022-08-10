@@ -21,7 +21,7 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     uint256 lastTimeStamp;
     uint256 interval;
 
-    constructor(uint _interval) ERC721("Flower Platzi", "fPLTZ") {
+    constructor(uint _interval) ERC721("Cats Platzi", "CATZI") {
         interval = _interval;
         lastTimeStamp = block.timestamp;
     }
