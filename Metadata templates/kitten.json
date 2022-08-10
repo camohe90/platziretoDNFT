@@ -1,7 +1,7 @@
 {
-    "name": "Gato Kitten",
-    "description": "Gato kitten, tiernito y amasable",
-    "image": "https://gateway.pinata.cloud/ipfs/QmXQsAQk18pLGtfg2knesd17kLFwC6PEAH6eKLpmn8Qhr5",
+    "name": "Kitten",
+    "description": "Gatito tiernito y amasable",
+    "image": "https://gateway.pinata.cloud/ipfs/QmduFuRf7xj1Mgzkp8VXn4mHQemyAaimw2fFFf6cHUSx5U",
     "attributes": [
         {
             "trait-type": "EtapaGato",
