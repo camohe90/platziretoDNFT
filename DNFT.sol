@@ -1,4 +1,3 @@
-//Begin
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.6;
 
@@ -15,13 +14,15 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     string[] IpfsUri = [
         "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/seed.json",
         "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-sprout.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-blooms.json"
+        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-blooms.json",
+        "https://gateway.pinata.cloud/ipfs/QmVCQcbhnw7EWMoqBQ8HW9Py5hAeQGEqT7XU8wxEKToaJd",
+        "https://gateway.pinata.cloud/ipfs/QmbGbwNkmsZeGzo5wSjQot9AF9xgy1NQD7rxeXkbBVUnRQ"
     ]; 
 
     uint256 lastTimeStamp;
     uint256 interval;
 
-    constructor(uint _interval) ERC721("Flower Platzi", "fPLTZ") {
+    constructor(uint _interval) ERC721("Flower Reto 3", "fPLTZ") {
         interval = _interval;
         lastTimeStamp = block.timestamp;
     }
@@ -29,10 +30,9 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     function checkUpkeep(bytes calldata /* checkData */) external view override returns (bool upkeepNeeded, bytes memory /* performData */) {
         uint256 tokenId = tokenIdCounter.current() - 1;
         bool done;
-        if (flowerStage(tokenId) >= 2) {
+        if (flowerStage(tokenId) >= IpfsUri.length) {
             done = true;
         }
-
         upkeepNeeded = !done && ((block.timestamp - lastTimeStamp) > interval);        
         // We don't use the checkData in this example. The checkData is defined when the Upkeep was registered.
     }
@@ -55,7 +55,7 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     }
 
     function growFlower(uint256 _tokenId) public {
-        if(flowerStage(_tokenId) >= 2){return;}
+        if(flowerStage(_tokenId) >= IpfsUri.length){return;}
         // Get the current stage of the flower and add 1
         uint256 newVal = flowerStage(_tokenId) + 1;
         // store the new URI
@@ -77,8 +77,16 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
         ) {
             return 1;
         }
-        // Must be a Bloom
-        return 2;
+        // Bloom
+        if (compareStrings(_uri, IpfsUri[2])) {
+            return 2;
+        }
+        // Rose
+        if (compareStrings(_uri, IpfsUri[3])) {
+            return 3;
+        }
+        // Must be Roja
+        return 4;
     }
 
     // helper function to compare strings
