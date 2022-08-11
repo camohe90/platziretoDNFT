@@ -1,0 +1,15 @@
+{
+    "name": "Gato Prime",
+    "description": "Explorador experimentado",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQvyR4NEt3muMw5UcefGySQELE7xhyuHNXC1nUXGp9gTZ/cat-3.jpg",
+    "attributes": [
+        {
+            "trait-type": "EtapaGato",
+            "value": "Prime"
+        },
+        {
+            "trait-type": "CaracterGato",
+            "value": "Platzinauta"
+        }
+    ]
+}
