@@ -1,0 +1,15 @@
+{
+    "name": "Charmander",
+    "description": "Pokemon evolucion",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRK8JUcrTK6M7AzBbhCw6vU2PD2PUEmC6zNQXEgeMZ979/charmander.png",
+    "attributes": [
+        {
+            "trait-type": "EtapaPokemon",
+            "value": "Charmander"
+        },
+        {
+            "trait-type": "ColorPokemon",
+            "value": "Naranja"
+        }
+    ]
+}

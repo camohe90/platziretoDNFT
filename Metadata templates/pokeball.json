@@ -1,0 +1,18 @@
+{
+    "name": "Pokebola",
+    "description": "Pokemon desconocido",
+    "image": "https://gateway.pinata.cloud/ipfs/Qme6cU8Fzzq2b8emrxStLG17JYcEoUUbh2qLpc7ouZGxcE",
+    "attributes": [
+        {
+            "trait-type": "EtapaPokemon",
+            "value": "Pokebola"
+        },
+        {
+            "trait-type": "ColorPokemon",
+            "value": "RojoBlanco"
+        }
+    ]
+}
+
+
+
