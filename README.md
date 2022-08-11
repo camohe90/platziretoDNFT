@@ -36,6 +36,12 @@ Los pasos que debes seguir son:
 2. Realizar el despliegue del contrato módifico 
 3. Crear una nueva automatización por tiempo como se ejecuto en el paso 1.
 
+#### Solución Reto 2 - Catzi Stages
+
+[Dirección del contrato 0x482cB33Daeacd67A1A12925cd382a4C2c866D341](https://rinkeby.etherscan.io/tx/0x533d67ba2287e73b4d678ab003e7089f0e08d230f7654f20154cab2658baff73)
+
+[Transacción de creación de Keeper Chainlink](https://rinkeby.etherscan.io/tx/0xd40f781b70a8ae5e036a45ede16f127007f09c13771ef20830282551749e5566)
+
 ## Reto 3 (Opcional)
 
 1. Crear una interfaz gráfica con react que permita subir la imagen, el nombre, la descripción,  caracteristicas del NFT y que se encargue de generar el archivo JSON de metadata y lo suba a la red IPFS de su preferencia 
