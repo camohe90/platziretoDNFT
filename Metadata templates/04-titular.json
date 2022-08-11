@@ -1,0 +1,17 @@
+{
+    "name": "Miguel Breiman",
+    "nationalId": "00000004",
+    "description": "Titular del dominio del inmueble",
+    "type": "Apartment",
+    "surface": "500 mts²",
+    "domicile": "Arcos 1111, Piso 1, Apartamento 1",
+    "postalCode": "1414",
+    "location": "Bragado, Buenos Aires",
+    "image": "https://gateway.pinata.cloud/ipfs/QmP99CxV36thqLKTEuSbYPKVHVAMD8dbwCV6dNfggBqiJL",
+    "attributes": [
+        {
+            "trait-type": "Folio del Registro de la Propiedad",
+            "value": "Hoja 4"
+        }
+    ]
+}
