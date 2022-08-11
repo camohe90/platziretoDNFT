@@ -19,11 +19,13 @@ Solución al reto: NFT Dinámicos
 - El archivo JSON contiene los datos típicos solicitados por el registro, como la ubicación del inmueble, la superficie total, la localidad, el código postal, su titular actual y el número de folio del libro del registro. Los datos del inmueble se mantienen y varía su titular.
 - Ejemplo del archivo [json](https://gateway.pinata.cloud/ipfs/QmWJtUzYxYRi4dPBSDysHTL3gU4nf4Q8WwVQZWivqfpazF)
 - El NFT quedó actualizado y disponible para su visualización en la colección de la address con la que fue minteado, en la testnet de Open Sea.
-![TITULAR-1](https://gateway.pinata.cloud/ipfs/QmTbYT5B7tt3QDT5LJ16cotcuSMFMwrTqCzdBnekdh8qBD)
-![TITULAR-2](https://gateway.pinata.cloud/ipfs/QmV5UsF9bgo8FNCLgaDJJAd7jHBKAZ9asREasmqK375oWg)
-![TITULAR-3](https://gateway.pinata.cloud/ipfs/QmTnEUvSJBVoNiCVZ8UojwbRW6gF5Z53YJrYwkDkahhFoP)
-![TITULAR-4](https://gateway.pinata.cloud/ipfs/QmbEpYurTE7uvqjucXvf5Bv7BvRoUcdNaJQGGcXtBGic28)
-![TITULAR-5](https://gateway.pinata.cloud/ipfs/QmVywDY2V56uDsxdkKFbT6efRBxjccKDkChNaDHMipP6es)
+- Ejemplo de un titular: 
+- ![TITULAR-3](https://gateway.pinata.cloud/ipfs/QmTnEUvSJBVoNiCVZ8UojwbRW6gF5Z53YJrYwkDkahhFoP)
+- Otros titulares:
+[TITULAR-1](https://gateway.pinata.cloud/ipfs/QmTbYT5B7tt3QDT5LJ16cotcuSMFMwrTqCzdBnekdh8qBD)
+[TITULAR-2](https://gateway.pinata.cloud/ipfs/QmV5UsF9bgo8FNCLgaDJJAd7jHBKAZ9asREasmqK375oWg)
+[TITULAR-4](https://gateway.pinata.cloud/ipfs/QmbEpYurTE7uvqjucXvf5Bv7BvRoUcdNaJQGGcXtBGic28)
+[TITULAR-5](https://gateway.pinata.cloud/ipfs/QmVywDY2V56uDsxdkKFbT6efRBxjccKDkChNaDHMipP6es)
 
 
 - [ ] Tercer problema (Opcional)
