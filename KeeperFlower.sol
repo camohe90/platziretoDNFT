@@ -6,16 +6,16 @@ import "@chainlink/contracts/src/v0.8/KeeperCompatible.sol";
 import "@openzeppelin/contracts@4.6.0/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts@4.6.0/utils/Counters.sol";
 
-contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
+contract KeeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     using Counters for Counters.Counter;
 
     Counters.Counter public tokenIdCounter;
  
    // Metadata information for each stage of the NFT on IPFS.
     string[] IpfsUri = [
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/seed.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-sprout.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-blooms.json"
+        "https://gateway.pinata.cloud/ipfs/Qmaj66K5rUgBQ3srvwS9E3Ra6xjagWBKCWQZxubpkxUaZc",
+        "https://gateway.pinata.cloud/ipfs/QmbiDwLPGSoBwKxD94wW5axJkRwDXbAcriMLnobALTDNAm",
+        "https://gateway.pinata.cloud/ipfs/Qmcuo8T8QbcYBjHbPY3nX3JmsKyCLnLS5DipXdgZzBS66E"
     ]; 
 
     uint256 lastTimeStamp;
