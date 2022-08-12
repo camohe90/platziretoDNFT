@@ -1,0 +1,35 @@
+{
+  "name": "Order",
+  "description": "Order prepared and awaiting shipment",
+  "image": "https://gateway.pinata.cloud/ipfs/QmQqJxPqmFD48seJPENK8LnBAjrcrDW5zvYbhTWi34gyZ1",
+  "attributes": [
+      {
+          "trait-type": "orderId",
+          "value": "77458965"
+      },
+      {
+          "trait-type": "status",
+          "value": "prepared"
+      },
+      {
+          "trait-type": "numberProducts",
+          "value": "4"
+      },
+      {
+          "trait-type": "numberBill",
+          "value": "45712"
+      },
+      {
+          "trait-type": "customerName",
+          "value": "Jhon Doe"
+      },
+      {
+        "trait-type": "customerAddres",
+        "value": "1st av. 8 Billding"
+      },
+      {
+        "trait-type": "store",
+        "value": "123-BigStore"
+      }
+  ]
+}
