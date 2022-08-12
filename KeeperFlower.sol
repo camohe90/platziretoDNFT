@@ -13,9 +13,9 @@ contract KeeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
  
    // Metadata information for each stage of the NFT on IPFS.
     string[] IpfsUri = [
-        "https://gateway.pinata.cloud/ipfs/Qmaj66K5rUgBQ3srvwS9E3Ra6xjagWBKCWQZxubpkxUaZc",
+        "https://gateway.pinata.cloud/ipfs/QmRZtXKDv7Hq6hDuJq8PL4Aow9L47fC1iPNApEgeDiFtyC",
         "https://gateway.pinata.cloud/ipfs/QmbiDwLPGSoBwKxD94wW5axJkRwDXbAcriMLnobALTDNAm",
-        "https://gateway.pinata.cloud/ipfs/Qmcuo8T8QbcYBjHbPY3nX3JmsKyCLnLS5DipXdgZzBS66E"
+        "https://gateway.pinata.cloud/ipfs/Qmaj66K5rUgBQ3srvwS9E3Ra6xjagWBKCWQZxubpkxUaZc"
     ]; 
 
     uint256 lastTimeStamp;
@@ -32,8 +32,8 @@ contract KeeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
         if (flowerStage(tokenId) >= 2) {
             done = true;
         }
-
-        upkeepNeeded = !done && ((block.timestamp - lastTimeStamp) > interval);        
+        upkeepNeeded = !done && ((block.timestamp - lastTimeStamp) > interval);     
+        return (upkeepNeeded, bytes(""));
         // We don't use the checkData in this example. The checkData is defined when the Upkeep was registered.
     }
 
