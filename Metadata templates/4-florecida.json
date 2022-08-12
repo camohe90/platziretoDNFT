@@ -1,0 +1,19 @@
+{
+    "name": "Flor florecida",
+    "description": "Se ve los racimos de flores totalmente florecidas abiertas y ya disponibles para la reproducción o polinización.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmR9sMDFLTd69dusQLkjorbSaKmV1rMZHTZF6D1yUh9HpH",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Flourished"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "Reproduction"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "pollination"
+        }
+    ]
+}

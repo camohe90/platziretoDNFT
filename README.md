@@ -35,6 +35,12 @@ Los pasos que debes seguir son:
 2. Realizar el despliegue del contrato módifico
 3. Crear una nueva automatización por tiempo como se ejecuto en el paso 1.
 
+### Solucion
+
+- Contrato address: 0x4493719790757fb533be3c6dafc0877AfB01AC1f
+- OpenSea: https://testnets.opensea.io/assets/rinkeby/0x4493719790757fb533be3c6dafc0877afb01ac1f/0/
+- keeper: https://keepers.chain.link/rinkeby/47210061521853264379614281815465385907437352858713372426069289911105617608765
+
 ## Reto 3 (Opcional)
 
 1. Crear una interfaz gráfica con react que permita subir la imagen, el nombre, la descripción, caracteristicas del NFT y que se encargue de generar el archivo JSON de metadata y lo suba a la red IPFS de su preferencia

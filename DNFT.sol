@@ -13,9 +13,11 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
 
     // Metadata information for each stage of the NFT on IPFS.
     string[] IpfsUri = [
-        "https://gateway.pinata.cloud/ipfs/QmQrzxt1fvzoR6J91FTe58dd8Dg79CfPmPKhzhkDZKS1xP",
-        "https://gateway.pinata.cloud/ipfs/QmfWfqhhWFN1acW25iZ5chhDUBjPitgpRHHrHccpmetAmY",
-        "https://gateway.pinata.cloud/ipfs/QmaGGW7tEdUs36KATV4DxY22C1SkMNJRwFqJucpbjzJP3H"
+        "https://gateway.pinata.cloud/ipfs/QmdyaJM6CQoNmVaPwkaJeCDhjAjn2vw3wJzhyXbT26n1aL",
+        "https://gateway.pinata.cloud/ipfs/QmZx4ti625joqrQR6uaAR97E8cVS6FzJwdbaVgykJjo3Fp",
+        "https://gateway.pinata.cloud/ipfs/QmaaRWA13XpdzbAXiTq8wGSjwfEcWWxR5sUae6WZ9DyHj8",
+        "https://gateway.pinata.cloud/ipfs/QmdRBFRQVsAfAfkTg6V3LSENwNAtaXw34wi7Cq3iRD1v8F",
+        "https://gateway.pinata.cloud/ipfs/QmQ8qSV3pV4NkV2V8SZwXCRhWWaDZRHNBTxtP8V83joCpN"
     ];
 
     uint256 lastTimeStamp;
@@ -36,7 +38,7 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     {
         uint256 tokenId = tokenIdCounter.current() - 1;
         bool done;
-        if (flowerStage(tokenId) >= 2) {
+        if (flowerStage(tokenId) >= 4) {
             done = true;
         }
 
@@ -65,7 +67,7 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     }
 
     function growFlower(uint256 _tokenId) public {
-        if (flowerStage(_tokenId) >= 2) {
+        if (flowerStage(_tokenId) >= 4) {
             return;
         }
         // Get the current stage of the flower and add 1
@@ -83,12 +85,20 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
         if (compareStrings(_uri, IpfsUri[0])) {
             return 0;
         }
-        // Sprout
+        // Germination
         if (compareStrings(_uri, IpfsUri[1])) {
             return 1;
         }
-        // Must be a Bloom
-        return 2;
+        // Growing
+        if (compareStrings(_uri, IpfsUri[2])) {
+            return 2;
+        }
+        // Flourished
+        if (compareStrings(_uri, IpfsUri[3])) {
+            return 3;
+        }
+        // Will reproduce again
+        return 4;
     }
 
     // helper function to compare strings

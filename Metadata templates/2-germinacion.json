@@ -1,0 +1,19 @@
+{
+    "name": "Germinación Flor",
+    "description": "Para que una semilla germine debe contar con las condiciones adecuadas como son, disponer de un buen sustrato, de una temperatura adecuada, agua y luz.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmY3kxxuh5u4w5s3P7f7sV4mdho28qCPyQGq9yt5goeVeE",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Germination"
+        },
+        {
+            "trait-type": "EtapaFLor",
+            "value": "substrate, suitable temperature, water and light"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "Appropriate conditions"
+        }
+    ]
+}
