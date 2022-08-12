@@ -30,6 +30,9 @@ El resultado los pasos anteriores en la red de Rinkeby es [NFT MundoVirtual din�
 
 ## Reto 2
 
+El resultado los pasos anteriores en la red de Rinkeby es [MundoVirtual NFT dinámico](https://keepers.chain.link/rinkeby/113080549108333544374355778133581688162889756259646822920764548611874937967972)
+![Resultado: NFT MundoVirtual dinámico automatizado](image/MundoVirtual_NFTDinamico_keeper_chainlink.png)
+
 1. Modifica el código original del repositorio para permitir que tu NFT tenga 5 cambios de metadata.
 2. Realizar el despliegue del contrato módifico
 3. Crear una nueva automatización por tiempo como se ejecuto en el paso 1.
