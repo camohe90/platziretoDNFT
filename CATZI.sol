@@ -30,7 +30,7 @@ contract keeperCatzi is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     function checkUpkeep(bytes calldata /* checkData */) external view override returns (bool upkeepNeeded, bytes memory /* performData */) {
         uint256 tokenId = tokenIdCounter.current() - 1;
         bool done;
-        if (catStage(tokenId) >= 2) {
+        if (catStage(tokenId) >= 4) {
             done = true;
         }
 
@@ -78,8 +78,20 @@ contract keeperCatzi is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
         ) {
             return 1;
         }
+
+        if (
+            compareStrings(_uri, IpfsUri[2]) 
+        ) {
+            return 2;
+        }
+
+        if (
+            compareStrings(_uri, IpfsUri[3]) 
+        ) {
+            return 3;
+        }
         // Must be a Senior 
-        return 2;
+        return 4;
     }
 
     // helper function to compare strings
