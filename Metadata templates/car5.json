@@ -1,0 +1,42 @@
+{
+	"name": "Car 5 - Blue",
+	"description": "Flor NFT con la que vamos a aprender",
+	"image": "https://bafkreidw56v66akrcm2enh6aa7abzjyfzghq52xtapwr23oczijkds3jii.ipfs.nftstorage.link/",
+	"attributes": [{
+			"trait-type": "CarStage",
+			"value": "Car 5 - Blue"
+		},
+		{
+			"trait-type": "CarColor",
+			"value": "BLUE"
+		},
+		{
+			"trait-type": "CarSeatColor",
+			"value": "UNKNOWN"
+		},
+		{
+			"trait-type": "NumberOfSeats",
+			"value": "5"
+		},
+		{
+			"trait-type": "RimStyle",
+			"value": "TWIST"
+		},
+		{
+			"trait-type": "RimColor",
+			"value": "PLATE"
+		},
+		{
+			"trait-type": "Model",
+			"value": "2010"
+		},
+		{
+			"trait-type": "Doors",
+			"value": "4"
+		},
+		{
+			"trait-type": "SpareTyre",
+			"value": "NOT"
+		}
+	]
+}

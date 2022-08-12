@@ -1,0 +1,42 @@
+{
+	"name": "Car 3 - Grey",
+	"description": "Flor NFT con la que vamos a aprender",
+	"image": "https://bafkreicx2qga5s3bjdyhj4twlhlnuhfmuc4e7pfvydraemkeoblrcw55la.ipfs.nftstorage.link/",
+	"attributes": [{
+			"trait-type": "CarStage",
+			"value": "Car 3 - Grey"
+		},
+		{
+			"trait-type": "CarColor",
+			"value": "GREY"
+		},
+		{
+			"trait-type": "CarSeatColor",
+			"value": "UNKNOWN"
+		},
+		{
+			"trait-type": "NumberOfSeats",
+			"value": "5"
+		},
+		{
+			"trait-type": "RimStyle",
+			"value": "CLASSIC"
+		},
+		{
+			"trait-type": "RimColor",
+			"value": "DARK GREY"
+		},
+		{
+			"trait-type": "Model",
+			"value": "1990"
+		},
+		{
+			"trait-type": "Doors",
+			"value": "4"
+		},
+		{
+			"trait-type": "SpareTyre",
+			"value": "NOT"
+		}
+	]
+}
