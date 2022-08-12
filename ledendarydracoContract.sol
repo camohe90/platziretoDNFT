@@ -18,7 +18,9 @@ contract birthOfLegendaryDraco is
     string[] IpfsUri = [
         "https://gateway.pinata.cloud/ipfs/QmZU5b1SLPu3mY1t5TDLJ6DPr5iv9pRxrvDcfbPnvw5eWd/nft1_fullmoon.json",
         "https://gateway.pinata.cloud/ipfs/QmZU5b1SLPu3mY1t5TDLJ6DPr5iv9pRxrvDcfbPnvw5eWd/nft2_flash.json",
-        "https://gateway.pinata.cloud/ipfs/QmZU5b1SLPu3mY1t5TDLJ6DPr5iv9pRxrvDcfbPnvw5eWd/nft3_flashmoon.json"
+        "https://gateway.pinata.cloud/ipfs/QmZU5b1SLPu3mY1t5TDLJ6DPr5iv9pRxrvDcfbPnvw5eWd/nft3_flashmoon.json",
+        "https://gateway.pinata.cloud/ipfs/QmZU5b1SLPu3mY1t5TDLJ6DPr5iv9pRxrvDcfbPnvw5eWd/nft4_legendarydraco.json",
+        "https://gateway.pinata.cloud/ipfs/QmZU5b1SLPu3mY1t5TDLJ6DPr5iv9pRxrvDcfbPnvw5eWd/nft5_fulllegendarydraco.json"
     ];
 
     uint256 lastTimeStamp;
