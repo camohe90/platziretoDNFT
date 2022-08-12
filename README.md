@@ -1,6 +1,12 @@
-# Aprendamos a crear NFT's dinámicos
+# Dinamic NFT challenge - Platzi Ethereum Developer Program 
 
-## Reto 1
+The idea was to learn how to deploy a contract in a testnet and interact with it by minting NFTs. The initial NFT had 3 phases which had to be changed (by changing the metadata) through the ChainLink upkeep service using a timestamp. In the challenge we then had to edit the contract and add two more phases to the NFTs. 
+
+![nft image](image/fase3.jpg?raw=true)
+
+## Aprendamos a crear NFT's dinámicos
+
+### Reto 1
 
 Vamos a aprender a crear NFT's dinámicos, lo que significa que pueden cambiar su metadata dependiendo de ciertas condiciones que definamos. 
 
@@ -23,20 +29,20 @@ Los pasos que debes seguir son:
 
 ![Actualizar metadata](image/uptadeMetadata_1.jpg)
 
-## Reto 2
+### Reto 2
 
 1. Modifica el código original del repositorio para permitir que tu NFT tenga 5 cambios de metadata.
 2. Realizar el despliegue del contrato módifico 
 3. Crear una nueva automatización por tiempo como se ejecuto en el paso 1.
 
-## Reto 3 (Opcional)
+### Reto 3 (Opcional)
 
 1. Crear una interfaz gráfica con react que permita subir la imagen, el nombre, la descripción,  caracteristicas del NFT y que se encargue de generar el archivo JSON de metadata y lo suba a la red IPFS de su preferencia 
 2. Desplegar el contrato inteligente.
 3. Realizar las pruebas de funcionamiento
 
 
-## Recursos
+### Recursos
 
 * [Qué es chainlink](https://chainlinkspanishcommunity.medium.com/qu%C3%A9-es-chainlink-6ea80f9ff95e)
 * [Documentación de Chainlink ](https://docs.chain.link/docs)
