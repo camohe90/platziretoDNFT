@@ -1,0 +1,51 @@
+{
+  "name": "Order",
+  "description": "Order delivered",
+  "image": "https://gateway.pinata.cloud/ipfs/QmTHnkNoQvyUhK38wPApEpDXZGDKDgp93Xs5EZsX4hvX9p",
+  "attributes": [
+      {
+          "trait-type": "orderId",
+          "value": "77458965"
+      },
+      {
+          "trait-type": "status",
+          "value": "Delivered"
+      },
+      {
+          "trait-type": "numberProducts",
+          "value": "4"
+      },
+      {
+          "trait-type": "numberBill",
+          "value": "45712"
+      },
+      {
+          "trait-type": "customerName",
+          "value": "John Doe"
+      },
+      {
+        "trait-type": "customerAddress",
+        "value": "1st av. 8th Building"
+      },
+      {
+        "trait-type": "store",
+        "value": "123-BigStore"
+      },
+      {
+        "trait-type": "mail",
+        "value": "FastCourier"
+      },
+      {
+        "trait-type": "tracking",
+        "value": "A1587F7893"
+      },
+      {
+        "trait-type": "timeToDelivery",
+        "value": "0 hr"
+      },
+      {
+        "trait-type": "deliveredDate",
+        "value": "2022-08-09 15:35:54 UTC"
+      }
+  ]
+}
