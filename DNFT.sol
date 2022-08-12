@@ -13,15 +13,17 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
  
    // Metadata information for each stage of the NFT on IPFS.
     string[] IpfsUri = [
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/seed.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-sprout.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-blooms.json"
+        "https://bafybeibl6ichijkq47jlga7ah7ae4bsr36ejjeb3em7sregmisjbrxaz5i.ipfs.nftstorage.link/1_huevo.json",
+        "https://bafybeibl6ichijkq47jlga7ah7ae4bsr36ejjeb3em7sregmisjbrxaz5i.ipfs.nftstorage.link/2_gusano.json",
+        "https://bafybeibl6ichijkq47jlga7ah7ae4bsr36ejjeb3em7sregmisjbrxaz5i.ipfs.nftstorage.link/3_capullo.json",
+        "https://bafybeibl6ichijkq47jlga7ah7ae4bsr36ejjeb3em7sregmisjbrxaz5i.ipfs.nftstorage.link/4_dejando_capullo.json",
+        "https://bafybeibl6ichijkq47jlga7ah7ae4bsr36ejjeb3em7sregmisjbrxaz5i.ipfs.nftstorage.link/5_mariposa.json"
     ]; 
 
     uint256 lastTimeStamp;
     uint256 interval;
 
-    constructor(uint _interval) ERC721("Flower Platzi", "fPLTZ") {
+    constructor(uint _interval) ERC721("Platziposa", "PLPS") {
         interval = _interval;
         lastTimeStamp = block.timestamp;
     }
@@ -29,7 +31,7 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     function checkUpkeep(bytes calldata /* checkData */) external view override returns (bool upkeepNeeded, bytes memory /* performData */) {
         uint256 tokenId = tokenIdCounter.current() - 1;
         bool done;
-        if (flowerStage(tokenId) >= 2) {
+        if (flowerStage(tokenId) >= 4) {
             done = true;
         }
 
@@ -67,18 +69,25 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     // determine the stage of the flower growth
     function flowerStage(uint256 _tokenId) public view returns (uint256) {
         string memory _uri = tokenURI(_tokenId);
-        // Seed
+        // Huevo
         if (compareStrings(_uri, IpfsUri[0])) {
             return 0;
         }
-        // Sprout
-        if (
-            compareStrings(_uri, IpfsUri[1]) 
-        ) {
+        // Gusano
+        if (compareStrings(_uri, IpfsUri[1]) ) {
             return 1;
         }
-        // Must be a Bloom
-        return 2;
+        // Capullo
+        if (compareStrings(_uri, IpfsUri[2]) ) {
+            return 2;
+        }
+        // Saliendo del capulo
+        if (compareStrings(_uri, IpfsUri[3]) ) {
+            return 3;
+        }
+
+        // Mariposa
+        return 4;
     }
 
     // helper function to compare strings

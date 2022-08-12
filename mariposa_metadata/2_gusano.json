@@ -1,0 +1,11 @@
+{
+    "name": "Gusano",
+    "description": "El huevo NFT ahora es un gusano",
+    "image": "https://bafybeicbtngisecjk72ta5fo4uqhe5hixs6aqfs4sqylvbfxndo2ffjy6i.ipfs.nftstorage.link/2_gusano.png",
+    "attributes": [
+        {
+            "trait-type": "Etapa Mariposa",
+            "value": "Gusano"
+        }
+    ]
+}
