@@ -91,12 +91,20 @@ contract birthOfLegendaryDraco is
         if (compareStrings(_uri, IpfsUri[0])) {
             return 0;
         }
-        // flash moon
+        // flash
         if (compareStrings(_uri, IpfsUri[1])) {
             return 1;
         }
+        // flash moon
+        if (compareStrings(_uri, IpfsUri[2])) {
+            return 2;
+        }
         // draco
-        return 2;
+        if (compareStrings(_uri, IpfsUri[3])) {
+            return 3;
+        }
+        // full legendary draco
+        return 4;
     }
 
     // helper function to compare strings
