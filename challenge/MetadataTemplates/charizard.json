@@ -1,0 +1,52 @@
+{
+  "name": "Charizard",
+  "description": "Sus potentes alas le permiten volar a una altura de 1400 m. Escupe llamaradas que llegan a alcanzar temperaturas elevadísimas.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmWdNdZaedo357CjV4LSgaM133DzLQe8hqV9DuLm4bzJiQ",
+  "attributes": [
+    {
+      "trait_type": "Altura",
+      "value": "1.7m"
+    },
+    {
+      "trait_type": "Peso",
+      "value": "90.5kg"
+    },
+    {
+      "trait_type": "Categoría",
+      "value": "Llama"
+    },
+    {
+      "trait_type": "Habilidad",
+      "value": "Mar Llamas"
+    },
+    {
+      "trait_type": "Tipo",
+      "value": "Fuego"
+    },
+    {
+      "display_type": "boost_number", 
+      "trait_type": "Ataque", 
+      "value": 33
+    }, 
+    {
+      "display_type": "boost_number", 
+      "trait_type": "Defensa", 
+      "value": 33
+    },
+    {
+      "display_type": "boost_number", 
+      "trait_type": "Ataque especial", 
+      "value": 46
+    },
+    {
+      "display_type": "boost_number", 
+      "trait_type": "Velocidad", 
+      "value": 40
+    },
+    {
+      "display_type": "date", 
+      "trait_type": "birthday", 
+      "value": 1660358548
+    }
+  ]
+}

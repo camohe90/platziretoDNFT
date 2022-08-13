@@ -1,0 +1,52 @@
+{
+  "name": "Charmelon",
+  "description": "Este Pokémon de naturaleza agresiva ataca en combate con su cola llameante y hace trizas al rival con sus afiladas garras.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmWccKpRqpgKsNjV8YGueiqekxUHnmy4p6YHnx9TTnVsSp",
+  "attributes": [
+    {
+      "trait_type": "Altura",
+      "value": "1.1m"
+    },
+    {
+      "trait_type": "Peso",
+      "value": "19kg"
+    },
+    {
+      "trait_type": "Categoría",
+      "value": "Llama"
+    },
+    {
+      "trait_type": "Habilidad",
+      "value": "Mar Llamas"
+    },
+    {
+      "trait_type": "Tipo",
+      "value": "Fuego"
+    },
+    {
+      "display_type": "boost_number", 
+      "trait_type": "Ataque", 
+      "value": 26
+    }, 
+    {
+      "display_type": "boost_number", 
+      "trait_type": "Defensa", 
+      "value": 26
+    },
+    {
+      "display_type": "boost_number", 
+      "trait_type": "Ataque especial", 
+      "value": 33
+    },
+    {
+      "display_type": "boost_number", 
+      "trait_type": "Velocidad", 
+      "value": 26
+    },
+    {
+      "display_type": "date", 
+      "trait_type": "birthday", 
+      "value": 1660358548
+    }
+  ]
+}
