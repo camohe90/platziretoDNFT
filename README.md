@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Ethereum developer program: reto del mes 1 - NFT dinámico
+Ethereum Developer Program: reto del mes 1 - NFT dinámico
 
 ## Despliegue Vercel
 
