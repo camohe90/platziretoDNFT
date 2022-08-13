@@ -1,0 +1,24 @@
+{
+    "name": "Charmeleon",
+    "description": "POKFT",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZgkDVeg1Ev8USH2PJpHSiwNfDNmhBRRF8cwM1HyUjNix",
+    "background_color":"E3350D",
+    "attributes": [
+        {
+            "trait-type": "Category",
+            "value": "Flame"
+        },
+        {
+            "trait-type": "Type",
+            "value": "Fire"
+        },
+        {
+            "trait-type": "Abilities",
+            "value": "BLAZ"
+        },
+        {
+            "trait-type": "Weaknesses",
+            "value": "Water, Ground, Rock"
+        }
+    ]
+}
