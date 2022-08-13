@@ -5,8 +5,8 @@ A Dynamic NFT (DNFT) is an NFT that can change its metadata. The change can happ
 
 ## Examples
 
-Next, you can find two contracts using an [IPFS](https://www.pinata.cloud/) for storage images and, metadata. Also,
-[Keepers](https://keepers.chain.link/) to change dynamically the DNFT
+Next, you can find two contracts as solution to this Challenge using an [IPFS](https://www.pinata.cloud/) for storage images and, metadata. Also,
+[Keepers](https://keepers.chain.link/) to change dynamically the DNFT.
 
 
 <details>
