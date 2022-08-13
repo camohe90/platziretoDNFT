@@ -1,15 +1,15 @@
 {
     "name": "Semilla Flor",
     "description": "Flor NFT con la que vamos a aprender",
-    "image": "https://gateway.pinata.cloud/ipfs/QmXQsAQk18pLGtfg2knesd17kLFwC6PEAH6eKLpmn8Qhr5",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYfnDNxyfAMPVaimRxQQ8jqqaR7QAE8GExdW8pD7F1FxK",
     "attributes": [
         {
             "trait-type": "EtapaFLor",
-            "value": "Semilla"
+            "value": "Florecida"
         },
         {
             "trait-type": "ColorFlor",
-            "value": "CAFE"
+            "value": "MORADO"
         }
     ]
 }
