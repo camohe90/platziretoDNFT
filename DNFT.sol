@@ -13,15 +13,15 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
  
    // Metadata information for each stage of the NFT on IPFS.
     string[] IpfsUri = [
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/seed.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-sprout.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-blooms.json"
+        "https://gateway.pinata.cloud/ipfs/QmQrzxt1fvzoR6J91FTe58dd8Dg79CfPmPKhzhkDZKS1xP",
+        "https://gateway.pinata.cloud/ipfs/QmfWfqhhWFN1acW25iZ5chhDUBjPitgpRHHrHccpmetAmY",
+        "https://gateway.pinata.cloud/ipfs/QmYfnDNxyfAMPVaimRxQQ8jqqaR7QAE8GExdW8pD7F1FxK"
     ]; 
 
     uint256 lastTimeStamp;
     uint256 interval;
 
-    constructor(uint _interval) ERC721("Flower Platzi", "fPLTZ") {
+    constructor(uint _interval) ERC721("Flower Platzi Valentin Reto", "JSPLTZ") {
         interval = _interval;
         lastTimeStamp = block.timestamp;
     }
