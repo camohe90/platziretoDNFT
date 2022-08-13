@@ -35,7 +35,7 @@ Los pasos que debes seguir son:
 - [x] El contracto que corresponde a la solucion es [POKFT.sol](POKFT.sol)
 - [x] El address del contrato es [0xfdf57a7c6b72708fd0558d3d688d6db998268632](https://rinkeby.etherscan.io/address/0xfdf57a7c6b72708fd0558d3d688d6db998268632)
 - [x] [El keeper](https://keepers.chain.link/rinkeby/56660677191293572268840123332414175751572246149258976808634036795181017688187)
-- [x] Las imagenes de los cambios realizados estan en [challenges_images/1-challenge](challenges_images/2-challenge)
+- [x] Las imagenes de los cambios realizados estan en [challenges_images/2-challenge](challenges_images/2-challenge)
 
 1. Modifica el código original del repositorio para permitir que tu NFT tenga 5 cambios de metadata.
 2. Realizar el despliegue del contrato módifico 
