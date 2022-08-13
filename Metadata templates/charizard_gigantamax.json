@@ -1,0 +1,24 @@
+{
+    "name": "Charizard Gigantamax",
+    "description": "POKFT",
+    "image": "https://gateway.pinata.cloud/ipfs/QmU7JcdwEyHX63ppCjWhFu3kJ1asKbSuNi1Ak9x9gJEG9h",
+    "background_color":"E3350D",
+    "attributes": [
+        {
+            "trait-type": "Category",
+            "value": "Flame"
+        },
+        {
+            "trait-type": "Type",
+            "value": "Fire, Flying"
+        },
+        {
+            "trait-type": "Abilities",
+            "value": "BLAZE"
+        },
+        {
+            "trait-type": "Weaknesses",
+            "value": "Water, Electric, Rock*4"
+        }
+    ]
+}

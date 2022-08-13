@@ -1,6 +1,14 @@
 # Aprendamos a crear NFT's dinámicos
 
-## Reto 1
+**This repository comes from platzi's team, all code from them are in the branch feature/BaseCodeFromPlatzi.
+The branch feature/ChallengesTasks is generate to modify all code to resolve all challenges that they ask to me.
+Finally the main branch will have all changes made by Edgar A Guevara.**
+
+## Reto 1 
+- [x] El contracto que corresponde a la solucion es [EAGNFTPLATZIV2.sol](EAGNFTPLATZIV2.sol)
+- [x] El address del contrato es [0xCA7fDc8108d6aE613560Eb90914E476C36C9a089](https://rinkeby.etherscan.io/tx/0x4a28b1d8f0eba9cd943b4541f30bb6e9cafba79c7eee3abe54688ce1f1b4be55)
+- [x] [El keeper](https://keepers.chain.link/rinkeby/113146944213892747501237992778215351925251115619902374563115239652528580586652)
+- [x] Las imagenes de los cambios realizados estan en [challenges_images/1-challenge](challenges_images/1-challenge)
 
 Vamos a aprender a crear NFT's dinámicos, lo que significa que pueden cambiar su metadata dependiendo de ciertas condiciones que definamos. 
 
@@ -24,6 +32,10 @@ Los pasos que debes seguir son:
 ![Actualizar metadata](image/uptadeMetadata_1.jpg)
 
 ## Reto 2
+- [x] El contracto que corresponde a la solucion es [POKFT.sol](POKFT.sol)
+- [x] El address del contrato es [0xfdf57a7c6b72708fd0558d3d688d6db998268632](https://rinkeby.etherscan.io/address/0xfdf57a7c6b72708fd0558d3d688d6db998268632)
+- [x] [El keeper](https://keepers.chain.link/rinkeby/56660677191293572268840123332414175751572246149258976808634036795181017688187)
+- [x] Las imagenes de los cambios realizados estan en [challenges_images/2-challenge](challenges_images/2-challenge)
 
 1. Modifica el código original del repositorio para permitir que tu NFT tenga 5 cambios de metadata.
 2. Realizar el despliegue del contrato módifico 

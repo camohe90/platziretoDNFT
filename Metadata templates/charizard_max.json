@@ -1,0 +1,24 @@
+{
+    "name": "Charizard Max",
+    "description": "POKFT",
+    "image": "https://gateway.pinata.cloud/ipfs/QmegFcnQ5YyNScRUES7gL74YHDkFSgXVLVaua7W4CzfEZC",
+    "background_color":"E3350D",
+    "attributes": [
+        {
+            "trait-type": "Category",
+            "value": "Flame"
+        },
+        {
+            "trait-type": "Type",
+            "value": "Fire, Dragon"
+        },
+        {
+            "trait-type": "Abilities",
+            "value": "TOUGH CLAWS"
+        },
+        {
+            "trait-type": "Weaknesses",
+            "value": "Ground, Rock, Dragon"
+        }
+    ]
+}
