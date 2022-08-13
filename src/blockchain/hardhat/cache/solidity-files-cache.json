@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\src\\blockchain\\hardhat\\contracts\\NFTDinamic.sol": {
-      "lastModificationDate": 1660413475662,
-      "contentHash": "59ff315c8dac176ec34410b5fba6c83c",
+      "lastModificationDate": 1660423801559,
+      "contentHash": "6d7e48ba32cc50fa6e10436600e2aa10",
       "sourceName": "src/blockchain/hardhat/contracts/NFTDinamic.sol",
       "solcConfig": {
         "version": "0.8.9",
@@ -29,13 +29,12 @@
         }
       },
       "imports": [
-        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "@chainlink/contracts/src/v0.8/KeeperCompatible.sol",
         "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
-        "@openzeppelin/contracts/access/Ownable.sol",
         "@openzeppelin/contracts/utils/Counters.sol"
       ],
       "versionPragmas": [
-        "^0.8.4"
+        "0.8.9"
       ],
       "artifacts": [
         "NFTDinamic"
@@ -477,6 +476,114 @@
       ],
       "artifacts": [
         "IERC165"
+      ]
+    },
+    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@chainlink\\contracts\\src\\v0.8\\KeeperCompatible.sol": {
+      "lastModificationDate": 1660420944519,
+      "contentHash": "c153645393332a62a1e73cb0d5a6162c",
+      "sourceName": "@chainlink/contracts/src/v0.8/KeeperCompatible.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./KeeperBase.sol",
+        "./interfaces/KeeperCompatibleInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "KeeperCompatible"
+      ]
+    },
+    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@chainlink\\contracts\\src\\v0.8\\KeeperBase.sol": {
+      "lastModificationDate": 1660420944518,
+      "contentHash": "216a5d4c261e07cc7b31f828950e35ad",
+      "sourceName": "@chainlink/contracts/src/v0.8/KeeperBase.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "KeeperBase"
+      ]
+    },
+    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@chainlink\\contracts\\src\\v0.8\\interfaces\\KeeperCompatibleInterface.sol": {
+      "lastModificationDate": 1660420944809,
+      "contentHash": "bdbf3e274e50272d9c830fa414fcbec9",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "KeeperCompatibleInterface"
       ]
     }
   }

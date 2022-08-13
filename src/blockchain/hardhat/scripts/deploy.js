@@ -3,7 +3,7 @@ const { ethers } = require('hardhat')
 
 async function main () {
   const NFTDinamicContract = await ethers.getContractFactory('NFTDinamic')
-  const nftDinamic = await NFTDinamicContract.deploy()
+  const nftDinamic = await NFTDinamicContract.deploy(120)
   await nftDinamic.deployed()
   console.log('NFT Dinamic Contract was deployed to: ' + nftDinamic.address)
 
