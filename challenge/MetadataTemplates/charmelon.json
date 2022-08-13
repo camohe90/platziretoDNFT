@@ -1,15 +1,15 @@
 {
   "name": "Charmander",
   "description": "Este Pokémon de naturaleza agresiva ataca en combate con su cola llameante y hace trizas al rival con sus afiladas garras.",
-  "image": "https://gateway.pinata.cloud/ipfs/QmWdNdZaedo357CjV4LSgaM133DzLQe8hqV9DuLm4bzJiQ",
+  "image": "https://gateway.pinata.cloud/ipfs/QmZgkDVeg1Ev8USH2PJpHSiwNfDNmhBRRF8cwM1HyUjNix",
   "attributes": [
     {
       "trait_type": "Altura",
-      "value": "1.7m"
+      "value": "1.1m"
     },
     {
       "trait_type": "Peso",
-      "value": "90.5kg"
+      "value": "19kg"
     },
     {
       "trait_type": "Categoría",
@@ -26,22 +26,22 @@
     {
       "display_type": "boost_number", 
       "trait_type": "Ataque", 
-      "value": 33
+      "value": 26
     }, 
     {
       "display_type": "boost_number", 
       "trait_type": "Defensa", 
-      "value": 33
+      "value": 26
     },
     {
       "display_type": "boost_number", 
       "trait_type": "Ataque especial", 
-      "value": 46
+      "value": 33
     },
     {
       "display_type": "boost_number", 
       "trait_type": "Velocidad", 
-      "value": 40
+      "value": 26
     },
     {
       "display_type": "date", 

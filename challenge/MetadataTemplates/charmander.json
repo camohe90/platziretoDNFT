@@ -1,0 +1,52 @@
+{
+  "name": "Charmander",
+  "description": "Este Pokémon nace con una llama en la punta de la cola. Si se le apagara, fallecería.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmPdRCb7Q7nTYeKCxdPZ9SCaxQH5FkhabRRmvd62XVfoRY",
+  "attributes": [
+    {
+      "trait_type": "Altura",
+      "value": "0.6m"
+    },
+    {
+      "trait_type": "Peso",
+      "value": "8.5Kg"
+    },
+    {
+      "trait_type": "Categoría",
+      "value": "Lagartija"
+    },
+    {
+      "trait_type": "Habilidad",
+      "value": "Mar Llamas"
+    },
+    {
+      "trait_type": "Tipo",
+      "value": "Fuego"
+    },
+    {
+      "display_type": "boost_number", 
+      "trait_type": "Ataque", 
+      "value": 26
+    }, 
+    {
+      "display_type": "boost_number", 
+      "trait_type": "Defensa", 
+      "value": 20
+    },
+    {
+      "display_type": "boost_number", 
+      "trait_type": "Ataque especial", 
+      "value": 40
+    },
+    {
+      "display_type": "boost_number", 
+      "trait_type": "Velocidad", 
+      "value": 40
+    },
+    {
+      "display_type": "date", 
+      "trait_type": "birthday", 
+      "value": 1660358548
+    }
+  ]
+}
