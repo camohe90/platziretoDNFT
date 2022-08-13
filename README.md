@@ -41,3 +41,9 @@ Los pasos que debes seguir son:
 * [Qué es chainlink](https://chainlinkspanishcommunity.medium.com/qu%C3%A9-es-chainlink-6ea80f9ff95e)
 * [Documentación de Chainlink ](https://docs.chain.link/docs)
 
+* https://pad.riseup.net/p/YueL6HlS0JkfZlM95b9b
+* https://docs.openzeppelin.com/contracts/4.x/wizard
+* https://app.pinata.cloud/
+* https://ropsten.etherscan.io/address/0x53fB591D9e2853D8fc5F36998AA60677bFCCcb76
+* https://docs.opensea.io/docs/metadata-standards
+* https://docs.chain.link/docs/chainlink-keepers/compatible-contracts/
