@@ -36,6 +36,12 @@ Los pasos que debes seguir son:
 3. Realizar las pruebas de funcionamiento
 
 
+### View the NFT
+https://testnets.opensea.io/assets/rinkeby/0x297e129847cb0c14b16f377cfb4a1aa60094e9d7/0
+
+### Chainlink History
+https://keepers.chain.link/rinkeby/22676036182250840043141791448146613974974136122774531917412716203441696563380
+
 ## Recursos
 
 * [Qué es chainlink](https://chainlinkspanishcommunity.medium.com/qu%C3%A9-es-chainlink-6ea80f9ff95e)
