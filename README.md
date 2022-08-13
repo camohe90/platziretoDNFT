@@ -1,43 +1,85 @@
-# Aprendamos a crear NFT's dinámicos
 
-## Reto 1
+# Dynamic NFT
 
-Vamos a aprender a crear NFT's dinámicos, lo que significa que pueden cambiar su metadata dependiendo de ciertas condiciones que definamos. 
+A Dynamic NFT (DNFT) is an NFT that can change its metadata. The change can happen because of many things – especially external conditions. The major benefit of dynamic NFTs is their ability to evolve based on the real-world data changes delivered to the blockchain via oracles.
 
-Para lograrlo necesitamos conectarnos un herramientas que nos provea la información para automaizar nuestro contrato inteligente, es esta ocasión vamos a usar algunos servicios de chainlink
+## Examples
 
-Los pasos que debes seguir son:
-
-1. Debes subir las imagenes de la metadata que quieres que cambie del NFT a una red IPFS, puede usar [pinata](https://www.pinata.cloud/)
-2. En remix debes desplegar el contrato inteligente, para ellos necesitas tokens para la red de prueba rinkeby, que puedes solicitar en este [faucet](https://www.pinata.cloud/)
-3. Debemos validar que nuestro contrato inteligente se desplego correctamente en [rinkeby](https://rinkeby.etherscan.io/) y que podamos visualizar nuestro NFT en el ambiente de pruebas de [OpenSea](https://testnets.opensea.io/)
-4. Vamos a crear en la pagina de chainlink ese elemento que nos va a permitir automatizar el cambio de la metadata de nuestro NFT, para ello debemos ingresar en la pagina [keeper](https://keepers.chain.link)
-5. Seleccionamos la opción "register new upkeep"
-6. A continuación seleccionamos "Custom-logic"
-7. Debemos ingresar la dirección del contrato inteligente que desplegamos en Remix
-8. Ingresamos los siguientes valores Upkeep name, Gas limit: 200000, Starting balance (LINK):5, Your email address
-9. Aprobamos la transacción y esperamos que se proceso para la red de chainlink.
-10. Ya podemos ver como nuestro NFT va a cambiar metadata dependiendo del tiempo que hayamos establecido al momento de desplegar el contrato y sera el que ejecute el keeper de chainlink.
-11. Para validar que efectivamete la metadata de nuestro NFT esta cambiando, podemos usar las funciones de tokenURI que nos permite saber que metada tiene determinado NFT o la función flowerStage que retorna un número entre 0-2 y podriamos ver como va incrementado.
-12. Si quiere visualizar como cambia la metadata de tu NFT en opensea tienes que ingresar a la colección que creaste, ingresar en el primer elemento y en la esquina superior derecha selección la opción actualizar metadata, finalmente debes actualizar la ventana para poder ver los cambios.
-
-![Actualizar metadata](image/uptadeMetadata_1.jpg)
-
-## Reto 2
-
-1. Modifica el código original del repositorio para permitir que tu NFT tenga 5 cambios de metadata.
-2. Realizar el despliegue del contrato módifico 
-3. Crear una nueva automatización por tiempo como se ejecuto en el paso 1.
-
-## Reto 3 (Opcional)
-
-1. Crear una interfaz gráfica con react que permita subir la imagen, el nombre, la descripción,  caracteristicas del NFT y que se encargue de generar el archivo JSON de metadata y lo suba a la red IPFS de su preferencia 
-2. Desplegar el contrato inteligente.
-3. Realizar las pruebas de funcionamiento
+Next, you can find two contracts using an [IPFS](https://www.pinata.cloud/) for storage images and, metadata. Also,
+[Keepers](https://keepers.chain.link/) to change dynamically the DNFT
 
 
-## Recursos
+<details>
+<summary>Challenge 1</summary>
 
-* [Qué es chainlink](https://chainlinkspanishcommunity.medium.com/qu%C3%A9-es-chainlink-6ea80f9ff95e)
-* [Documentación de Chainlink ](https://docs.chain.link/docs)
+## [KeeperFlower](https://github.com/Oriplus/retoDNFT/blob/reto/contracts/KeeperFlower.sol)
+
+It's a DNFT that shows three stages of flower growth:
+
+    1. Seed
+    2. Sprout
+    3. Bloom
+
+After contract deployment(Remix) with an interval of 5 min in [Rinkeby](https://rinkeby.etherscan.io/address/0x70da28b73c9361b3b709feb4af8dd0e4fda19918#code), an [Upkeeper](https://keepers.chain.link/rinkeby/64023018647980276003552894717984562307962781051787609086304742503427314831054) was created with the 'Custom Logic' option:
+
+    1. Contract address: 0x70dA28b73c9361b3b709feB4AF8dd0E4fdA19918
+    2. Name: Flower 
+    3. Gas Limit: 200000
+    4. Starting balance (LINK): 5
+    5. Email
+    6. Project Name: Flower
+
+Final result on [OpenSea](https://testnets.opensea.io/assets/rinkeby/0x70da28b73c9361b3b709feb4af8dd0e4fda19918/0) 
+
+
+[Metadata](https://github.com/Oriplus/retoDNFT/tree/reto/Metadata%20templates/flower-metadata)
+
+[Images](https://github.com/Oriplus/retoDNFT/tree/reto/image/flower-img)
+
+Check this contract [here](https://rinkeby.etherscan.io/address/0x70da28b73c9361b3b709feb4af8dd0e4fda19918#code)
+
+</details>
+
+<details>
+<summary>Challenge 2</summary>
+
+## [KeeperOrder](https://github.com/Oriplus/retoDNFT/blob/reto/contracts/KeeperOrder.sol)
+It's a DNFT that shows five stages of an order for customers who shop online and want to see the whole process of their purchase, giving them a better shopping experience because they can track their orders.
+
+Order status are:
+
+    1. Created
+    2. Processed
+    3. Prepared
+    4. Shipped
+    5. Delivered
+
+After contract deployment(Remix) with an interval of 5 min in [Rinkeby](https://rinkeby.etherscan.io/address/0x5a742e312dd6a1ac25a1ffd592b0283f28a6bc79), an [Upkeeper](https://keepers.chain.link/rinkeby/71691115880082957428526168619259509085587374252898502305905310667257692303589) was created with the 'Custom Logic' option:
+
+    1. Contract address: 0x5a742e312dd6a1ac25a1ffd592b0283f28a6bc79
+    2. Name: Order 
+    3. Gas Limit: 200000
+    4. Starting balance (LINK): 5
+    5. Email
+    6. Project Name: Order
+
+Final result on [OpenSea](https://testnets.opensea.io/assets/rinkeby/0x5a742e312dd6a1ac25a1ffd592b0283f28a6bc79/0): 
+
+<img src="https://github.com/Oriplus/retoDNFT/blob/reto/image/order-img/opensea-1.png" width="500" height="500" />
+<img src="https://github.com/Oriplus/retoDNFT/blob/reto/image/order-img/opensea-2.png" width="500" height="500" />
+<img src="https://github.com/Oriplus/retoDNFT/blob/reto/image/order-img/opensea-3.png" width="500" height="500" />
+<img src="https://github.com/Oriplus/retoDNFT/blob/reto/image/order-img/opensea-4.png" width="500" height="500" />
+<img src="https://github.com/Oriplus/retoDNFT/blob/reto/image/order-img/opensea-5.png" width="500" height="500" />
+
+
+
+[Metadata](https://github.com/Oriplus/retoDNFT/tree/reto/Metadata%20templates/order-metadata)
+
+[Images](https://github.com/Oriplus/retoDNFT/tree/reto/image/order-img)
+
+Check this contract [here](https://rinkeby.etherscan.io/address/0x5a742e312dd6a1ac25a1ffd592b0283f28a6bc79)
+
+</details>
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
