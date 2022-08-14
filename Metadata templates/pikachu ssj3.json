@@ -1,0 +1,15 @@
+{
+    "name": "Pikachu SSJ3",
+    "description": "Pikachu but ready to fight Majin Buu",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfUvDCF7DZ7hZAgbmAQFz8NgJxorAFDFGyv2UUmjBkE7b",
+    "attributes": [
+        {
+            "trait-type": "Type",
+            "value": "Electrico"
+        },
+        {
+            "trait-type": "Weakness",
+            "value": "Tierra"
+        }
+    ]
+}
