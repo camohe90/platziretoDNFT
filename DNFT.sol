@@ -15,7 +15,7 @@ contract Pikachu is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     string[] IpfsUri = [
         "https://gateway.pinata.cloud/ipfs/QmWUbVbRESD2aSh3TBoqQQHXX7yDs3F5Fu7n8VE3dbQXsa",
         "https://gateway.pinata.cloud/ipfs/QmeM2LiLjmn721GxmYtPqMg2gfsmfhu37QaXw9QMzC2ovc",
-        "https://gateway.pinata.cloud/ipfs/QmTydSdYKbwrdQ313HFeLvFMSnAZis3ZTZypi49gy9678A",
+        "https://gateway.pinata.cloud/ipfs/QmRjWEr19j1DzvzUe9USR2PPbgqWENsaLKKvSspKxDfUxk",
         "https://gateway.pinata.cloud/ipfs/QmVtgmFy7v9d6mwtWeSX77bbswGHLj9HjVnPxns3uEd6RC",
         "https://gateway.pinata.cloud/ipfs/QmUGL7UpLxPtwWA1BU3ryPSLiV1MHF9WJN6pxJcVHF7bAo"
     ]; 

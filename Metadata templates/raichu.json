@@ -4,12 +4,12 @@
     "image": "https://gateway.pinata.cloud/ipfs/QmTydSdYKbwrdQ313HFeLvFMSnAZis3ZTZypi49gy9678A",
     "attributes": [
         {
-            "trait-type": "EtapaFLor",
-            "value": "Semilla"
+            "trait-type": "Type",
+            "value": "Electrico"
         },
         {
-            "trait-type": "ColorFlor",
-            "value": "CAFE"
+            "trait-type": "Weakness",
+            "value": "Tierra"
         }
     ]
 }
