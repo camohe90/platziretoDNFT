@@ -1,0 +1,11 @@
+{
+    "name": "Nueva",
+    "description": "Luna Nueva",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcXsGkirBEMTndL23jfS9aipu5Td363Fh4DVVHECoXaVg/Nueva.svg",
+    "attributes": [
+        {
+            "trait-type": "phase",
+            "value": "nueva"
+        }
+    ]
+}

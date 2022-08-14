@@ -1,0 +1,11 @@
+{
+    "name": "Luna Llena",
+    "description": "Luna Llena",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcXsGkirBEMTndL23jfS9aipu5Td363Fh4DVVHECoXaVg/Llena.svg",
+    "attributes": [
+        {
+            "trait-type": "phase",
+            "value": "llena"
+        }
+    ]
+}

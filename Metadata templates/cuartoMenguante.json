@@ -1,0 +1,11 @@
+{
+    "name": "Cuarto Menguante",
+    "description": "Cuarto Menguante",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcXsGkirBEMTndL23jfS9aipu5Td363Fh4DVVHECoXaVg/Cuarto%20Menguante.svg",
+    "attributes": [
+        {
+            "trait-type": "phase",
+            "value": "cuartoMenguante"
+        }
+    ]
+}
