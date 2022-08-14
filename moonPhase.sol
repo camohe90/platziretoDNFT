@@ -15,7 +15,10 @@ contract MoonPhaseContract is ERC721, ERC721URIStorage, KeeperCompatibleInterfac
      string[] IpfsUri = [
         "https://gateway.pinata.cloud/ipfs/Qmf6NYdWBmjWxHpfmyo7W9zRpneHD15DXB3KiSoht24erA",
         "https://gateway.pinata.cloud/ipfs/Qme9cqnwAoNpXJv7p1JvAcnd55HQrky1LxmcoyekHH14yH",
-        "https://gateway.pinata.cloud/ipfs/QmTjJS8SyqPp5u7awYZrvV2ELcJyG3hqH7rnTACV95bjRm"
+        "https://gateway.pinata.cloud/ipfs/QmTjJS8SyqPp5u7awYZrvV2ELcJyG3hqH7rnTACV95bjRm",
+        "https://gateway.pinata.cloud/ipfs/QmZYCDgP34UgNm8vE3kDqRD4EnNEWhnRG64BL4z5xngrbv",
+        "https://gateway.pinata.cloud/ipfs/QmP494buZNbfEd8S4ewy5Gv3rRyATgY7XpqaRp4vYhty6A",
+        "https://gateway.pinata.cloud/ipfs/QmaRZtKnqtvph5H2Tj2WS67fcY4zdnqtMPVpSneEXXuYWA"
     ]; 
 
     uint256 lastTimeStamp;
@@ -29,7 +32,7 @@ contract MoonPhaseContract is ERC721, ERC721URIStorage, KeeperCompatibleInterfac
     function checkUpkeep(bytes calldata /* checkData */) external view override returns (bool upkeepNeeded, bytes memory /* performData */) {
         uint256 tokenId = tokenIdCounter.current() - 1;
         bool done;
-        if (moonPhase(tokenId) >= 2) {
+        if (moonPhase(tokenId) >= 4) {
             done = true;
         }
 
@@ -67,18 +70,36 @@ contract MoonPhaseContract is ERC721, ERC721URIStorage, KeeperCompatibleInterfac
     // determine the stage of the flower growth
     function moonPhase(uint256 _tokenId) public view returns (uint256) {
         string memory _uri = tokenURI(_tokenId);
-        // Seed
+        // Luna Nueva
         if (compareStrings(_uri, IpfsUri[0])) {
             return 0;
         }
-        // Sprout
+        // Cuarto Creciente
         if (
             compareStrings(_uri, IpfsUri[1]) 
         ) {
             return 1;
         }
-        // Must be a Bloom
-        return 2;
+        // Creciente Convexa
+        if (
+            compareStrings(_uri, IpfsUri[2]) 
+        ) {
+            return 2;
+        }
+        // Luna Llena
+        if (
+            compareStrings(_uri, IpfsUri[3]) 
+        ) {
+            return 3;
+        }
+        // Menguante Convexa
+        if (
+            compareStrings(_uri, IpfsUri[4]) 
+        ) {
+            return 4;
+        }
+        // Cuarto Menguante
+        return 5;
     }
 
     // helper function to compare strings
