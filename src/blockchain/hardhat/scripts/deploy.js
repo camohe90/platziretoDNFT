@@ -7,8 +7,14 @@ async function main () {
   await nftDinamic.deployed()
   console.log('NFT Dinamic Contract was deployed to: ' + nftDinamic.address)
 
+  const NFTManualContract = await ethers.getContractFactory('NFTManual')
+  const nftManual = await NFTManualContract.deploy()
+  await nftManual.deployed()
+  console.log('NFT Manual Contract was deployed to: ' + nftManual.address)
+
   const addresses = {
-    nftdinamiccontract: nftDinamic.address
+    nftdinamiccontract: nftDinamic.address,
+    nftmanualcontract: nftManual.address
   }
   const addressesJSON = JSON.stringify(addresses)
   fs.writeFileSync('src/blockchain/environment/contract-address.json', addressesJSON)

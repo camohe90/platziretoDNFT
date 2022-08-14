@@ -57,7 +57,7 @@ contract NFTDinamic is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
         if (numberStage(_tokenId) >= 4) {
             return;
         }
-        // Get the current stage of the flower and add 1
+        // Get the current number and add 1
         uint256 newVal = numberStage(_tokenId) + 1;
         // store the new URI
         string memory newUri = IpfsUri[newVal];
@@ -77,11 +77,11 @@ contract NFTDinamic is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
             return 1;
         }
         // number III
-        if (compareStrings(_uri, IpfsUri[1])) {
+        if (compareStrings(_uri, IpfsUri[2])) {
             return 2;
         }
         // number IV
-        if (compareStrings(_uri, IpfsUri[1])) {
+        if (compareStrings(_uri, IpfsUri[3])) {
             return 3;
         }
         // number V
