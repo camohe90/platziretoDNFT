@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Semilla Flor",
+        "description": "Flor NFT con la que vamos a aprender",
+        "image": "https://gateway.pinata.cloud/ipfs/QmXQsAQk18pLGtfg2knesd17kLFwC6PEAH6eKLpmn8Qhr5",
+        "attributes": [
+            {
+                "trait-type": "EtapaFLor",
+                "value": "Semilla"
+            },
+            {
+                "trait-type": "ColorFlor",
+                "value": "CAFE"
+            }
+        ]
+    },
+    {
+        "name": "Flor Creciendo",
+        "description": "Flor NFT va a dar un nuevo paso",
+        "image": "https://gateway.pinata.cloud/ipfs/QmV8U3DsVNHsrnDcsosuCYmpRtAqadam1zrCW5dDk9hUrB",
+        "attributes": [
+            {
+                "trait-type": "EtapaFLor",
+                "value": "Crediendo"
+            },
+            {
+                "trait-type": "ColorFlor",
+                "value": "VERDE"
+            }
+        ]
+    },
+    {
+        "name": "Flor Florecida",
+        "description": "Flor NFT entra en su proceso de maduración",
+        "image": "https://gateway.pinata.cloud/ipfs/QmXQsAQk18pLGtfg2knesd17kLFwC6PEAH6eKLpmn8Qhr5",
+        "attributes": [
+            {
+                "trait-type": "EtapaFLor",
+                "value": "Florecida"
+            },
+            {
+                "trait-type": "ColorFlor",
+                "value": "BLANCO"
+            }
+        ]
+    },
+    {
+        "name": "Flor en polinización",
+        "description": "Flor NFT empieza a ser polinizada",
+        "image": "https://ipfs.io/ipfs/QmdPh6jBWhw1qk8Nsy4Jx5Lc83rYYJPyebpAyjeMXcfq3p",
+        "attributes": [
+            {
+                "trait-type": "EtapaFLor",
+                "value": "Polinización"
+            },
+            {
+                "trait-type": "ColorFlor",
+                "value": "AMARILLO"
+            }
+        ]
+    },
+    {
+        "name": "Flor en dispersión",
+        "description": "Flor NFT empieza a dispersar semillas que dan pie a nuevas flores",
+        "image": "https://ipfs.io/ipfs/Qmegyay1GQcendhiQYzceWwCEEGozHxUXsyuP2KVMUfYxB",
+        "attributes": [
+            {
+                "trait-type": "EtapaFLor",
+                "value": "Dispersión"
+            },
+            {
+                "trait-type": "ColorFlor",
+                "value": "BLANCO"
+            }
+        ]
+    }
+]
