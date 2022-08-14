@@ -1,0 +1,15 @@
+{
+    "name": "Pikachu",
+    "description": "Cuanto más potente es la energía eléctrica que genera este Pokémon, más suaves y elásticas se vuelven las bolsas de sus mejillas.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPVwkMvXRVCnWMWwAgu4pwyP1ZTTbRqHV4sLbrxBhcdPK",
+    "attributes": [
+        {
+            "trait-type": "Type",
+            "value": "Electrico"
+        },
+        {
+            "trait-type": "Weakness",
+            "value": "Tierra"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Pichu",
+    "description": "A pesar de su pequeño tamaño, puede soltar descargas capaces de electrocutar a un adulto, si bien él también acaba sobresaltado.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRh1pbSDEGMvDgbRncrJYX9AYqN71eSYtjBpxsTwgRNmC",
+    "attributes": [
+        {
+            "trait-type": "Type",
+            "value": "Electrico"
+        },
+        {
+            "trait-type": "Weakness",
+            "value": "Tierra"
+        }
+    ]
+}

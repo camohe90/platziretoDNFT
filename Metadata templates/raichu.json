@@ -1,0 +1,15 @@
+{
+    "name": "Raichu",
+    "description": "Su larga cola le sirve como toma de tierra para protegerse a sí mismo del alto voltaje que genera su cuerpo.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTydSdYKbwrdQ313HFeLvFMSnAZis3ZTZypi49gy9678A",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Semilla"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "CAFE"
+        }
+    ]
+}
