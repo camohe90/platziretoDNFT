@@ -1,0 +1,15 @@
+{
+    "name": "Pikachu SSJ",
+    "description": "Pikachu but it's over 9000",
+    "image": "https://gateway.pinata.cloud/ipfs/Qma4c6VLYMCQnM2DCpvuZdvbefPznEMGkPmhoyMifGokix",
+    "attributes": [
+        {
+            "trait-type": "Type",
+            "value": "Electrico"
+        },
+        {
+            "trait-type": "Weakness",
+            "value": "Tierra"
+        }
+    ]
+}
