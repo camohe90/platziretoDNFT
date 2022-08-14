@@ -1,0 +1,15 @@
+{
+  "name": "Initial Stage",
+  "description": "Plant initial stage",
+  "image": "https://gateway.pinata.cloud/ipfs/QmVj33EyBoCt8vpih4XXgFTvd36KVWfVRxcGxcEN6agQTh/stage-1.webp",
+  "attributes": [
+    {
+      "trait-type": "Stage",
+      "value": "Stage-1"
+    },
+    {
+      "trait-type": "Color",
+      "value": "CAFE"
+    }
+  ]
+}

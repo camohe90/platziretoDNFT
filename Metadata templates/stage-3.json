@@ -1,0 +1,15 @@
+{
+  "name": "Stage 3",
+  "description": "Plant grow to stage 3",
+  "image": "https://gateway.pinata.cloud/ipfs/QmVj33EyBoCt8vpih4XXgFTvd36KVWfVRxcGxcEN6agQTh/stage-3.webp",
+  "attributes": [
+    {
+      "trait-type": "Stage",
+      "value": "Stage-3"
+    },
+    {
+      "trait-type": "Color",
+      "value": "GREEN"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Stage 4",
+  "description": "Plant grow to stage 4",
+  "image": "https://gateway.pinata.cloud/ipfs/QmVj33EyBoCt8vpih4XXgFTvd36KVWfVRxcGxcEN6agQTh/stage-4.webp",
+  "attributes": [
+    {
+      "trait-type": "Stage",
+      "value": "Stage-4"
+    },
+    {
+      "trait-type": "Color",
+      "value": "GREEN"
+    }
+  ]
+}
