@@ -1,0 +1,15 @@
+{
+    "name": "Crisalida de mariposa",
+    "description": "Una crisalida que formo una oruga para convertirse en mariposa",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPgsxxyinxH5E6sPrL4BBjShLFxN1Ecj2RizkMMj5Jfe9/fase3.jpeg",
+    "attributes": [
+        {
+            "trait-type": "EtapaMariposa",
+            "value": "Crisalida"
+        },
+        {
+            "trait-type": "ColorPrincipal",
+            "value": "Verde"
+        }
+    ]
+}
