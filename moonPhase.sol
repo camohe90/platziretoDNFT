@@ -58,7 +58,7 @@ contract MoonPhaseContract is ERC721, ERC721URIStorage, KeeperCompatibleInterfac
     }
 
     function changePhase(uint256 _tokenId) public {
-        if(moonPhase(_tokenId) >= 2){return;}
+        if(moonPhase(_tokenId) >= 4){return;}
         // Get the current stage of the flower and add 1
         uint256 newVal = moonPhase(_tokenId) + 1;
         // store the new URI
