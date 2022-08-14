@@ -1,15 +1,15 @@
 {
-    "name": "Florecida Flor",
+    "name": "Jardin Flor",
     "description": "Flor NFT con la que vamos a aprender",
-    "image": "https://gateway.pinata.cloud/ipfs/QmPaCenJqPj2dVqtumePtDLoWkhkFbY9DhqFRQpismPWTv",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXgbLRmsniLSwhPXhpwdEzVT1fUZg7kXkb6WFGADvgfsM",
     "attributes": [
         {
             "trait-type": "EtapaFLor",
-            "value": "Florecida"
+            "value": "Jardin"
         },
         {
             "trait-type": "ColorFlor",
-            "value": "MORADO GRANDE"
+            "value": "ROSADO VERDE Y OTROS COLORES"
         }
     ]
 }
