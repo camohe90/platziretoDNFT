@@ -38,9 +38,7 @@ Los pasos que debes seguir son:
 
 #### Solución Reto 2 - Catzi Stages
 
-[Dirección del contrato 0x482cB33Daeacd67A1A12925cd382a4C2c866D341](https://rinkeby.etherscan.io/tx/0x533d67ba2287e73b4d678ab003e7089f0e08d230f7654f20154cab2658baff73)
-
-[Transacción de creación de Keeper Chainlink](https://rinkeby.etherscan.io/tx/0xd40f781b70a8ae5e036a45ede16f127007f09c13771ef20830282551749e5566)
+[Dirección del contrato 0xD53Afdb79B1627fC9bF173b767e784A8DE9dA2a7](https://rinkeby.etherscan.io/address/0xD53Afdb79B1627fC9bF173b767e784A8DE9dA2a7)
 
 ## Reto 3 (Opcional)
 
