@@ -1,0 +1,11 @@
+{
+    "name": "Cuarto Creciente",
+    "description": "Cuarto Creciente",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcXsGkirBEMTndL23jfS9aipu5Td363Fh4DVVHECoXaVg/Cuarto%20Creciente.svg",
+    "attributes": [
+        {
+            "trait-type": "phase",
+            "value": "cuartoCreciente"
+        }
+    ]
+}

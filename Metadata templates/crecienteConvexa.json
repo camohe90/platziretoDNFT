@@ -1,0 +1,11 @@
+{
+    "name": "Creciente Convexa", 
+    "description": "Creciente Convexa",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcXsGkirBEMTndL23jfS9aipu5Td363Fh4DVVHECoXaVg/Creciente%20Convexa.svg",
+    "attributes": [
+        {
+            "trait-type": "phase",
+            "value": "crecienteConvexa"
+        }
+    ]
+}
