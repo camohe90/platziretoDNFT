@@ -27,7 +27,7 @@ Solución al reto: NFT Dinámicos
 - Se hizo el keeper para hacer el NFT dinámico:
 [Keepers](https://keepers.chain.link/rinkeby/69649965584962064041634173852577496346144740776765314310602954990715922451325)
 ![Etapa 1](https://gateway.pinata.cloud/ipfs/QmZWZ7rET4zkBiJhXRWX2TC7vjXUA48UCRZRxbVWUKGRss)
-- Otros titulares:
+- Otras etapas:
 [Etapa 2](https://gateway.pinata.cloud/ipfs/QmX8dyCmmJoYuBydFzHLn6zbP9quFrAP7kP9HqL6ntd7g4)
 [Etapa 3](https://gateway.pinata.cloud/ipfs/QmQacj9MJE7DsYBnpnHdFhSKqU7uSfKJwuquLi3Z1LWwHn)
 [Etapa 4](https://gateway.pinata.cloud/ipfs/QmS7GzMVLcRRU36TEkJYHDDuCR1AjD6XkfLbfFNkdwVpWJ)
