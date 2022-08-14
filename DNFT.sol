@@ -47,7 +47,7 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
         "https://gateway.pinata.cloud/ipfs/QmPkh31TLeAS4tz9W2xf4XEUVy9MB9MpnwUgGmPtnWR6Qw/stage-1.json",
         "https://gateway.pinata.cloud/ipfs/QmPkh31TLeAS4tz9W2xf4XEUVy9MB9MpnwUgGmPtnWR6Qw/stage-2.json",
         "https://gateway.pinata.cloud/ipfs/QmPkh31TLeAS4tz9W2xf4XEUVy9MB9MpnwUgGmPtnWR6Qw/stage-3.json",
-        "https://gateway.pinata.cloud/ipfs/QmPkh31TLeAS4tz9W2xf4XEUVy9MB9MpnwUgGmPtnWR6Qw/stage-4.json"
+        "https://gateway.pinata.cloud/ipfs/QmPkh31TLeAS4tz9W2xf4XEUVy9MB9MpnwUgGmPtnWR6Qw/stage-4.json",
         "https://gateway.pinata.cloud/ipfs/QmPkh31TLeAS4tz9W2xf4XEUVy9MB9MpnwUgGmPtnWR6Qw/stage-5.json"
         ]
     */
