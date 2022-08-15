@@ -1,5 +1,5 @@
-require('@nomiclabs/hardhat-waffle');
-require('dotenv').config();
+require('@nomiclabs/hardhat-waffle')
+require('dotenv').config()
 
 /**
  @type import('hardhat/config').HardhatUserConfig
@@ -11,7 +11,7 @@ module.exports = {
     sources: './src/blockchain/hardhat/contracts',
     tests: './src/blockchain/hardhat/test',
     cache: './src/blockchain/hardhat/cache',
-    artifacts: './src/blockchain/hardhat/artifacts',
+    artifacts: './src/blockchain/hardhat/artifacts'
   },
   defaultNetwork: 'rinkeby',
   networks: {
@@ -25,8 +25,8 @@ module.exports = {
     rinkeby: {
       url: process.env.RINKEBY_RPC_URL,
       accounts: [process.env.PRIVATE_KEY],
-      saveDeployments: true,
-    },
+      saveDeployments: true
+    }
   },
-  solidity: '0.8.9',
-};
+  solidity: '0.8.9'
+}

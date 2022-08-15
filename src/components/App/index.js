@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react'
 
-import { Box } from "@chakra-ui/react";
-import "./App.scss";
+import { Box } from '@chakra-ui/react'
+import './App.scss'
 
-import { NFTContext } from "../NFTContext/";
-import { NFTLoading } from "../NFTLoading";
-import { NFTS } from "../NFTS";
-import { NFTWallet } from "../NFTWallet";
-import { Header } from "../../shared/Header";
+import { NFTContext } from '../NFTContext/'
+import { NFTLoading } from '../NFTLoading'
+import { NFTS } from '../NFTS'
+import { NFTWallet } from '../NFTWallet'
+import { Header } from '../../shared/Header'
 
-function App() {
+function App () {
   const {
     addresses,
     nftManualContract,
@@ -17,22 +17,22 @@ function App() {
     nftsMetadata,
     disabled,
     setDisable,
-    buttonDisable, 
+    buttonDisable,
     setButtonDisable,
     error,
     loading,
     setLoading
-  } = React.useContext(NFTContext);
+  } = React.useContext(NFTContext)
 
   return (
-    <React.Fragment>
-      <Box w="100%" minHeight="100vh">
+    <>
+      <Box w='100%' minHeight='100vh'>
         <Header>
           <NFTWallet buttonDisable={buttonDisable} setDisable={setDisable} />
         </Header>
         {error && <h1>Error</h1>}
         {loading && <NFTLoading />}
-        <NFTS 
+        <NFTS
           addresses={addresses}
           nftManualContract={nftManualContract}
           nftDinamicCompile={nftDinamicCompile}
@@ -43,8 +43,8 @@ function App() {
           setButtonDisable={setButtonDisable}
         />
       </Box>
-    </React.Fragment>
-  );
+    </>
+  )
 }
 
-export default App;
+export default App
