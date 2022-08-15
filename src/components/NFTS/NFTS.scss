@@ -1,37 +1,34 @@
-
-  
-  .nfts {
-    
+.nfts {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     grid-gap: 20px;
+    
+    .nft {
+      /* Add shadows to create the "card" effect */
+      margin-left: 10%;
+      text-align: left;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      height: 100%;
+      margin-top: 25px;
+      transition: 0.3s;
+      width: 100%;  
+      .title {
+        text-align: center;
+        color: red;
+      }
+      .text {
+        margin-left: 10%;
+      }
+    }
+    .nft:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
   }
   
   
-  .nft {
-    /* Add shadows to create the "card" effect */
-    margin-left: 10%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    height: 100%;
-    margin-top: 25px;
-    transition: 0.3s;
-    width: 100%;
-
-  }
   
-  /* On mouse-over, add a deeper shadow */
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  }
   
-  /* Add some padding inside the card container */
-  .container {
-    padding: 2px 16px;
-    text-align: center;
-  }
-
-  .title {
-    color: red;
-    text-align: center;
-  }
+  
+  
+  
   
