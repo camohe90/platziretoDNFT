@@ -1,0 +1,15 @@
+{
+    "name": "Crisalida rompiendose",
+    "description": "Una crisalida de la que esta saliendo una mariposa",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPgsxxyinxH5E6sPrL4BBjShLFxN1Ecj2RizkMMj5Jfe9/fase4.jpeg",
+    "attributes": [
+        {
+            "trait-type": "EtapaMariposa",
+            "value": "Crisalida rompiendose"
+        },
+        {
+            "trait-type": "ColorPrincipal",
+            "value": "Anaranjado"
+        }
+    ]
+}

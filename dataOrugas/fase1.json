@@ -1,0 +1,15 @@
+{
+    "name": "Huevo de mariposa",
+    "description": "Un huevo de mariposa del que pronto saldra una oruga",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPgsxxyinxH5E6sPrL4BBjShLFxN1Ecj2RizkMMj5Jfe9/fase1.jpeg",
+    "attributes": [
+        {
+            "trait-type": "EtapaMariposa",
+            "value": "Huevo"
+        },
+        {
+            "trait-type": "ColorPrincipal",
+            "value": "Verde"
+        }
+    ]
+}

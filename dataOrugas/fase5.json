@@ -1,0 +1,15 @@
+{
+    "name": "Mariposa",
+    "description": "Una mariposa que salio de una crisalida",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPgsxxyinxH5E6sPrL4BBjShLFxN1Ecj2RizkMMj5Jfe9/fase5.jpeg",
+    "attributes": [
+        {
+            "trait-type": "EtapaMariposa",
+            "value": "Mariposa"
+        },
+        {
+            "trait-type": "ColorPrincipal",
+            "value": "Anaranjado"
+        }
+    ]
+}

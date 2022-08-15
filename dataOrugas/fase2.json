@@ -1,0 +1,15 @@
+{
+    "name": "Oruga",
+    "description": "Una larva de mariposa nacida de un huevo, pronto se convertira en una crisalida",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPgsxxyinxH5E6sPrL4BBjShLFxN1Ecj2RizkMMj5Jfe9/fase2.jpeg",
+    "attributes": [
+        {
+            "trait-type": "EtapaMariposa",
+            "value": "Oruga"
+        },
+        {
+            "trait-type": "ColorPrincipal",
+            "value": "Blanco"
+        }
+    ]
+}
