@@ -13,6 +13,7 @@ function App() {
   const {
     addresses,
     nftManualContract,
+    nftDinamicCompile,
     nftsMetadata,
     disabled,
     setDisable,
@@ -34,6 +35,7 @@ function App() {
         <NFTS 
           addresses={addresses}
           nftManualContract={nftManualContract}
+          nftDinamicCompile={nftDinamicCompile}
           nftsMetadata={nftsMetadata}
           disabled={disabled}
           setLoading={setLoading}

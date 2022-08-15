@@ -6,6 +6,7 @@ import { Button } from "@chakra-ui/react";
 function NFTS({
   addresses,
   nftManualContract,
+  nftDinamicCompile,
   nftsMetadata,
   disabled,
   setLoading,
@@ -39,13 +40,13 @@ function NFTS({
     <div className="container">
       {nftsMetadata.map((nft, index) => (
         <div key={index}>
-          <p>{nft.name}</p> 
+          <p>{nft.name}</p>
           <p>descripción: {nft.description}</p>
           <span>Atributos: </span>
           <p>{nft.trait}</p>
           <p>{nft.value}</p>
           <figure>
-            <img src={nft.image} alt={'nft'} />
+            <img src={nft.image} alt={"nft"} />
           </figure>
           <Button
             border="1px"
@@ -57,7 +58,7 @@ function NFTS({
           >
             Cambiar imagen
           </Button>
-        </ div>
+        </div>
       ))}
     </div>
   );

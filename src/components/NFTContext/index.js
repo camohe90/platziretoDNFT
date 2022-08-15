@@ -25,13 +25,14 @@ function NFTProvider(props) {
         nftManualContract.abi,
         provider
       );
-      // const nftDinamic = new ethers.Contract(
-      //   addresses.nftdinamiccontract,
-      //   nftDinamicCompile.abi,
-      //   provider
-      // );
+       const nftDinamic = new ethers.Contract(
+         addresses.nftdinamiccontract,
+         nftDinamicCompile.abi,
+         provider
+       );
       let arr = []
       arr.push(await getNft(nftManual))
+      arr.push(await getNft(nftDinamic))
 
       //arr.push(getNft(nftDinamic))
 
@@ -50,6 +51,7 @@ function NFTProvider(props) {
     <NFTContext.Provider
       value={{
         addresses,
+        nftDinamicCompile,
         nftManualContract,
         nftsMetadata,
         disabled,
