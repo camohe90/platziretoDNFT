@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # NFT dinámico
 
 ## Descripción
@@ -30,7 +29,7 @@ npm install
 ```
 npm start
 ```
-=======
+
 # Aprendamos a crear NFT's dinámicos
 
 ## Reto 1
