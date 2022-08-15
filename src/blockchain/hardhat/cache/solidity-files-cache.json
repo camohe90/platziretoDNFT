@@ -1,9 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\src\\blockchain\\hardhat\\contracts\\NFTDinamic.sol": {
-      "lastModificationDate": 1660517474803,
-      "contentHash": "4dfbec1c51f7269c98eea2a2ade6a1ad",
+    "/Users/santiagoviana/EthereumDeveloperProgram/platzi-nft-eth-challange/src/blockchain/hardhat/contracts/NFTDinamic.sol": {
+      "lastModificationDate": 1660566775914,
+      "contentHash": "b81b45ba067d58f3ae5a1b24b3b879b1",
       "sourceName": "src/blockchain/hardhat/contracts/NFTDinamic.sol",
       "solcConfig": {
         "version": "0.8.9",
@@ -40,8 +40,188 @@
         "NFTDinamic"
       ]
     },
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\ERC721.sol": {
-      "lastModificationDate": 1660415069950,
+    "/Users/santiagoviana/EthereumDeveloperProgram/platzi-nft-eth-challange/node_modules/@chainlink/contracts/src/v0.8/KeeperCompatible.sol": {
+      "lastModificationDate": 1660566884904,
+      "contentHash": "c153645393332a62a1e73cb0d5a6162c",
+      "sourceName": "@chainlink/contracts/src/v0.8/KeeperCompatible.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./KeeperBase.sol",
+        "./interfaces/KeeperCompatibleInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "KeeperCompatible"
+      ]
+    },
+    "/Users/santiagoviana/EthereumDeveloperProgram/platzi-nft-eth-challange/node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol": {
+      "lastModificationDate": 1660566883489,
+      "contentHash": "8af32effd0536e2971ff8496812a5016",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../ERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721URIStorage"
+      ]
+    },
+    "/Users/santiagoviana/EthereumDeveloperProgram/platzi-nft-eth-challange/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
+      "lastModificationDate": 1660566881282,
+      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
+      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Counters"
+      ]
+    },
+    "/Users/santiagoviana/EthereumDeveloperProgram/platzi-nft-eth-challange/node_modules/@chainlink/contracts/src/v0.8/KeeperBase.sol": {
+      "lastModificationDate": 1660566884897,
+      "contentHash": "216a5d4c261e07cc7b31f828950e35ad",
+      "sourceName": "@chainlink/contracts/src/v0.8/KeeperBase.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "KeeperBase"
+      ]
+    },
+    "/Users/santiagoviana/EthereumDeveloperProgram/platzi-nft-eth-challange/node_modules/@chainlink/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol": {
+      "lastModificationDate": 1660566887628,
+      "contentHash": "bdbf3e274e50272d9c830fa414fcbec9",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "KeeperCompatibleInterface"
+      ]
+    },
+    "/Users/santiagoviana/EthereumDeveloperProgram/platzi-nft-eth-challange/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
+      "lastModificationDate": 1660566883140,
       "contentHash": "79ff1a7eb801a525aa315fb7a679eede",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
       "solcConfig": {
@@ -83,117 +263,8 @@
         "ERC721"
       ]
     },
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721URIStorage.sol": {
-      "lastModificationDate": 1660415070029,
-      "contentHash": "8af32effd0536e2971ff8496812a5016",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
-      "solcConfig": {
-        "version": "0.8.9",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../ERC721.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ERC721URIStorage"
-      ]
-    },
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
-      "lastModificationDate": 1660415071038,
-      "contentHash": "e436cea06129be2c73cda4b1acc848b5",
-      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
-      "solcConfig": {
-        "version": "0.8.9",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../utils/Context.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Ownable"
-      ]
-    },
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@openzeppelin\\contracts\\utils\\Counters.sol": {
-      "lastModificationDate": 1660415069201,
-      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
-      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
-      "solcConfig": {
-        "version": "0.8.9",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Counters"
-      ]
-    },
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721.sol": {
-      "lastModificationDate": 1660415070694,
+    "/Users/santiagoviana/EthereumDeveloperProgram/platzi-nft-eth-challange/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+      "lastModificationDate": 1660566884442,
       "contentHash": "ec99d946db3685a3630554aa6055bd7f",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
       "solcConfig": {
@@ -229,8 +300,8 @@
         "IERC721"
       ]
     },
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721Receiver.sol": {
-      "lastModificationDate": 1660415070747,
+    "/Users/santiagoviana/EthereumDeveloperProgram/platzi-nft-eth-challange/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1660566884533,
       "contentHash": "c22d4395e33763de693fd440c6fd10e1",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
       "solcConfig": {
@@ -264,8 +335,8 @@
         "IERC721Receiver"
       ]
     },
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
-      "lastModificationDate": 1660415070726,
+    "/Users/santiagoviana/EthereumDeveloperProgram/platzi-nft-eth-challange/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
+      "lastModificationDate": 1660566884509,
       "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
       "solcConfig": {
@@ -301,8 +372,8 @@
         "IERC721Metadata"
       ]
     },
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
-      "lastModificationDate": 1660415069030,
+    "/Users/santiagoviana/EthereumDeveloperProgram/platzi-nft-eth-challange/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1660566880894,
       "contentHash": "c476b3895a94798b88a4bb97399e6dfe",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
       "solcConfig": {
@@ -336,8 +407,8 @@
         "Address"
       ]
     },
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
-      "lastModificationDate": 1660415069184,
+    "/Users/santiagoviana/EthereumDeveloperProgram/platzi-nft-eth-challange/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1660566881271,
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
@@ -371,8 +442,8 @@
         "Context"
       ]
     },
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
-      "lastModificationDate": 1660415071254,
+    "/Users/santiagoviana/EthereumDeveloperProgram/platzi-nft-eth-challange/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1660566885410,
       "contentHash": "cf46906c4035f51639a22265066a9e78",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
@@ -406,8 +477,8 @@
         "Strings"
       ]
     },
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
-      "lastModificationDate": 1660415069673,
+    "/Users/santiagoviana/EthereumDeveloperProgram/platzi-nft-eth-challange/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+      "lastModificationDate": 1660566882340,
       "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
@@ -443,8 +514,8 @@
         "ERC165"
       ]
     },
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
-      "lastModificationDate": 1660415070555,
+    "/Users/santiagoviana/EthereumDeveloperProgram/platzi-nft-eth-challange/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+      "lastModificationDate": 1660566884244,
       "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
       "solcConfig": {
@@ -478,117 +549,9 @@
         "IERC165"
       ]
     },
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@chainlink\\contracts\\src\\v0.8\\KeeperCompatible.sol": {
-      "lastModificationDate": 1660420944519,
-      "contentHash": "c153645393332a62a1e73cb0d5a6162c",
-      "sourceName": "@chainlink/contracts/src/v0.8/KeeperCompatible.sol",
-      "solcConfig": {
-        "version": "0.8.9",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./KeeperBase.sol",
-        "./interfaces/KeeperCompatibleInterface.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "KeeperCompatible"
-      ]
-    },
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@chainlink\\contracts\\src\\v0.8\\KeeperBase.sol": {
-      "lastModificationDate": 1660420944518,
-      "contentHash": "216a5d4c261e07cc7b31f828950e35ad",
-      "sourceName": "@chainlink/contracts/src/v0.8/KeeperBase.sol",
-      "solcConfig": {
-        "version": "0.8.9",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "KeeperBase"
-      ]
-    },
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\node_modules\\@chainlink\\contracts\\src\\v0.8\\interfaces\\KeeperCompatibleInterface.sol": {
-      "lastModificationDate": 1660420944809,
-      "contentHash": "bdbf3e274e50272d9c830fa414fcbec9",
-      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol",
-      "solcConfig": {
-        "version": "0.8.9",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "KeeperCompatibleInterface"
-      ]
-    },
-    "C:\\Users\\santiago.viana\\Platzi\\ethereum-developer-program\\plazti-nft-eth-challange\\src\\blockchain\\hardhat\\contracts\\NFTManual.sol": {
-      "lastModificationDate": 1660517489611,
-      "contentHash": "acc813c042cb61246628fb709d09aca9",
+    "/Users/santiagoviana/EthereumDeveloperProgram/platzi-nft-eth-challange/src/blockchain/hardhat/contracts/NFTManual.sol": {
+      "lastModificationDate": 1660566775914,
+      "contentHash": "ff59112a34f8e6448d9fb72b8e92314e",
       "sourceName": "src/blockchain/hardhat/contracts/NFTManual.sol",
       "solcConfig": {
         "version": "0.8.9",
