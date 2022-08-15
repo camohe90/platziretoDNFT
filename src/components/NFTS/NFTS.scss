@@ -1,4 +1,5 @@
- 
+
+  
   .nfts {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
@@ -8,7 +9,7 @@
   
   .nft {
     /* Add shadows to create the "card" effect */
-    text-align: center;
+
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     height: 100%;
     margin-top: 25px;
@@ -25,6 +26,11 @@
   /* Add some padding inside the card container */
   .container {
     padding: 2px 16px;
+    text-align: center;
+  }
+
+  .title {
+    color: red;
     text-align: center;
   }
   

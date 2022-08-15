@@ -40,11 +40,14 @@ function NFTS ({
   return (
     <div className='nfts '>
       <div className='nft'>
-        <p>NFT Manual</p>
+        <p className='title'>NFT Manual</p>
         <p>{nftsMetadata[0].name}</p>
         <p>{nftsMetadata[0].description}</p>
-        <p>{nftsMetadata[0].trait}</p>
-        <p>{nftsMetadata[0].value}</p>
+        <p>Atributos: </p>
+        <span>
+          <p>Rasgo: {nftsMetadata[0].trait}</p> 
+          <p>Valor: {nftsMetadata[0].value}</p>
+        </span>
         <figure>
           <img src={nftsMetadata[0].image} alt='nft' />
         </figure>
@@ -60,11 +63,14 @@ function NFTS ({
         </Button>
       </div>
       <div className='nft'>
-        <p>NFT Dinámico</p>
-        <p>{nftsMetadata[1].name}</p>
-        <p>{nftsMetadata[1].description}</p>
-        <p>{nftsMetadata[1].trait}</p>
-        <p>{nftsMetadata[1].value}</p>
+        <p className='title'>NFT Dinámico</p>
+        <p><strong>Nombre:</strong> {nftsMetadata[1].name}</p>
+        <p><strong>Descripción:</strong> {nftsMetadata[1].description}</p>
+        <p><strong>Atributos:</strong> </p>
+        <span>
+          <p><strong>Rasgos: </strong> {nftsMetadata[1].trait}</p> 
+          <p><strong>Valor: </strong> {nftsMetadata[1].value}</p>
+        </span>
         <figure>
           <img src={nftsMetadata[1].image} alt='nft' />
         </figure>
