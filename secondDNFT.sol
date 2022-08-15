@@ -16,6 +16,8 @@ contract Figuras is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
        "https://gateway.pinata.cloud/ipfs/QmW2tt74KPALJzR2tX17y7qkjRDrBXKjderj83gshJ4g6R", 
        "https://gateway.pinata.cloud/ipfs/QmVLvHQVvGRRrDUowu3UuVMhT2uz7eo1U6KoADt22tnwKA", 
        "https://gateway.pinata.cloud/ipfs/QmbWaGTGSPoQzxE7H2M65w5FETRah8CHMeK4ED4p3VAKV8",
+       "https://gateway.pinata.cloud/ipfs/QmVSSN7GTNEhEzmKKcHny41N7Mff7qxYuGN43d5QWcBAdr", // pentagono
+       "https://gateway.pinata.cloud/ipfs/QmQ3bE8UPq8X2N6gM1nEY1beES7goqqnbuCGBv2xmHeVDH" // hexagono
        ];
 
     uint256 lastTimeStamp;
@@ -72,7 +74,11 @@ contract Figuras is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
         // Cuadrado
         if (compareStrings(_uri, IpfsUri[1])) {return 1;}
         // Circulo
-        return 2;
+        if (compareStrings(_uri, IpfsUri[2])) {return 2;}
+        // Pentagono
+        if (compareStrings(_uri, IpfsUri[3])) {return 3;}
+        // Hexagono
+        return 4;
     }
 
     // helper function to compare strings
