@@ -1,0 +1,16 @@
+{
+    "name": "The leafs",
+    "description": "Those are beautiful",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVg6auuHJj8VhL4TfwSxVRuFPYHUp4tG4rhAsGY2euqaR/4.png",
+    "attributes": [
+        {
+            "trait_type": "size",
+            "value": "large"
+        },
+        {
+            "trait_type": "stage",
+            "display_type": "number",
+            "value": 4
+        }
+    ]
+}
