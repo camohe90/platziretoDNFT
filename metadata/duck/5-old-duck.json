@@ -1,0 +1,19 @@
+{
+    "name": "Baby Duck",
+    "description": "Last stage of the NFT... You hace now a fully grown duck",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmf1Txr26tDp26G5CVDPMyizTbGXq57uVAfCSmYV2fWEv1/5_old.png",
+    "attributes": [
+        {
+            "trait-type": "DuckStage",
+            "value": "Adult"
+        },
+        {
+            "trait-type": "Height",
+            "value": "34cm"
+        },
+        {
+            "trait-type": "Weight",
+            "value": "2000g"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Baby Duck",
+    "description": "Fourth stage of the NFT... It's getting really strong and now an expert swimmer",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmf1Txr26tDp26G5CVDPMyizTbGXq57uVAfCSmYV2fWEv1/4_young.png",
+    "attributes": [
+        {
+            "trait-type": "DuckStage",
+            "value": "Juvenile"
+        },
+        {
+            "trait-type": "Height",
+            "value": "27cm"
+        },
+        {
+            "trait-type": "Weight",
+            "value": "1450g"
+        }
+    ]
+}
