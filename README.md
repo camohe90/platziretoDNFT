@@ -23,11 +23,19 @@ Los pasos que debes seguir son:
 
 ![Actualizar metadata](image/uptadeMetadata_1.jpg)
 
+Contrato: 0x76D7c804e75D5Af8be3BBCc125D9509eA8309316
+Tx: https://rinkeby.etherscan.io/tx/0xc8674c4763bc7b91f58402639a42bbba3cf49bf376a830cb6aed0265d2dd4874
+Mint: https://rinkeby.etherscan.io/tx/0x81a521330920c4addcd279205914cd615936cf5e9b678b6e5db21f77f7b6e9bf
+
 ## Reto 2
 
 1. Modifica el código original del repositorio para permitir que tu NFT tenga 5 cambios de metadata.
 2. Realizar el despliegue del contrato módifico 
 3. Crear una nueva automatización por tiempo como se ejecuto en el paso 1.
+
+Contrato: 0x1fC756e2C841631d5B618549F4d819c732cD289A
+Tx: https://rinkeby.etherscan.io/tx/0xb6da1881cf6ff3fb4a310dae1dcf3823f8e97574b61f6c0e1f9d1a96af9fa716
+Mint: https://rinkeby.etherscan.io/tx/0xae12d0a639a0e08402ed36c27f25538c5ceecd4e225c699e47d4072582bc4c03
 
 ## Reto 3 (Opcional)
 
