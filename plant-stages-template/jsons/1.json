@@ -1,0 +1,16 @@
+{
+    "name": "The start",
+    "description": "The start of the plant. Someday, it will grow",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSn9aREcm1RZRNGdFHWTY7yU73ewjVUZjrB8Gj1gXs4eh?filename=1.png",
+    "attributes": [
+        {
+            "trait_type": "size",
+            "value": "tiny"
+        },
+        {
+            "trait_type": "stage",
+            "display_type": "number",
+            "value": 1
+        }
+    ]
+}
