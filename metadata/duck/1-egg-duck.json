@@ -1,0 +1,19 @@
+{
+    "name": "Duck Egg",
+    "description": "First stage of the NFT... Growing inside, wait for it...",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmf1Txr26tDp26G5CVDPMyizTbGXq57uVAfCSmYV2fWEv1/1_egg.png",
+    "attributes": [
+        {
+            "trait-type": "DuckStage",
+            "value": "Egg"
+        },
+        {
+            "trait-type": "Height",
+            "value": "8cm"
+        },
+        {
+            "trait-type": "Weight",
+            "value": "120g"
+        }
+    ]
+}
