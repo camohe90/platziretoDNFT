@@ -38,7 +38,7 @@ Los pasos que debes seguir son:
 
 #### Solución Reto 2 - Catzi Stages
 
-[Dirección del contrato 0xD53Afdb79B1627fC9bF173b767e784A8DE9dA2a7](https://rinkeby.etherscan.io/address/0xD53Afdb79B1627fC9bF173b767e784A8DE9dA2a7)
+[Dirección del contrato 0x016b673C0D42ba78A19721422669bf4273BB6652](https://rinkeby.etherscan.io/address/0x016b673C0D42ba78A19721422669bf4273BB6652)
 
 ## Reto 3 (Opcional)
 
