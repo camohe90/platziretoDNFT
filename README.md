@@ -73,4 +73,3 @@ Los pasos que debes seguir son:
 * [Qué es chainlink](https://chainlinkspanishcommunity.medium.com/qu%C3%A9-es-chainlink-6ea80f9ff95e)
 * [Documentación de Chainlink ](https://docs.chain.link/docs)
 
->>>>>>> 9f1ddca74edf234d78cb5629b873f5587bbf514c
