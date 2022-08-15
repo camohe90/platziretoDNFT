@@ -1,24 +1,46 @@
-import React from 'react';
-import { ethers } from 'ethers';
+import React from "react";
 
-import addresess from '../../blockchain/environment/contract-address.json';
-import nftDinamicCompile from '../../blockchain/hardhat/artifacts/src/blockchain/hardhat/contracts/NFTDinamic.sol/NFTDinamic.json';
-import nftManualCompile from '../../blockchain/hardhat/artifacts/src/blockchain/hardhat/contracts/NFTManual.sol/NFTManual.json';
+import { Box } from "@chakra-ui/react";
+import "./App.scss";
+
+import { NFTContext } from "../NFTContext/";
+import { NFTLoading } from "../NFTLoading";
+import { NFTS } from "../NFTS";
+import { NFTWallet } from "../NFTWallet";
+import { Header } from "../../shared/Header";
 
 function App() {
-  const nft = async () => {
-    const provider = new ethers.providers.JsonRpcProvider('https://rinkeby.infura.io/v3/b28b2656eeb34d4c8af86c3ca0ea3bc2');
-    const nftManualContract = new ethers.Contract(addresess.nftmanualcontract, nftManualCompile.abi, provider);
-    const tokenUri = await nftManualContract.tokenURI(0);
-  };
-
-  React.useEffect(() => {
-    nft();
-  }, []);
+  const {
+    addresses,
+    nftManualContract,
+    nftsMetadata,
+    disabled,
+    setDisable,
+    buttonDisable, 
+    setButtonDisable,
+    error,
+    loading,
+    setLoading
+  } = React.useContext(NFTContext);
 
   return (
     <React.Fragment>
-      <h1>Hello World</h1>
+      <Box w="100%" minHeight="100vh">
+        <Header>
+          <NFTWallet buttonDisable={buttonDisable} setDisable={setDisable} />
+        </Header>
+        {error && <h1>Error</h1>}
+        {loading && <NFTLoading />}
+        <NFTS 
+          addresses={addresses}
+          nftManualContract={nftManualContract}
+          nftsMetadata={nftsMetadata}
+          disabled={disabled}
+          setLoading={setLoading}
+          setDisable={setDisable}
+          setButtonDisable={setButtonDisable}
+        />
+      </Box>
     </React.Fragment>
   );
 }

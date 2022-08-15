@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+main {
+    display: flex;
+    padding: 5%;
+}
 
-* {
-    font-family: 'Quicksand', sans-serif;
+.container {
+    position: absolute;
+   
 }
