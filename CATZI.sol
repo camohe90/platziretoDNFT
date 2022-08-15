@@ -56,7 +56,7 @@ contract keeperCatzi is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     }
 
     function advanceInStage(uint256 _tokenId) public {
-        if(catStage(_tokenId) >= 2){return;}
+        if(catStage(_tokenId) >= 4){return;}
         // Get the current stage of the flower and add 1
         uint256 newVal = catStage(_tokenId) + 1;
         // store the new URI
