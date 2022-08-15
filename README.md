@@ -53,7 +53,7 @@ Los pasos que debes seguir son:
 2. Desplegar el contrato inteligente.
 3. Realizar las pruebas de funcionamiento
 
-   - [Reto 3]()
+   - [Reto 3](https://github.com/pinajmr/platziretoDNFT-frontend)
 
 ## Recursos
 
