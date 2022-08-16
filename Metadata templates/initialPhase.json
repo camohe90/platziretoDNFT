@@ -1,0 +1,15 @@
+{
+    "name": "Abra",
+    "description": "This Pokémon uses its psychic powers while it sleeps. The contents of Abra’s dreams affect the powers that the Pokémon wields",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUZ2SoEgMDCPbCBT6pGG5ywPcJ1HoA23dgJcJVeFXoMfH",
+    "attributes": [
+        {
+            "trait-type": "Phase",
+            "value": "Initial"
+        },
+        {
+            "trait-type": "Type",
+            "value": "Psychic"
+        }
+    ]
+}

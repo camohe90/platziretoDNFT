@@ -1,0 +1,15 @@
+{
+    "name": "Flor Florecida",
+    "description": "Flor NFT dando su paso final",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPaCenJqPj2dVqtumePtDLoWkhkFbY9DhqFRQpismPWTv",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Florecida"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "PURPURA"
+        }
+    ]
+}

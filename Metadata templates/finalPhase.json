@@ -1,0 +1,15 @@
+{
+    "name": "Alakazam",
+    "description": "It has an incredibly high level of intelligence. Some say that Alakazam remembers everything that ever happens to it, from birth till death.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmewykmV7qxpgxYNo6wRJh3RCAZvZKVW3zyVUvqhy77UAY",
+    "attributes": [
+        {
+            "trait-type": "Phase",
+            "value": "Final"
+        },
+        {
+            "trait-type": "Type",
+            "value": "Psychic"
+        }
+    ]
+}

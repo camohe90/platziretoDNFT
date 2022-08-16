@@ -1,0 +1,15 @@
+{
+    "name": "Semilla Creciendo",
+    "description": "Flor NFT se abre la semilla",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZK8XFyDmMaNrTJ5vW8Ysw2z9ML5oQjbH3cFQcPBXUjo6",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Semilla abierta"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "VERDE"
+        }
+    ]
+} 
