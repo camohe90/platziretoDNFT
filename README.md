@@ -3,11 +3,11 @@
 - El contrato inteligente actualiza la metadata del NFT en 5 etapas, cambiando principalmente su imagen para representar un renacuajo en crecimiento hasta llegar a sapo adulto. 
 
 ## Etapas del NFT: 
-1 - <img src="image/frog1.png" width="40" height="50" />
-2 - (image/frog2.png)
-3 - (image/frog3.png)
-4 - (image/frog4.png)
-5 - (image/frog5.png)
+1 - <img src="image/frog1.png" width="110" height="120" />
+2 -  <img src="image/frog2.png" width="150" height="120" />
+3 -  <img src="image/frog3.png" width="150" height="120" />
+4 -  <img src="image/frog4.png" width="150" height="120" />
+5 -  <img src="image/frog5.png" width="150" height="120" />
 
 ## Deploy:
 - Goerli Testnet 
@@ -17,8 +17,8 @@
 
 ## Chainlink Keeper: 
 
-- (image/LinkKeeper.png)
+- <img src="image/LinkKeeper.png" width="500" height="500" />
 
-Utilización de REMIX.IDE, ChainLink Keeper, testnets.opensea.io, sin frontend aun. 
+Utilización de Remix.IDE, ChainLink Keeper, testnets.opensea.io, sin front aun. 
 
 ## Pedi el tuyo 😜
