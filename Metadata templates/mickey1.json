@@ -1,0 +1,15 @@
+{
+    "description": "Mickey Mouse en su primera aparicion", 
+    "image": "https://gateway.pinata.cloud/ipfs/QmV3TsQ53GrTMkR7E1zu3puSDivFUT8StJL8ubgS6SHWwk", 
+    "name": "Mickey 1928",
+    "attributes": [ 
+        {
+            "trait-type": "Ano",
+            "value": "1928"
+        },
+        {
+            "trait-type": "Color",
+            "value": "Blanco y negro"
+        }
+    ] 
+  }

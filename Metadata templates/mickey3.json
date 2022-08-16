@@ -1,0 +1,15 @@
+{
+    "description": "Mickey Mouse, esta version cambio fue 30 anos despues", 
+    "image": "https://gateway.pinata.cloud/ipfs/QmS7GaqUwbJFUfEQ4nZNneeMyJoZMj3wQjhNtDHqBuE5uu", 
+    "name": "Mickey 1953",
+    "attributes": [ 
+        {
+            "trait-type": "Ano",
+            "value": "1953"
+        },
+        {
+            "trait-type": "Color",
+            "value": "Color"
+        }
+    ] 
+  }

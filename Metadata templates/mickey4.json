@@ -1,0 +1,15 @@
+{
+    "description": "Asi lo vimos bastante en su casa", 
+    "image": "https://gateway.pinata.cloud/ipfs/QmXnqVCPdxoypiipbtFBp5CfnjBW9dyXSJiw6sChv73TNB", 
+    "name": "Mickey 2001",
+    "attributes": [ 
+        {
+            "trait-type": "Ano",
+            "value": "2001"
+        },
+        {
+            "trait-type": "Color",
+            "value": "Color"
+        }
+    ] 
+  }

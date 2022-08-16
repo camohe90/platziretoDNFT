@@ -1,0 +1,15 @@
+{
+    "description": "El Mickey que todos reconocemos", 
+    "image": "https://gateway.pinata.cloud/ipfs/Qme13CfiFUxjfUepWu8aSBxUTr5gQPZyTtT9b3vmAE4YDh", 
+    "name": "Mickey 2013",
+    "attributes": [ 
+        {
+            "trait-type": "Ano",
+            "value": "2013"
+        },
+        {
+            "trait-type": "Color",
+            "value": "Color"
+        }
+    ] 
+  }
