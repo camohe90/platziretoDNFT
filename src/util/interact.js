@@ -126,8 +126,7 @@ export const mintNFT = async (url, name, description) => {
     });
     return {
       success: true,
-      status:
-        "✅ Check out your transaction on Etherscan: https://rinkeby.etherscan.io/tx/" + txHash,
+      status: "✅ Check out your transaction on Etherscan: https://rinkeby.etherscan.io/tx/" + txHash,
     };
   } catch (error) {
     return {

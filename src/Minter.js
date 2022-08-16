@@ -76,36 +76,51 @@ const Minter = (props) => {
       </button>
 
       <br></br>
-      <h1 id="title">🧙‍♂️ Alchemy NFT Minter</h1>
+
+      <h1 id="title">
+        University Certificate NFT Minter
+      </h1>
       <p>
-        Simply add your asset's link, name, and description, then press "Mint."
+        Upload your certificate's link, course, and faculty. Then press "Mint NFT certificate"
       </p>
+
+      <br></br>
+
       <form>
-        <h2>🖼 Link to asset: </h2>
+        <h2>
+          🔗 Link to certificate: 
+        </h2>
         <input
           type="text"
-          placeholder="e.g. https://gateway.pinata.cloud/ipfs/<hash>"
+          placeholder="e.g. https://gateway.pinata.cloud/ipfs/..."
           onChange={(event) => setURL(event.target.value)}
         />
-        <h2>🤔 Name: </h2>
+        <h2>
+          📖 Course: 
+        </h2>
         <input
           type="text"
-          placeholder="e.g. My first NFT!"
+          placeholder="e.g. Online Cryptography Course"
           onChange={(event) => setName(event.target.value)}
         />
-        <h2>✍️ Description: </h2>
+        <h2>
+          🏫 Faculty:
+        </h2>
         <input
           type="text"
-          placeholder="e.g. Even cooler than cryptokitties ;)"
+          placeholder="e.g. Computer Science Department"
           onChange={(event) => setDescription(event.target.value)}
         />
       </form>
-      <button id="mintButton" onClick={onMintPressed}>
-        Mint NFT
-      </button>
-      <p id="status" style={{ color: "red" }}>
+      <p id="status" style={{ color: "orange" }}>
         {status}
       </p>
+      <button 
+        id="mintButton"
+        onClick={onMintPressed}
+      >
+        Mint NFT certificate
+      </button>
     </div>
   );
 };
