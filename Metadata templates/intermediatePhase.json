@@ -1,0 +1,15 @@
+{
+    "name": "Kadabra",
+    "description": "Using its psychic power, Kadabra levitates as it sleeps. It uses its springy tail as a pillow.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQE5zsDihnWB4RqcC5ybYjVqK2YFKbmBAHBXNtE1Y5Jn2",
+    "attributes": [
+        {
+            "trait-type": "Phase",
+            "value": "Intermediate"
+        },
+        {
+            "trait-type": "Type",
+            "value": "Psychic"
+        }
+    ]
+}
