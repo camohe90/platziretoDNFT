@@ -1,0 +1,11 @@
+{
+    "name": "Frog egg",
+    "description": "Soon to break egg",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRxBRiCaLB99PWCxzM2bkmfFcU1y2WWXk2yHYWd6w3xVS",
+    "attributes": [
+        {
+            "trait-type": "FrogStage1",
+            "value": "egg"
+        }
+    ]
+}

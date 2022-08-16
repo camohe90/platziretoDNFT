@@ -1,0 +1,11 @@
+{
+    "name": "baby frog",
+    "description": "growing frog",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRkEs6j8XcReTVfXUtSELsmNZ2hapSaDnAoD5EnVeC6Jv",
+    "attributes": [
+        {
+            "trait-type": "FrogStage4",
+            "value": "baby"
+        }
+    ]
+}

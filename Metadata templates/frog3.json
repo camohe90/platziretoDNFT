@@ -1,0 +1,11 @@
+{
+    "name": "walking tadpole",
+    "description": "toddler tadpole",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSzHJ1H1t6wEHtjLTYsnLr892szd6hjp5LaCDDFYqjiu1",
+    "attributes": [
+        {
+            "trait-type": "FrogStage3",
+            "value": "toddler"
+        }
+    ]
+}

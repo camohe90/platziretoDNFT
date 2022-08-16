@@ -1,0 +1,11 @@
+{
+    "name": "legless tadpole",
+    "description": "just born tadpole",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQGxhpUqWWzPwdLZoVhqVeW7wkG6xxQ2u2ao7PsWsNjvN",
+    "attributes": [
+        {
+            "trait-type": "FrogStage2",
+            "value": "tadpole"
+        }
+    ]
+}
