@@ -1,0 +1,15 @@
+{
+    "description": "Mickey Mouse a 5 anos de convertise en hechicero", 
+    "image": "https://gateway.pinata.cloud/ipfs/QmWDiJ1abC9eNG7yi9TRoSiWq7FKWhgWP5JjxBzgbHF7th", 
+    "name": "Mickey 1935",
+    "attributes": [ 
+        {
+            "trait-type": "Ano",
+            "value": "1935"
+        },
+        {
+            "trait-type": "Color",
+            "value": "Color"
+        }
+    ] 
+  }
