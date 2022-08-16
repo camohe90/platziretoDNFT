@@ -3,11 +3,11 @@
 - El contrato inteligente actualiza la metadata del NFT en 5 etapas, cambiando principalmente su imagen para representar un renacuajo en crecimiento hasta llegar a sapo adulto. 
 
 ## Etapas del NFT: 
-1- (image/frog1.png)
-2- (image/frog2.png)
-3- (image/frog3.png)
-4- (image/frog4.png)
-5- (image/frog5.png)
+1 - ![frog1](image/frog1.png)
+2 - (image/frog2.png)
+3 - (image/frog3.png)
+4 - (image/frog4.png)
+5 - (image/frog5.png)
 
 ## Deploy:
 - Goerli Testnet 
