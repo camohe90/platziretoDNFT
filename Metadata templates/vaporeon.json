@@ -1,0 +1,15 @@
+{
+    "name": "Vaporeon",
+    "description": "Vaporeon is a Pokémon that shares physical traits with both aquatic and land animals. Vaporeon's body is light blue with a dark blue marking around its head and a spiky ridge down its spine. It has black eyes and a tiny black nose",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTGXQ6NLoQXaMVnLgRHbNprNUrotsErZfyGdcG3TzZZHY",
+    "attributes": [
+        {
+            "trait-type": "Type",
+            "value": "Water"
+        },
+        {
+            "trait-type": "Evolved",
+            "value": "Yep"
+        }
+    ]
+}

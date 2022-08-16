@@ -1,0 +1,15 @@
+{
+    "name": "Jolteon",
+    "description": "Jolteon is a quadrupedal, mammalian Pokémon. It is covered in yellow fur with a spiky fringe around its tail and a white ruff around its neck. Its ears are large and pointed with black interiors, and its eyes and small nose are black. It has slender legs and small paws, each with three toes and a pink paw-pad.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSgLZatssu5b3oqgh3VX3uRb7LKCXNqAiZPjei4g4ig1z",
+    "attributes": [
+        {
+            "trait-type": "Type",
+            "value": "Electric"
+        },
+        {
+            "trait-type": "Evolved",
+            "value": "Yep"
+        }
+    ]
+}

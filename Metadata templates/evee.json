@@ -1,0 +1,15 @@
+{
+    "name": "Evee",
+    "description": "Eevee is a mammalian creature with brown fur, a bushy tail that has a cream-colored tip, and a furry collar that is also cream-colored. Eevee has brown eyes, big ears, and pink paw pads.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPrSZmwDjkYNsbTiaztD9ZJH6cnn97V5rpsrQzWmcA9f5",
+    "attributes": [
+        {
+            "trait-type": "Type",
+            "value": "Normal"
+        },
+        {
+            "trait-type": "Evolved",
+            "value": "Not Yet"
+        }
+    ]
+}

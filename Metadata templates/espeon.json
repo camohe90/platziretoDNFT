@@ -1,0 +1,15 @@
+{
+    "name": "Espeon",
+    "description": "Espeon is a quadrupedal, mammalian Pokémon with slender legs and dainty paws. It is covered in fine, lilac fur. Its ears are large, and it has purple eyes with white pupils. There are tufts of fur near its eyes, and a small, red gem embedded in its forehead. It also has a thin, forked tail.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYEadbYbnt3huqqjugQMYocnYi2ZZc4Kf2k7nUFEH6jky",
+    "attributes": [
+        {
+            "trait-type": "Type",
+            "value": "Psychic"
+        },
+        {
+            "trait-type": "Evolved",
+            "value": "Yep"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Espeon",
+    "description": "Flareon is a mammalian, quadrupedal Pokémon covered in short, reddish-orange fur. It has long ears with black interiors, dark eyes, and a small black nose. There are three small toes and a yellow paw pad on each foot. Fluffy yellow fur forms a small tuft on its head, as well as its bushy tail and a mane around its chest and neck.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmctuPfuAwSUnL1wrAL5JinkioPikAL5jD9VGVjgixzVRb",
+    "attributes": [
+        {
+            "trait-type": "Type",
+            "value": "Fire"
+        },
+        {
+            "trait-type": "Evolved",
+            "value": "Yep"
+        }
+    ]
+}
