@@ -1,0 +1,11 @@
+{
+    "name": "adult frog",
+    "description": "fully developed frog",
+    "image": "https://gateway.pinata.cloud/ipfs/QmaNBLZpL6L6qozEGVPRVJGQynQNsFBLuajB7YY8EqLwHZ",
+    "attributes": [
+        {
+            "trait-type": "FrogStage5",
+            "value": "adult"
+        }
+    ]
+}
