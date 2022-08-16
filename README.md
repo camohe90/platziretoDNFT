@@ -2,9 +2,13 @@
 
 ## Retos Resueltos
 
--[X] Reto 1
--[X] Reto 2
--[] Reto 3
+- [X] Reto 1
+- [X] Reto 2
+- [X] Reto 3
+
+Web para subir imagen y generar metadata para NFT: 
+[Ir web](https://www.example.com)
+![alt text](image.jpg)
 
 ## Reto 1
 
