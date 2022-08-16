@@ -8,7 +8,6 @@ import "@openzeppelin/contracts@4.6.0/utils/Counters.sol";
 
 contract Cthulhut is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     using Counters for Counters.Counter;
-
     Counters.Counter public tokenIdCounter;
  
    // Metadata information for each stage of the NFT on IPFS.

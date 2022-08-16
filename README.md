@@ -23,6 +23,3 @@ Colección:
 https://testnets.opensea.io/collection/cthulhut
 
 ![Actualizar metadata](https://i.imgur.com/MY3ASM5.jpg)
-
-
-
