@@ -1,0 +1,15 @@
+{
+    "name": "Expanded square",
+    "description": "Primera expansión del cuadrado",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbUqSrb78jFFhSZAxBZPRrqr4GLZacbJvsGwPo3bZRJc6",
+    "attributes": [
+        {
+            "trait-type": "firstExpanded",
+            "value": "expandedSquare"
+        },
+        {
+            "trait-type": "ColorSquare",
+            "value": "BLUE"
+        }
+    ]
+}

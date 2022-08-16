@@ -1,0 +1,15 @@
+{
+    "name": "Fractal Pro",
+    "description": "Fractal con colores nuevos",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPcBgDkM4Zibwr1VgXRpj6s63hhFprRCuPfEH8PoiR1Wy",
+    "attributes": [
+        {
+            "trait-type": "Fractal",
+            "value": "fractalPro"
+        },
+        {
+            "trait-type": "Fractal",
+            "value": "BLUE-YELLOW"
+        }
+    ]
+}
