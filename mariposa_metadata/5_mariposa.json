@@ -1,0 +1,11 @@
+{
+    "name": "Mariposa",
+    "description": "Una bella mariposa",
+    "image": "https://bafybeicbtngisecjk72ta5fo4uqhe5hixs6aqfs4sqylvbfxndo2ffjy6i.ipfs.nftstorage.link/5_mariposa.png",
+    "attributes": [
+        {
+            "trait-type": "Etapa Mariposa",
+            "value": "Mariposa"
+        }
+    ]
+}
