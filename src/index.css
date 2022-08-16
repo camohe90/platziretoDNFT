@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+:root {
+  --blue-background: #121f3d;
+  --blue-button: #0c1633;
+  --white: #ffffff;
+  --green: #7eef0b;
+  --gray: #757575;
+}
+
+body {
+  margin: 0;
+  font-family: 'Rubik';
+  background-color: var(--blue-background);
+  color: var(--green);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Minter {
+  max-width: 65vh;
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  font-size: 1em;
+  width: 100%;
+  line-height: 2em;
+  padding-left: 0.5em;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--white);
+}
+
+
+button {
+  padding: 0.5em 1em;
+  max-height: 2.5em;
+  /*box-shadow: 4px 4px 15px 0 rgb(0 0 0 / 20%);*/
+  color: var(--blue-background);
+  background-color: var(--green);
+  border-radius: 0.5em;
+  align-items: center;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+  font-weight: bold;
+  cursor:pointer;
+  border-width: 2px;
+  border-color: var(--blue-button);
+}
+
+button :hover {
+  background-color: orange !important;
+}
+
+form {
+  padding-bottom: 1em;
+}
+
+#title {
+  padding-top: 2em;
+}
+
+.uploadFile {
+  border-radius: 1em;
+  text-align: center;
+  padding: 2em 3.5em;
+}
+
+#walletButton {
+  text-align: right;
+  float:right;
+  margin-bottom: 3em;
+  line-height: 1em;
+}
+
+#walletButton:hover {
+  background-color: var(--green);
+  color: var(--blue-background);
+}
+
+#mintButton {
+  margin-top: 1em;
+  background-color: var(--green);
+  color: var(--blue-background);
+}
