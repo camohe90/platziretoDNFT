@@ -1,0 +1,15 @@
+{
+    "name": "Fractal",
+    "description": "Fractal",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNysz2ZTCFzc1A5AHsmT72phekxJJg2evhnmJzuGy68A7",
+    "attributes": [
+        {
+            "trait-type": "Fractal",
+            "value": "fractalSquare"
+        },
+        {
+            "trait-type": "Fractal",
+            "value": "BLUE"
+        }
+    ]
+}

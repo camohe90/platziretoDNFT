@@ -1,0 +1,15 @@
+{
+    "name": "Square",
+    "description": "Unidad de inicio Fractal",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSdD1caPH7S71crqwFBzSnPW6jeiqoCXe7RA34mA86E3d",
+    "attributes": [
+        {
+            "trait-type": "FractalUnity",
+            "value": "Square"
+        },
+        {
+            "trait-type": "ColorSquare",
+            "value": "BLUE"
+        }
+    ]
+}

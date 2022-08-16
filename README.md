@@ -1,5 +1,16 @@
 # Aprendamos a crear NFT's dinámicos
 
+## Retos Resueltos
+
+- [X] Reto 1
+- [X] Reto 2
+- [X] Reto 3
+
+Web para subir imagen y generar metadata para NFT: 
+[Ir web](https://platzireto-dnft-theta.vercel.app/)
+
+![imagen de Web](https://github.com/leomaker1993/platziretoDNFT/blob/main/reactipfs/screenshot.png)
+
 ## Reto 1
 
 Vamos a aprender a crear NFT's dinámicos, lo que significa que pueden cambiar su metadata dependiendo de ciertas condiciones que definamos. 

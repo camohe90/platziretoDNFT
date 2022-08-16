@@ -1,0 +1,15 @@
+{
+    "name": "Fractal Square",
+    "description": "Fractal a partir de un cuadrado",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdiT4DWnM2cnU6rw55CCKDnwfdAGXpsJhUQ6dtt8Mjoqv",
+    "attributes": [
+        {
+            "trait-type": "Fractal",
+            "value": "fractalSquare"
+        },
+        {
+            "trait-type": "Fractal",
+            "value": "BLUE"
+        }
+    ]
+}
