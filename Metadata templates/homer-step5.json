@@ -1,0 +1,15 @@
+{
+  "name": "Homersapien",
+  "description": "Homer - Fifth step",
+  "image": "https://gateway.pinata.cloud/ipfs/QmX83ycMujLcg47cMHCppn3Q8kRM75EQXAoAGivyM7V1rq",
+  "attributes": [
+    {
+      "trait-type": "HomerStep",
+      "value": "Homersapien"
+    },
+    {
+      "trait-type": "HomerColor",
+      "value": "YELLOW"
+    }
+  ]
+}

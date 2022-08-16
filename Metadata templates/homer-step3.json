@@ -1,0 +1,15 @@
+{
+  "name": "Apeis Stupidius",
+  "description": "Homer - Third step",
+  "image": "https://gateway.pinata.cloud/ipfs/QmX61JkMcUytBUKqhbf5Lo4iZqLVbdtymykPfsMq5QiCcQ",
+  "attributes": [
+    {
+      "trait-type": "HomerStep",
+      "value": "Apeis Stupidius"
+    },
+    {
+      "trait-type": "HomerColor",
+      "value": "BROWN"
+    }
+  ]
+}
