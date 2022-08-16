@@ -1,0 +1,15 @@
+{
+  "name": "Neanderslob",
+  "description": "Homer - Fourth step",
+  "image": "https://gateway.pinata.cloud/ipfs/QmSHbc44pmf5KiY8PwtroZRocABAStWdjh1VYPBC3o2FJt",
+  "attributes": [
+    {
+      "trait-type": "HomerStep",
+      "value": "Neanderslob"
+    },
+    {
+      "trait-type": "HomerColor",
+      "value": "BROWN"
+    }
+  ]
+}

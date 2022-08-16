@@ -1,0 +1,15 @@
+{
+  "name": "Chimpus Imbecilus",
+  "description": "Homer - Second step",
+  "image": "https://gateway.pinata.cloud/ipfs/QmcXBVqN3vqNLf71toBwv62S8zn6ymSHH6iq8oViWyvipQ",
+  "attributes": [
+    {
+      "trait-type": "HomerStep",
+      "value": "Chimpus Imbecilus"
+    },
+    {
+      "trait-type": "HomerColor",
+      "value": "BROWN"
+    }
+  ]
+}

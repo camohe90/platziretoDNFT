@@ -1,0 +1,15 @@
+{
+  "name": "Monkius Eatalotis",
+  "description": "Homer - First step",
+  "image": "https://gateway.pinata.cloud/ipfs/QmeJM6T4Qui6e2TdEsStg7o7bBiNbAmMGvWfo1ZWk2nWjn",
+  "attributes": [
+    {
+      "trait-type": "HomerStep",
+      "value": "Monkius Eatalotis"
+    },
+    {
+      "trait-type": "HomerColor",
+      "value": "BROWN"
+    }
+  ]
+}
