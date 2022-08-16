@@ -1,0 +1,15 @@
+{
+    "name": "Goku - Kakaroto",
+    "description": "Goku NFT que ira evolucionando según su entrenamiento",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVNsnBjVRksuznxhTPVjS4bjQ6y4Gd3uR3kUf9wA8KKJS",
+    "attributes": [
+        {
+            "trait-type": "NivelGoku",
+            "value": "Goku Ultra Instinto"
+        },
+        {
+            "trait-type": "Historia",
+            "value": "Dragon ball Super"
+        }
+    ]
+}

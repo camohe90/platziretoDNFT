@@ -1,0 +1,15 @@
+{
+    "name": "Goku - Kakaroto",
+    "description": "Goku NFT que ira evolucionando según su entrenamiento",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPRBacoRmfo784zJJDnmBk2q4rQUJWfipcTBFkshRWHno",
+    "attributes": [
+        {
+            "trait-type": "NivelGoku",
+            "value": "Goku SSJ2"
+        },
+        {
+            "trait-type": "Historia",
+            "value": "Dragon ball Z"
+        }
+    ]
+}

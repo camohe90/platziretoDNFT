@@ -23,11 +23,68 @@ Los pasos que debes seguir son:
 
 ![Actualizar metadata](image/uptadeMetadata_1.jpg)
 
+RETO SOLUCIONADO:
+
+Contrato Modificado: SeedAutomatic.sol
+
+Desplegado en rinkeby: 0x81751c052307Ba3FA6520B423D96d06721D3c044 (https://rinkeby.etherscan.io/address/0x81751c052307Ba3FA6520B423D96d06721D3c044)
+
+Metadata Final en Opensea
+
+![Metadata final en opensea](image/Problema_reto_open_sea_1.png)
+
+
+Llamadas ChainLink
+
+![Llamadas chainlink](image/chain_link_automatic_upkeep.png)
+
+
 ## Reto 2
 
 1. Modifica el código original del repositorio para permitir que tu NFT tenga 5 cambios de metadata.
 2. Realizar el despliegue del contrato módifico 
 3. Crear una nueva automatización por tiempo como se ejecuto en el paso 1.
+
+RETO SOLUCIONADO:
+
+Contrato Modificado: GokuDynamicNFT.sol
+
+Desplegado en rinkeby: 0x1CbC9445562bBd3623812bB7b39050aF2630fc18 (https://rinkeby.etherscan.io/address/0x1CbC9445562bBd3623812bB7b39050aF2630fc18)
+
+Se mintio un NFT de goku desde su estado normal y a través de Chainlink de forma automatizada paso por SSJ, SSJ2, SSJ3, Dios, Blue, Ultra Instinct
+
+Goku - Normal:
+
+![Goku_Normal](image/opensea_goku_1.png)
+
+Goku - SSJ:
+
+![Goku_SSJ](image/opensea_goku_2.png)
+
+Goku - SSJ2:
+
+![Goku_SSJ2](image/opensea_goku_3.png)
+
+Goku - SSJ3:
+
+![Goku_SSJ3](image/opensea_goku_4.png)
+
+Goku - Dios:
+
+![Goku_Dios](image/opensea_goku_5.png)
+
+Goku - Dios Blue:
+
+![Goku_DiosBlue](image/opensea_goku_6.png)
+
+Goku - Ultra instinto:
+
+![Goku_UltraInstinto](image/opensea_goku_7.png)
+
+
+Llamadas de chain-link:
+
+![Llamadas chainlink](image/chain_link_goku_history.png)
 
 ## Reto 3 (Opcional)
 
