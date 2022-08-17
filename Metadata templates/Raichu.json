@@ -1,0 +1,15 @@
+{
+    "name": "Raichu",
+    "description": "Raichu NFT fuerte",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdoAPgwa57xkHKNrssLWpRHM3NgtMEMp7XWE3VPK97aro",
+    "attributes": [
+        {
+            "trait-type": "RaichuFuerte",
+            "value": "SubeDeNivel"
+        },
+        {
+            "trait-type": "ColaRaichu",
+            "value": "EXTRALARGA"
+        }
+    ]
+}
