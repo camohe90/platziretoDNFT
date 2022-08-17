@@ -11,7 +11,9 @@ contract NFTPLATZI is ERC721, ERC721URIStorage, Ownable {
     string[] URIData = [
         "https://gateway.pinata.cloud/ipfs/QmPPDjU4tpt24S86TkvGUX4BwAjJe4JzGog5vs1Pvwt3ni",
         "https://gateway.pinata.cloud/ipfs/QmUrpLy2wEcYWTyQ7zqHAvgV4xWkAxGMiU8vr8rikrLbk8",
-        "https://gateway.pinata.cloud/ipfs/QmUPX2B3irLqoGuPhQ38Hafeg6LFCsaieRxygRhcMvRKmA"
+        "https://gateway.pinata.cloud/ipfs/QmUPX2B3irLqoGuPhQ38Hafeg6LFCsaieRxygRhcMvRKmA",
+        "https://gateway.pinata.cloud/ipfs/QmXn3MBZ8JfmsYhDPW6twgH8bim2pmWMVeuc5uaXRSBUgk",
+        "https://gateway.pinata.cloud/ipfs/Qmb1h3oYR1L1tWa13JaqcJ4BfjzSHgrqc257EJZxSisNjn"
         ];
 
     Counters.Counter private _tokenIdCounter;
