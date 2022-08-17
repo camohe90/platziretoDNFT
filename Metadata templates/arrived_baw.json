@@ -1,0 +1,15 @@
+{
+    "name": "Arrived",
+    "description": "The flight has arrived. Enjoy your visit.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcNC41YGuz1hJvkVuTLcTuSAyhiFPDi1Cb8BMTD8y9rk7?filename=map_baw.png",
+    "attributes": [
+        {
+            "trait-type": "StageFlight",
+            "value": "Arrived"
+        },
+        {
+            "trait-type": "IconStyle",
+            "value": "BAW"
+        }
+    ]
+}

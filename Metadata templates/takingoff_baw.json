@@ -1,0 +1,15 @@
+{
+    "name": "TakingOff",
+    "description": "Your flight is taking off.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmU9VE1t4YSSDtAYKSewswoG1so2VQyoiyE1rpSoPvrN6t?filename=takingoff_baw.png",
+    "attributes": [
+        {
+            "trait-type": "StageFlight",
+            "value": "TakingOff"
+        },
+        {
+            "trait-type": "IconStyle",
+            "value": "BAW"
+        }
+    ]
+}
