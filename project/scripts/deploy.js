@@ -9,12 +9,12 @@ const hre = require("hardhat");
 async function main() {
 
   const DNFT = await hre.ethers.getContractFactory("keeperFlower");
-  const lock = await DNFT.deploy(24*60*60);
+  const lock = await DNFT.deploy(60*60);
 
   await lock.deployed();
 
   console.log(
-    `Lock with 1 ETH and unlock timestamp deployed to ${DNFT.address}`
+    `Lock with 1 ETH and unlock timestamp deployed to ${lock.address}`
   );
 }
 

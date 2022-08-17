@@ -30,6 +30,7 @@ contract KeeperBase {
 
 
 // File @chainlink/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol@v0.4.2
+
 pragma solidity ^0.8.0;
 
 interface KeeperCompatibleInterface {
@@ -1235,20 +1236,22 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
  
    // Metadata information for each stage of the NFT on IPFS.
     string[] IpfsUri = [
-        "https://gateway.pinata.cloud/ipfs/Qmd2Jb8dCYixQhN4fFVZvKc5gHbMcqtihyojEhkoLFKXQ9",
-        "https://gateway.pinata.cloud/ipfs/QmRNb5YS53n9D5qRnHgTvCVzcSjaFoDyXUWmmS2TyvcgHA",
-        "https://gateway.pinata.cloud/ipfs/QmVXChkZnX9rS8aqFnKwggEvWu6gv3EjjpDoiNGTTtc3zT"
+        "https://gateway.pinata.cloud/ipfs/QmWk1VvUKfxJTNtVoeXiPS3sCjKuRFoJGJzG8Ss6ZwQNts/semilla.json",
+        "https://gateway.pinata.cloud/ipfs/QmWk1VvUKfxJTNtVoeXiPS3sCjKuRFoJGJzG8Ss6ZwQNts/germinacion.json",
+        "https://gateway.pinata.cloud/ipfs/QmWk1VvUKfxJTNtVoeXiPS3sCjKuRFoJGJzG8Ss6ZwQNts/crecimiento.json",
+        "https://gateway.pinata.cloud/ipfs/QmWk1VvUKfxJTNtVoeXiPS3sCjKuRFoJGJzG8Ss6ZwQNts/maduracion.json",
+        "https://gateway.pinata.cloud/ipfs/QmWk1VvUKfxJTNtVoeXiPS3sCjKuRFoJGJzG8Ss6ZwQNts/florecida.json"
     ]; 
 
     uint256 lastTimeStamp;
     uint256 interval;
 
-    constructor(uint _interval) ERC721("Flower Challenge", "Fcha") {
+    constructor(uint _interval) ERC721("Flower growth", "FG") {
         interval = _interval;
         lastTimeStamp = block.timestamp;
     }
 
-    function checkUpkeep(bytes calldata  checkData ) external view override returns (bool upkeepNeeded, bytes memory performData) {
+    function checkUpkeep(bytes calldata  /*checkData*/ ) external view override returns (bool upkeepNeeded, bytes memory performData) {
         uint256 tokenId = tokenIdCounter.current() - 1;
         bool done;
         if (flowerStage(tokenId) >= 2) {
