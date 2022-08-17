@@ -1,0 +1,15 @@
+{
+    "name": "Tres",
+    "description": "Tres",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVBczFFGr398xXQAxtHaJ71UdfqGevCmVitRHya3C9LgY",
+    "attributes": [
+        {
+            "trait-type": "Status",
+            "value": "Tres"
+        },
+        {
+            "trait-type": "Color",
+            "value": "GREEN"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Cinco",
+    "description": "cinco",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSYeNizHhGAnH8AnivZePXxGFJ2m6wn47GHLVAc7s6A2P",
+    "attributes": [
+        {
+            "trait-type": "Status",
+            "value": "cinco"
+        },
+        {
+            "trait-type": "Color",
+            "value": "GREEN"
+        }
+    ]
+}
