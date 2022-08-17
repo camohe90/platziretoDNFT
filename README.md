@@ -10,7 +10,9 @@ I took the original code and modified it to add 5 metadata changes, using Chainl
 
 For this NFT I use the evolutions of a Pokemon to make it. Stages: Pokeball, Charmander, Charmeleon, Charizard and a flying Charizard.
 
-The contract address is: 0xcc10bD4F94e3ee35301f54937125ECa8aD47481D
+The contract address is: 0xD6F357702084D01fA9648b5a11877f73B26E8168
 
-Etherscan: https://rinkeby.etherscan.io/address/0xcc10bd4f94e3ee35301f54937125eca8ad47481d
+Etherscan: https://rinkeby.etherscan.io/address/0xc3316b766f05e9d4911416a8bc237aae0dd8f6f3
+
+Opensea testnet: https://testnets.opensea.io/assets/rinkeby/0xd6f357702084d01fa9648b5a11877f73b26e8168/0
 
