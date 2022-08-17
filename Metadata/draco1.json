@@ -1,0 +1,15 @@
+{
+  "name": "Dragon 1",
+  "description": "watercolor painting of a small blue dragon in a rock",
+  "image": "https://gateway.pinata.cloud/ipfs/QmcQfjjg4nn4c3p9b7MYhY9bDpWgZFbfED1Q4L5kmSzegU",
+  "attributes": [
+    {
+      "trait-type": "EtapaDraco",
+      "value": 1
+    },
+    {
+      "trait-type": "ColorDraco",
+      "value": "azul"
+    }
+  ]
+}
