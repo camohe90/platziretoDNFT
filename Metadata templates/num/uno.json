@@ -1,0 +1,15 @@
+{
+    "name": "Uno",
+    "description": "uno",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdZeg6U7nJtbEzwq5fFqC2C7CzE15ab6okmigGJ1XNtA5",
+    "attributes": [
+        {
+            "trait-type": "Status",
+            "value": "Uno"
+        },
+        {
+            "trait-type": "Color",
+            "value": "GREEN"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Cuatro",
+    "description": "cuatro",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcX7voGU7sZuDGWb29yUae5M11d8UunTwVc9NAEBqXKcJ",
+    "attributes": [
+        {
+            "trait-type": "Status",
+            "value": "cuatro"
+        },
+        {
+            "trait-type": "Color",
+            "value": "GREEN"
+        }
+    ]
+}

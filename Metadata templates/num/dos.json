@@ -1,0 +1,15 @@
+{
+    "name": "Dos",
+    "description": "Dos",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmbo4GKjNHBTczcf8RJabF4hcELe3vKZqPpDuDb1yGZrsW",
+    "attributes": [
+        {
+            "trait-type": "Status",
+            "value": "Dos"
+        },
+        {
+            "trait-type": "Color",
+            "value": "GREEN"
+        }
+    ]
+}
