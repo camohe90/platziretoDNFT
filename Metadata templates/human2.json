@@ -1,0 +1,11 @@
+{
+    "name": "Homo habilis",
+    "description": "Second step",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRBWeWf4KBavw13WGYP1qJrdGMC5hLqHhnkMXghk8FKki",
+    "attributes": [
+        {
+            "trait-type": "Step",
+            "value": "Second"
+        }
+    ]
+}

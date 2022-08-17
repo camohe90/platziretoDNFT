@@ -1,0 +1,11 @@
+{
+    "name": "Homo neanderthalensis",
+    "description": "fourth step",
+    "image": "https://gateway.pinata.cloud/ipfs/QmejufQ7Cr8Ryu1wn4ajVC6PnJqqMszAFnjvHBmcodSgjS",
+    "attributes": [
+        {
+            "trait-type": "Step",
+            "value": "Fourth"
+        }
+    ]
+}
