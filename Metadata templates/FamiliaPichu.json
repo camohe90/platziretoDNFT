@@ -1,0 +1,15 @@
+{
+    "name": "Familia Pichu",
+    "description": "NFT en Familia Pichu es mas fuerte",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYaJLPhPXPSre2pzHuQ55ntrbrswqAazv4dUz8iLMrDTF",
+    "attributes": [
+        {
+            "trait-type": "FamiliaPichu",
+            "value": "Poderosa"
+        },
+        {
+            "trait-type": "ColaFamiliaPichu",
+            "value": "DIVERSAS"
+        }
+    ]
+}

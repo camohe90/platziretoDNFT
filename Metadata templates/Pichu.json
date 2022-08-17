@@ -1,0 +1,15 @@
+{
+    "name": "Pichu",
+    "description": "Pichu NFT crece",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbmN6VRjJuArnJPY7qWtBF62Fg8A5ncAfMBt4YV2cAP1j",
+    "attributes": [
+        {
+            "trait-type": "PichuCreciendo",
+            "value": "Creciendo"
+        },
+        {
+            "trait-type": "ColaPichu",
+            "value": "PEQUENA"
+        }
+    ]
+}
