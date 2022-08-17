@@ -1,0 +1,25 @@
+{
+  "name": "platziretodnft",
+  "version": "1.0.0",
+  "description": "## Reto 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdr-x/platziretoDNFT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdr-x/platziretoDNFT/issues"
+  },
+  "homepage": "https://github.com/rdr-x/platziretoDNFT#readme",
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.2",
+    "@openzeppelin/contracts": "^4.7.3",
+    "git": "^0.1.5"
+  }
+}

@@ -1,6 +1,5 @@
-//Begin
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.6;
+pragma solidity ^0.8.6;
 
 import "@chainlink/contracts/src/v0.8/KeeperCompatible.sol";
 import "@openzeppelin/contracts@4.6.0/token/ERC721/extensions/ERC721URIStorage.sol";
@@ -13,10 +12,10 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
  
    // Metadata information for each stage of the NFT on IPFS.
     string[] IpfsUri = [
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/seed.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-sprout.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-blooms.json"
-    ]; 
+        "https://gateway.pinata.cloud/ipfs/QmPPDjU4tpt24S86TkvGUX4BwAjJe4JzGog5vs1Pvwt3ni",
+        "https://gateway.pinata.cloud/ipfs/QmUrpLy2wEcYWTyQ7zqHAvgV4xWkAxGMiU8vr8rikrLbk8",
+        "https://gateway.pinata.cloud/ipfs/QmUPX2B3irLqoGuPhQ38Hafeg6LFCsaieRxygRhcMvRKmA"
+        ]; 
 
     uint256 lastTimeStamp;
     uint256 interval;
@@ -32,7 +31,6 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
         if (flowerStage(tokenId) >= 2) {
             done = true;
         }
-
         upkeepNeeded = !done && ((block.timestamp - lastTimeStamp) > interval);        
         // We don't use the checkData in this example. The checkData is defined when the Upkeep was registered.
     }
@@ -109,4 +107,3 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
         return super.tokenURI(tokenId);
     }
 }
-//End
