@@ -1,4 +1,21 @@
 # Aprendamos a crear NFT's dinámicos
+## Datos
+Opensea:
+https://testnets.opensea.io/assets/rinkeby/0x923fabdc482f0d8702eb20d045eeb9a542d809eb/0
+
+keeper
+https://keepers.chain.link/rinkeby/63384322163217113884379947884858403956746308248919015528512094251554012088606
+
+
+contrato
+https://rinkeby.etherscan.io/address/0x923fabdc482f0d8702eb20d045eeb9a542d809eb
+
+minteo
+https://rinkeby.etherscan.io/tx/0xe1e69d5d460e606a6fe5bf8a1de659217a8f3cba7483585ed698cb2fda1b0f94
+
+creación contrato
+https://rinkeby.etherscan.io/tx/0x7627659a35c13e72b699cc5b5ace1ddf4d34c0f532c2a9e5e769ec539efeefa8
+
 
 ## Reto 1
 
@@ -40,4 +57,7 @@ Los pasos que debes seguir son:
 
 * [Qué es chainlink](https://chainlinkspanishcommunity.medium.com/qu%C3%A9-es-chainlink-6ea80f9ff95e)
 * [Documentación de Chainlink ](https://docs.chain.link/docs)
+<<<<<<< HEAD
+=======
 
+>>>>>>> 9f1ddca74edf234d78cb5629b873f5587bbf514c
