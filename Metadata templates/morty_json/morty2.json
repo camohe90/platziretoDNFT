@@ -1,0 +1,15 @@
+{
+    "name": "Segundo Morty",
+    "description": "Este morty viene de la API, rick and morty",
+    "image": "https://gateway.pinata.cloud/ipfs/QmU52HfED7SNPGhtutMc5qodb6vqCMkJ3uE6WwU3FSaBP2/morty2.jpeg",
+    "attributes": [
+        {
+            "trait-type": "EtapaMorty",
+            "value": "Artista"
+        },
+        {
+            "trait-type": "Universo",
+            "value": "Alguno"
+        }
+    ]
+}

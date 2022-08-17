@@ -1,10 +1,9 @@
-//Begin
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.6;
+pragma solidity 0.8.7;
 
 import "@chainlink/contracts/src/v0.8/KeeperCompatible.sol";
-import "@openzeppelin/contracts@4.6.0/token/ERC721/extensions/ERC721URIStorage.sol";
-import "@openzeppelin/contracts@4.6.0/utils/Counters.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts/utils/Counters.sol";
 
 contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     using Counters for Counters.Counter;
@@ -13,9 +12,9 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
  
    // Metadata information for each stage of the NFT on IPFS.
     string[] IpfsUri = [
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/seed.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-sprout.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-blooms.json"
+        "https://ipfs.io/ipfs/QmeJHjTMhC3RqxMC1UQSnmQL1y7BwwVT431ugKFzCrh9du",
+        "https://ipfs.io/ipfs/QmdEdF5FkPpsN2DAHzuLtGudXD25AquRik2y5KnfFz1sew",
+        "https://ipfs.io/ipfs/QmctEztxEJmykZX5zT19rJmBYSbK2RKvxcSu8G1p4VJYGd"
     ]; 
 
     uint256 lastTimeStamp;
@@ -109,4 +108,3 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
         return super.tokenURI(tokenId);
     }
 }
-//End
