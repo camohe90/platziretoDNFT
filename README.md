@@ -14,5 +14,5 @@ The contract address is: 0xD6F357702084D01fA9648b5a11877f73B26E8168
 
 Etherscan: https://rinkeby.etherscan.io/address/0xc3316b766f05e9d4911416a8bc237aae0dd8f6f3
 
-
+OpenSea testnet: https://testnets.opensea.io/assets/rinkeby/0xed42de8428b5edaf5bf2bd107ec5a81d16d82bb3/0
 
