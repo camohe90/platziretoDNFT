@@ -1,0 +1,15 @@
+{
+    "name": "Landing",
+    "description": "Landing. Thank you for flying with us.",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmf4TTTuKbTVnURv296Utgo17g2zfoUAhwLgGuY6g3dkqd?filename=landing_baw.png",
+    "attributes": [
+        {
+            "trait-type": "StageFlight",
+            "value": "Landing"
+        },
+        {
+            "trait-type": "IconStyle",
+            "value": "BAW"
+        }
+    ]
+}

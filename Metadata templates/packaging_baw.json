@@ -1,0 +1,15 @@
+{
+    "name": "Packaging",
+    "description": "Get ready for your next flight.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVqr3abByEjKeB9LPkaxuT89B5Mms14QJZ242a3nQaSLu?filename=bagage_baw.png",
+    "attributes": [
+        {
+            "trait-type": "StageFlight",
+            "value": "Packaging"
+        },
+        {
+            "trait-type": "IconStyle",
+            "value": "BAW"
+        }
+    ]
+}

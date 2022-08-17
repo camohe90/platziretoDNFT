@@ -1,0 +1,15 @@
+{
+    "name": "Boarding",
+    "description": "Your flight is about to take off. Please report to the gate",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmd2dQrqh9mbVqjEZL9MSMCiqtoyBBWnZzvroQfXhcfzP2?filename=tickets_baw.png",
+    "attributes": [
+        {
+            "trait-type": "StageFlight",
+            "value": "Boarding"
+        },
+        {
+            "trait-type": "IconStyle",
+            "value": "BAW"
+        }
+    ]
+}
