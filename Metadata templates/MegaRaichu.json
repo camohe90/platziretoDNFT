@@ -1,0 +1,15 @@
+{
+    "name": "Mega Raichu",
+    "description": "Mega Raichu NFT fuerte",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeGHivWxJp6m4F97Gy8PjfphCQzZjHyBb5M4DhucD6dFA",
+    "attributes": [
+        {
+            "trait-type": "MegaRaichu",
+            "value": "Super Fuerte"
+        },
+        {
+            "trait-type": "ColaMegaRaichu",
+            "value": "EXTRA EXTRA LARGA"
+        }
+    ]
+}
