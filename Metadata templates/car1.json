@@ -1,0 +1,42 @@
+{
+	"name": "Car 1 - Yellow",
+	"description": "Flor NFT con la que vamos a aprender",
+	"image": "https://bafkreidrre6p4attimpg5b5oo4t62bhncvmh6c7l6ivtpisdmb5a5egxku.ipfs.nftstorage.link/",
+	"attributes": [{
+			"trait-type": "CarStage",
+			"value": "Car 1 - Yellow"
+		},
+		{
+			"trait-type": "CarColor",
+			"value": "YELLOW"
+		},
+		{
+			"trait-type": "CarSeatColor",
+			"value": "GRAY"
+		},
+		{
+			"trait-type": "NumberOfSeats",
+			"value": "4"
+		},
+		{
+			"trait-type": "RimStyle",
+			"value": "MULTI SPOKE"
+		},
+		{
+			"trait-type": "RimColor",
+			"value": "RED"
+		},
+		{
+			"trait-type": "Model",
+			"value": "1900"
+		},
+		{
+			"trait-type": "Doors",
+			"value": "2"
+		},
+		{
+			"trait-type": "SpareTyre",
+			"value": "NOT"
+		}
+	]
+}
