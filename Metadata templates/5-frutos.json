@@ -1,0 +1,15 @@
+{
+  "name": "Flor frutos",
+  "description": "Somos expertos y ahora nuestro conocimiento lo compartimos con los demás pero sin dejar de aprender",
+  "image": "https://gateway.pinata.cloud/ipfs/QmZELcES5wVASQAfygr1rudvmv7dDvQkh57GHhAV6uDZqV",
+  "attributes": [
+    {
+      "trait-type": "EtapaFLor",
+      "value": "Frutos"
+    },
+    {
+      "trait-type": "ColorFlor",
+      "value": "VERDE-NARANJA"
+    }
+  ]
+}

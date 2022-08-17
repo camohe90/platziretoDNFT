@@ -1,0 +1,15 @@
+{
+  "name": "Flor floreciendo",
+  "description": "Comprendemos y aplicamos lo que aprendemos, estamos listos para resolver problemas",
+  "image": "https://gateway.pinata.cloud/ipfs/QmT3yQnmkVpTJ1Bjr6bPxvY4kCikZg67PRiEV74hUH3fUP",
+  "attributes": [
+    {
+      "trait-type": "EtapaFLor",
+      "value": "Floreciendo"
+    },
+    {
+      "trait-type": "ColorFlor",
+      "value": "VERDE"
+    }
+  ]
+}

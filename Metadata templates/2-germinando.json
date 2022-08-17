@@ -1,0 +1,15 @@
+{
+  "name": "Flor germinando",
+  "description": "Empezamos a absorver conocimiento y trazamos la ruta y el objetivo",
+  "image": "https://gateway.pinata.cloud/ipfs/QmWchvQHz2vT6moCKJvaV3g6YSiyNxKmpcdXKqfeLLkGXg",
+  "attributes": [
+    {
+      "trait-type": "EtapaFLor",
+      "value": "Germinando"
+    },
+    {
+      "trait-type": "ColorFlor",
+      "value": "VERDE"
+    }
+  ]
+}

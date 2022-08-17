@@ -1,0 +1,15 @@
+{
+  "name": "Flor creciendo",
+  "description": "Empezamos a crecer y absorver conocimiento, siempre tenemos sed de saber mas",
+  "image": "https://gateway.pinata.cloud/ipfs/QmUeQCRLXxUQy2NDgm2jgmtCpRNMUr2UQCnRpbgkN7nDGw",
+  "attributes": [
+    {
+      "trait-type": "EtapaFLor",
+      "value": "Creciendo"
+    },
+    {
+      "trait-type": "ColorFlor",
+      "value": "VERDE"
+    }
+  ]
+}
