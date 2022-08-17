@@ -1,0 +1,11 @@
+{
+    "name": "Ardipithecus",
+    "description": "First step",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWbJEBURAAHuQGYHsYPZrcCBomrAM6RFbjuHcYJ5wqJE8",
+    "attributes": [
+        {
+            "trait-type": "Step",
+            "value": "First"
+        }
+    ]
+}

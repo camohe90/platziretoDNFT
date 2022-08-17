@@ -1,0 +1,11 @@
+{
+    "name": "Homo erectus",
+    "description": "Third step",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWSgghjeFQk2E62N45Twndoi4pi9nNYeiPmRqw6aZvcQV",
+    "attributes": [
+        {
+            "trait-type": "Step",
+            "value": "Third"
+        }
+    ]
+}

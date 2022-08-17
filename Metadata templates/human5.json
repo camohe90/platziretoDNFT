@@ -1,0 +1,11 @@
+{
+    "name": "Homo sapiens",
+    "description": "Fifth step",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYGkMFxPKAUqRxcSjLmSySmNVMtLZXw6s5AVdhRJRfZm6",
+    "attributes": [
+        {
+            "trait-type": "Step",
+            "value": "Fifth"
+        }
+    ]
+}
