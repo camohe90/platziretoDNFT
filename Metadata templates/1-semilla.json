@@ -1,0 +1,15 @@
+{
+  "name": "Flor semilla",
+  "description": "El aprendizaje empieza con la semilla de la curiosidad, estamos motivados y con ganas de empezar",
+  "image": "https://gateway.pinata.cloud/ipfs/QmXWE7cXbwegUX6uZA1DmWwGSuCk33r9UHskB1UBfvJXVJ",
+  "attributes": [
+    {
+      "trait-type": "EtapaFLor",
+      "value": "Semilla"
+    },
+    {
+      "trait-type": "ColorFlor",
+      "value": "CAFE"
+    }
+  ]
+}

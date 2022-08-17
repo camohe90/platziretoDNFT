@@ -1,22 +1,29 @@
-//Begin
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.6;
+pragma solidity 0.8.9;
 
 import "@chainlink/contracts/src/v0.8/KeeperCompatible.sol";
-import "@openzeppelin/contracts@4.6.0/token/ERC721/extensions/ERC721URIStorage.sol";
-import "@openzeppelin/contracts@4.6.0/utils/Counters.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts/utils/Counters.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 
-contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
+contract keeperFlower is
+    ERC721,
+    ERC721URIStorage,
+    KeeperCompatibleInterface,
+    ERC721Enumerable
+{
     using Counters for Counters.Counter;
 
     Counters.Counter public tokenIdCounter;
- 
-   // Metadata information for each stage of the NFT on IPFS.
+
+    // Metadata information for each stage of the NFT on IPFS.
     string[] IpfsUri = [
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/seed.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-sprout.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-blooms.json"
-    ]; 
+        "https://gateway.pinata.cloud/ipfs/QmTeUY5Ge3gnBMs4jw43Sv75eNj32VTTacWkyN5jGV8bnp",
+        "https://gateway.pinata.cloud/ipfs/QmVBCuXcYVVoAJZ33nrepgTiFS5zf4hNPhyRtNg1LmGnah",
+        "https://gateway.pinata.cloud/ipfs/QmQUE7Q5Aj2aSbLXfV7tYXyJ4gpiYFdMSgqrR5LDTNT1qi",
+        "https://gateway.pinata.cloud/ipfs/QmRpNRaEfQx9ZRm4UeKsfZCDcC8RQeoU49uFhHCb1EtxAR",
+        "https://gateway.pinata.cloud/ipfs/QmdQk4wsvhd4opmbk7pQsGCJKnCU7FAv17qTgfQn5mtc69"
+    ];
 
     uint256 lastTimeStamp;
     uint256 interval;
@@ -26,21 +33,33 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
         lastTimeStamp = block.timestamp;
     }
 
-    function checkUpkeep(bytes calldata /* checkData */) external view override returns (bool upkeepNeeded, bytes memory /* performData */) {
+    function checkUpkeep(
+        bytes calldata /* checkData */
+    )
+        external
+        view
+        override
+        returns (
+            bool upkeepNeeded,
+            bytes memory /* performData */
+        )
+    {
         uint256 tokenId = tokenIdCounter.current() - 1;
         bool done;
-        if (flowerStage(tokenId) >= 2) {
+        if (flowerStage(tokenId) >= 4) {
             done = true;
         }
 
-        upkeepNeeded = !done && ((block.timestamp - lastTimeStamp) > interval);        
+        upkeepNeeded = !done && ((block.timestamp - lastTimeStamp) > interval);
         // We don't use the checkData in this example. The checkData is defined when the Upkeep was registered.
     }
 
-    function performUpkeep(bytes calldata /* performData */) external override {
+    function performUpkeep(
+        bytes calldata /* performData */
+    ) external override {
         //We highly recommend revalidating the upkeep in the performUpkeep function
-        if ((block.timestamp - lastTimeStamp) > interval ) {
-            lastTimeStamp = block.timestamp;            
+        if ((block.timestamp - lastTimeStamp) > interval) {
+            lastTimeStamp = block.timestamp;
             uint256 tokenId = tokenIdCounter.current() - 1;
             growFlower(tokenId);
         }
@@ -54,8 +73,14 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
         _setTokenURI(tokenId, IpfsUri[0]);
     }
 
+    function updateNFT(uint _tokenId, string memory newUri) public {
+        _setTokenURI(_tokenId, newUri);
+    }
+
     function growFlower(uint256 _tokenId) public {
-        if(flowerStage(_tokenId) >= 2){return;}
+        if (flowerStage(_tokenId) >= 4) {
+            return;
+        }
         // Get the current stage of the flower and add 1
         uint256 newVal = flowerStage(_tokenId) + 1;
         // store the new URI
@@ -72,13 +97,23 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
             return 0;
         }
         // Sprout
-        if (
-            compareStrings(_uri, IpfsUri[1]) 
-        ) {
+        if (compareStrings(_uri, IpfsUri[1])) {
             return 1;
         }
-        // Must be a Bloom
-        return 2;
+        // Growing
+        if (compareStrings(_uri, IpfsUri[2])) {
+            return 2;
+        }
+        // Flourished
+        if (compareStrings(_uri, IpfsUri[3])) {
+            return 3;
+        }
+        // Is a final stage
+        if (compareStrings(_uri, IpfsUri[4])) {
+            return 4;
+        }
+        // Is a custom URI
+        return 5;
     }
 
     // helper function to compare strings
@@ -108,5 +143,23 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     {
         return super.tokenURI(tokenId);
     }
+
+    // The following functions is an override required by Solidity.
+    function _beforeTokenTransfer(
+        address from,
+        address to,
+        uint256 tokenId
+    ) internal override(ERC721, ERC721Enumerable) {
+        super._beforeTokenTransfer(from, to, tokenId);
+    }
+
+    // The following functions is an override required by Solidity.
+    function supportsInterface(bytes4 interfaceId)
+        public
+        view
+        override(ERC721, ERC721Enumerable)
+        returns (bool)
+    {
+        return super.supportsInterface(interfaceId);
+    }
 }
-//End
