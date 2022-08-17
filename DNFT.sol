@@ -32,7 +32,7 @@ contract MyPokemons is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     function checkUpkeep(bytes calldata /* checkData */) external view override returns (bool upkeepNeeded, bytes memory /* performData */) {
         uint256 tokenId = _tokenIdCounter.current() - 1;
         bool done;
-        if (pokemonStage(tokenId) >= 2) {
+        if (pokemonStage(tokenId) >= 5) {
             done = true;
         }
         upkeepNeeded = !done && ((block.timestamp - lastTimeStamp) > interval);        
@@ -57,7 +57,7 @@ contract MyPokemons is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     }
 
     function growPokemon(uint256 _tokenId) public {
-        if( pokemonStage(_tokenId) >= 2){return;}
+        if( pokemonStage(_tokenId) >= 5){return;}
         // Get the current stage of the flower and add 1
         uint256 newVal = pokemonStage(_tokenId) + 1;
         // store the new URI
