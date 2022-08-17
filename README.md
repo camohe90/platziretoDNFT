@@ -41,3 +41,19 @@ Los pasos que debes seguir son:
 * [Qué es chainlink](https://chainlinkspanishcommunity.medium.com/qu%C3%A9-es-chainlink-6ea80f9ff95e)
 * [Documentación de Chainlink ](https://docs.chain.link/docs)
 
+
+### Solucion al reto
+
+## Contrato 1
+
+# EtherScan 
+https://rinkeby.etherscan.io/address/0x355d689e7b53c802b57a327e41e370b55e9e4569
+# OpenSea
+https://testnets.opensea.io/assets/rinkeby/0x355d689e7b53c802b57a327e41e370b55e9e4569/0
+
+## Contrato 2
+
+# EtherScan 
+https://rinkeby.etherscan.io/address/0xb63c2a3efea609a094c3f581bd5d79c34489a0dd
+# OpenSea
+https://testnets.opensea.io/assets/rinkeby/0xb63c2a3efea609a094c3f581bd5d79c34489a0dd/0

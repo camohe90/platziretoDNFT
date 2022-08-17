@@ -1,15 +1,15 @@
 {
     "name": "Flor Creciendo",
     "description": "Flor NFT va a dar un nuevo paso",
-    "image": "https://gateway.pinata.cloud/ipfs/QmV8U3DsVNHsrnDcsosuCYmpRtAqadam1zrCW5dDk9hUrB",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXaqjd1rrWTJmDWeeLQW3UjqZhnZRobffqTPPdXLB8Rdj/fase-04.jpg",
     "attributes": [
         {
             "trait-type": "EtapaFLor",
-            "value": "Crediendo"
+            "value": "Madurando"
         },
         {
             "trait-type": "ColorFlor",
-            "value": "MORADO"
+            "value": "Verde"
         }
     ]
 }
