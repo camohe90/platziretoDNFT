@@ -1,0 +1,23 @@
+{
+    "name": "Monarch Butterfly Caterpillar",
+    "description": "In this phase the caterpillar continues its feeding stage increasing its mass up to 2000 times its size.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXJh7vzVWcE6QgjkgJ6dN1wR7R1djx3Grvg7Z6R9JXUAH",
+    "attributes": [
+      {
+        "trait-type": "MonarchButterflyStage",
+        "value": "3"
+      },
+      {
+        "trait-type": "MonarchButterflyStageName",
+        "value": "CATERPILLAR"
+      },
+      {
+        "trait-type": "MonarchButterflyColor",
+        "value": "YELLOW-WHITE-BLACK"
+      },
+      {
+        "trait-type": "MonarchButterflyTimeInDays",
+        "value": "14"
+      }
+    ]
+  }

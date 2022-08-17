@@ -1,0 +1,23 @@
+{
+    "name": "Monarch Butterfly Adult",
+    "description": "This butterfly just came out of its chrysalis. It is about to stretch its wings and fly. Within days, the males and females mate. The females lay their tiny eggs and the life cycle begins again.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQw6qUCAjWJsnL7dbc13h9Xb9fhXQVBpkmMNdM5TCTiQz",
+    "attributes": [
+      {
+        "trait-type": "MonarchButterflyStage",
+        "value": "5"
+      },
+      {
+        "trait-type": "MonarchButterflyStageName",
+        "value": "ADULT"
+      },
+      {
+        "trait-type": "MonarchButterflyColor",
+        "value": "ORANGE-BLACK-WHITE"
+      },
+      {
+        "trait-type": "MonarchButterflyTimeInDays",
+        "value": "240"
+      }
+    ]
+  }
