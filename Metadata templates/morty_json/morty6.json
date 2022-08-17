@@ -1,0 +1,15 @@
+{
+    "name": "Sexto Morty",
+    "description": "Este morty viene de la API, rick and morty",
+    "image": "https://gateway.pinata.cloud/ipfs/QmU52HfED7SNPGhtutMc5qodb6vqCMkJ3uE6WwU3FSaBP2/morty6.png",
+    "attributes": [
+        {
+            "trait-type": "EtapaMorty",
+            "value": "Normal"
+        },
+        {
+            "trait-type": "Universo",
+            "value": "Alguno"
+        }
+    ]
+}
