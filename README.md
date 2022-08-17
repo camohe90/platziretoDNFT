@@ -1,12 +1,12 @@
 # Aprendamos a crear NFT's dinámicos
 ## Datos
 Opensea:
-https://testnets.opensea.io/assets/rinkeby/
+https://testnets.opensea.io/assets/rinkeby/0x923fabdc482f0d8702eb20d045eeb9a542d809eb/0
 
 keeper
 https://keepers.chain.link/rinkeby/63384322163217113884379947884858403956746308248919015528512094251554012088606
 
-0x923fabdc482f0d8702eb20d045eeb9a542d809eb/0
+
 contrato
 https://rinkeby.etherscan.io/address/0x923fabdc482f0d8702eb20d045eeb9a542d809eb
 
