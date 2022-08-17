@@ -1,0 +1,23 @@
+{
+    "name": "Monarch Butterfly Egg",
+    "description": "This is the first stage in the life cycle of the monarch butterfly after its mother puts it on a leaf of the milkweed plant.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfZPVXYduhvnFbTpJ8X1umoRudpVamXWqNvhWRgS8Jkww",
+    "attributes": [
+      {
+        "trait-type": "MonarchButterflyStage",
+        "value": "1"
+      },
+      {
+        "trait-type": "MonarchButterflyStageName",
+        "value": "EGG"
+      },
+      {
+        "trait-type": "MonarchButterflyColor",
+        "value": "WHITE"
+      },
+      {
+        "trait-type": "MonarchButterflyTimeInDays",
+        "value": "5"
+      }
+    ]
+  }

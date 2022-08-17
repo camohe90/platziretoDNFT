@@ -1,0 +1,23 @@
+{
+    "name": "Monarch Butterfly Chrysalis",
+    "description": "At this stage the caterpillar begins its metamorphosis within the chrysalis.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbcWtLbzpT6dwKojNaRc652emYSUqKu2xynjqN7bij2DM",
+    "attributes": [
+      {
+        "trait-type": "MonarchButterflyStage",
+        "value": "4"
+      },
+      {
+        "trait-type": "MonarchButterflyStageName",
+        "value": "CHRYSALIS"
+      },
+      {
+        "trait-type": "MonarchButterflyColor",
+        "value": "GREEN"
+      },
+      {
+        "trait-type": "MonarchButterflyTimeInDays",
+        "value": "15"
+      }
+    ]
+  }

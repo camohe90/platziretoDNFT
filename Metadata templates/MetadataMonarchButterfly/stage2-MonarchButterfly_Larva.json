@@ -1,0 +1,23 @@
+{
+    "name": "Monarch Butterfly Larva",
+    "description": "At this stage the larva has just hatched from the egg and begins its feeding stage.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXVAXsWdXfvkvgpGxCqe24PAZx5SRaNrpdGZtEzUTyh8k",
+    "attributes": [
+      {
+        "trait-type": "MonarchButterflyStage",
+        "value": "2"
+      },
+      {
+        "trait-type": "MonarchButterflyStageName",
+        "value": "LARVA"
+      },
+      {
+        "trait-type": "MonarchButterflyColor",
+        "value": "WHITE"
+      },
+      {
+        "trait-type": "MonarchButterflyTimeInDays",
+        "value": "1"
+      }
+    ]
+  }
