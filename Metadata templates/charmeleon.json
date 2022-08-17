@@ -1,0 +1,15 @@
+{
+    "name": "Charmeleon",
+    "description": "Pokemon evolucion",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRK8JUcrTK6M7AzBbhCw6vU2PD2PUEmC6zNQXEgeMZ979/Charmeleon.png",
+    "attributes": [
+        {
+            "trait-type": "EtapaPokemon",
+            "value": "Charmeleon Evolucion 1"
+        },
+        {
+            "trait-type": "ColorPokemon",
+            "value": "NaranjaCrema"
+        }
+    ]
+}

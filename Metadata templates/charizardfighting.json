@@ -1,0 +1,15 @@
+{
+    "name": "Charizard poderoso",
+    "description": "Pokemon de combate",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRK8JUcrTK6M7AzBbhCw6vU2PD2PUEmC6zNQXEgeMZ979/fightingcharizard.png",
+    "attributes": [
+        {
+            "trait-type": "EtapaPokemon",
+            "value": "Charizard entrenado"
+        },
+        {
+            "trait-type": "ColorPokemon",
+            "value": "NaranjaVerde"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Charizard",
+    "description": "Pokemon evolucion 2",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRK8JUcrTK6M7AzBbhCw6vU2PD2PUEmC6zNQXEgeMZ979/charizard.png",
+    "attributes": [
+        {
+            "trait-type": "EtapaPokemon",
+            "value": "Charizard Evolucion 2"
+        },
+        {
+            "trait-type": "ColorPokemon",
+            "value": "NaranjaVerde"
+        }
+    ]
+}
