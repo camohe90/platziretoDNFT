@@ -41,6 +41,10 @@ export const Home = () => {
         const dataJson = await data.json();
         setImageSrc(dataJson.image);
         setNoMinted('');
+        const type = await platziPlanta.methods
+          .flowerStage(totalSupplyToSet - 1)
+          .call();
+        console.log(type);
       }
     }
   }, [platziPlanta, account]);

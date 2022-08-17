@@ -1,6 +1,7 @@
 const FlowerContract = {
   address: {
     5: '0xcd29957cC3C8E2d9Edf96fCB55D98D0cB83d7629',
+    4: '0xcd29957cC3C8E2d9Edf96fCB55D98D0cB83d7629',
   },
   abi: [
     {
