@@ -1,0 +1,15 @@
+{
+    "name": "Pikachu",
+    "description": "Pikachu NFT se desarrolla",
+    "image": "https://gateway.pinata.cloud/ipfs/QmStZpsA7nWDJBpyY7ZSJ4ekygUjcZfbGFfC6piCmGjD5L",
+    "attributes": [
+        {
+            "trait-type": "PikachuSeDesarrolla",
+            "value": "Desarrollo"
+        },
+        {
+            "trait-type": "ColaPikachu",
+            "value": "LARGA"
+        }
+    ]
+}
