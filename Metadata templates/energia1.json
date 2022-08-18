@@ -1,0 +1,15 @@
+{
+    "name": "Planta a carbon",
+    "description": "Primera fuente de energia fosil que impulso la generacion de electricidad",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYwpkixjW2VSc45oK1XurBLg178WkyNhjA8xirJHsyyb6",
+    "attributes": [
+        {
+            "trait-type": "EtapaFosil",
+            "value": "Carbon"
+        },
+        {
+            "trait-type": "Color",
+            "value": "NEGRO"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Planta eolica",
+    "description": "Fuente renovable que utiliza la fuerza del viento para producir electricidad. Los generadores eolicos no generan emisiones pero si requieren lugares muy especificos para su instalacion.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRVTc2bG1GX5vv7Ep359NWRc2Ccd6rAU1mrcPuxLSq29B",
+    "attributes": [
+        {
+            "trait-type": "EtapaEolica",
+            "value": "Eolica"
+        },
+        {
+            "trait-type": "Color",
+            "value": "VERDE"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Planta nuclear",
+    "description": "Fuente renovable que utiliza material radioactivo como uranio enriquecido para producir electricidad. Estas plantas no generan emisiones de dioxido de carbono pero requieren un cadena de suministro y disposicion de residuos segura.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUtyBp322DVVPPzV1G88AghWdwQMCVbpDBtcTocGfXw3G",
+    "attributes": [
+        {
+            "trait-type": "EtapaNuclear",
+            "value": "Nuclear"
+        },
+        {
+            "trait-type": "Color",
+            "value": "VIOLETA"
+        }
+    ]
+}

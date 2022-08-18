@@ -1,0 +1,15 @@
+{
+    "name": "Hidroelectrica",
+    "description": "Fuente renovable que utiliza el agua para producir electricidad. Las hidroelectricas de gran embalse tienen un gran impacto en el ambiente durante su construccion",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcxR7KBfSbuPrNpBmkBrK4hxAyRGHuPqa4dH6xqZ5JitA",
+    "attributes": [
+        {
+            "trait-type": "EtapaHidro",
+            "value": "Hidro"
+        },
+        {
+            "trait-type": "Color",
+            "value": "AZUL"
+        }
+    ]
+}
