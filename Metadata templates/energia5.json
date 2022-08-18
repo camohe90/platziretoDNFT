@@ -1,0 +1,15 @@
+{
+    "name": "Planta solar fotovoltaica",
+    "description": "Fuente renovable que utiliza la radiacion proveniente del sol para producir electricidad. Los sistemas solares fotovoltaicos no generan emisiones pero si requieren un area considerable para su despliegue.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXHfktxQHus8kVUJKbB1PovJfQXMWBQG5Yf7KkCYfjXSN",
+    "attributes": [
+        {
+            "trait-type": "EtapaSolar",
+            "value": "Solar"
+        },
+        {
+            "trait-type": "Color",
+            "value": "AMARILLO"
+        }
+    ]
+}
