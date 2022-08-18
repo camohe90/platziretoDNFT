@@ -1,0 +1,15 @@
+{
+  "name": "Evolucion 4",
+  "description": "Evolucion humana 4",
+  "image": "https://gateway.pinata.cloud/ipfs/QmQHCx3gp1DXMWrXin4Ck1tuU8XeyDvPpytXp6jNQcFn2b/evolution4.jpg",
+  "attributes": [
+      {
+          "trait-type": "Etapa",
+          "value": "Humano leyendo"
+      },
+      {
+          "trait-type": "Color",
+          "value": "BLACK"
+      }
+  ]
+}
