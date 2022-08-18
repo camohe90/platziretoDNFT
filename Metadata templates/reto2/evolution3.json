@@ -1,0 +1,15 @@
+{
+  "name": "Evolucion 3",
+  "description": "Evolucion humana 3",
+  "image": "https://gateway.pinata.cloud/ipfs/QmQHCx3gp1DXMWrXin4Ck1tuU8XeyDvPpytXp6jNQcFn2b/evolution3.jpg",
+  "attributes": [
+      {
+          "trait-type": "Etapa",
+          "value": "Mono"
+      },
+      {
+          "trait-type": "Color",
+          "value": "BLACK"
+      }
+  ]
+}
