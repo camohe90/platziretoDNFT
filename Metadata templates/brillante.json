@@ -1,0 +1,15 @@
+{
+    "name": "Flor Brillante",
+    "description": "Flor NFT va a dar un nuevo paso",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXue39aFrCdW1pF9HL1xfcGbwggKogkbWPfBz64UWZXX2",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Brillante"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "BRILLANTE"
+        }
+    ]
+}
