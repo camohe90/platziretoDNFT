@@ -13,9 +13,11 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
  
    // Metadata information for each stage of the NFT on IPFS.
     string[] IpfsUri = [
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/seed.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-sprout.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-blooms.json"
+        "https://gateway.pinata.cloud/ipfs/QmQrzxt1fvzoR6J91FTe58dd8Dg79CfPmPKhzhkDZKS1xP",
+        "https://gateway.pinata.cloud/ipfs/QmNhGSm2STw7dcxsf5JWZJoSgTgGzCzDpVJLDJyTz2G5zE",
+        "https://gateway.pinata.cloud/ipfs/QmSoCA1F7qUv3RenLRp8zu2ShtLZrLCkCLd14yWHdzGHX5",
+        "https://gateway.pinata.cloud/ipfs/QmakpX7KkHcxQdNx8FNBou7NnwGTUYs7cjJJNgVQYH76V2",
+        "https://gateway.pinata.cloud/ipfs/QmZWiFzTUVxhRHxRKzHgvb2CUHz86Mh2WzAkX7KimqnfzM"
     ]; 
 
     uint256 lastTimeStamp;
