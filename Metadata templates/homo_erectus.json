@@ -1,0 +1,11 @@
+{
+    "name": "Homo erectus",
+    "description": "Los Homo erectus clásicos habitaron en Asia oriental",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmc85JtNtxkDj6fojTuELPj55hrTH1TrVindPB5bbqhVPe",
+    "attributes": [
+        {
+            "trait-type": "Años",
+            "value": "1,9 millones"
+        }
+    ]
+}

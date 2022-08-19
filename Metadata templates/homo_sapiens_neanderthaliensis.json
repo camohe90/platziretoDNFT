@@ -1,0 +1,11 @@
+{
+    "name": "Homo neanderthalensis",
+    "description": "es una especie extinta del género Homo que habitó en Europa, Próximo Oriente, Oriente Medio y Asia Central.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfPMtUq9kQVjKv2t9srm8FM2NCu6mCRTJ6KYdhu9GaugC",
+    "attributes": [
+        {
+            "trait-type": "Años",
+            "value": "230 mil"
+        }
+    ]
+}
