@@ -1,0 +1,11 @@
+{
+    "name": "Homo sapiens",
+    "description": "comúnmente llamado ser humano",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWi2CcZoK8ABon8MKpCR4EkyqzwL8MYoFFox7sGV8Guym",
+    "attributes": [
+        {
+            "trait-type": "Años",
+            "value": "Actualmente"
+        }
+    ]
+}

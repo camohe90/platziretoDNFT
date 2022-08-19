@@ -35,6 +35,10 @@ Los pasos que debes seguir son:
 2. Desplegar el contrato inteligente.
 3. Realizar las pruebas de funcionamiento
 
+### Solución
+
+* [NFT open sea](https://testnets.opensea.io/assets/rinkeby/0x7120c3cc2ae87e573fa6b5309cf11c20ec488829/0)
+* [Contrato eth scan](https://rinkeby.etherscan.io/address/0x7120c3cc2ae87e573fa6b5309cf11c20ec488829)
 
 ## Recursos
 
