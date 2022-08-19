@@ -2,7 +2,7 @@
 
 ## Reto 1
 
-Vamos a aprender a crear NFT's dinámicos, lo que significa que pueden cambiar su metadata dependiendo de ciertas condiciones que definamos. 
+Vamos a aprender a crear NFT's dinámicos, lo que significa que pueden cambiar su metadata dependiendo de ciertas condiciones que definamos.
 
 Para lograrlo necesitamos conectarnos un herramientas que nos provea la información para automaizar nuestro contrato inteligente, es esta ocasión vamos a usar algunos servicios de chainlink
 
@@ -23,21 +23,37 @@ Los pasos que debes seguir son:
 
 ![Actualizar metadata](image/uptadeMetadata_1.jpg)
 
+### Solucion
+
+- Contrato address: 0xE6778E0062a44c4E35b79b06EcF9C1e6B20449Fb
+- OpenSea: https://testnets.opensea.io/assets/rinkeby/0xe6778e0062a44c4e35b79b06ecf9c1e6b20449fb/0/
+- keeper: https://keepers.chain.link/rinkeby/86824900525578568633990246722015089791817013576207070436847261742750102703313
+
 ## Reto 2
 
 1. Modifica el código original del repositorio para permitir que tu NFT tenga 5 cambios de metadata.
-2. Realizar el despliegue del contrato módifico 
+2. Realizar el despliegue del contrato módifico
 3. Crear una nueva automatización por tiempo como se ejecuto en el paso 1.
+
+### Solucion
+
+- Contrato address: 0x4493719790757fb533be3c6dafc0877AfB01AC1f
+- OpenSea: https://testnets.opensea.io/assets/rinkeby/0x4493719790757fb533be3c6dafc0877afb01ac1f/0/
+- keeper: https://keepers.chain.link/rinkeby/47210061521853264379614281815465385907437352858713372426069289911105617608765
 
 ## Reto 3 (Opcional)
 
-1. Crear una interfaz gráfica con react que permita subir la imagen, el nombre, la descripción,  caracteristicas del NFT y que se encargue de generar el archivo JSON de metadata y lo suba a la red IPFS de su preferencia 
+1. Crear una interfaz gráfica con react que permita subir la imagen, el nombre, la descripción, caracteristicas del NFT y que se encargue de generar el archivo JSON de metadata y lo suba a la red IPFS de su preferencia
 2. Desplegar el contrato inteligente.
 3. Realizar las pruebas de funcionamiento
 
+### Solucion
+
+- Contrato address: 0x0114E7dE85e905DeD98f999bA4eAA4e5FCa622A2
+- OpenSea: https://testnets.opensea.io/collection/nftflowers
+- Dapp realizada en react: https://keeper-flower-react.vercel.app/
 
 ## Recursos
 
-* [Qué es chainlink](https://chainlinkspanishcommunity.medium.com/qu%C3%A9-es-chainlink-6ea80f9ff95e)
-* [Documentación de Chainlink ](https://docs.chain.link/docs)
-
+- [Qué es chainlink](https://chainlinkspanishcommunity.medium.com/qu%C3%A9-es-chainlink-6ea80f9ff95e)
+- [Documentación de Chainlink ](https://docs.chain.link/docs)

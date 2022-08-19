@@ -1,0 +1,19 @@
+{
+    "name": "Reproducción Flor",
+    "description": "Cuando el polen contenido en los estambres entra en contacto con el ovulo que se encuentra en el pistilo se considera que la planta ha sido fecundada y se formará una nueva semilla, las cuales seran exparcidas por el viento, el agua y los animales.",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmc7CNMw6S1Gys3rreSaPWz29fh9sfwBcGrWNkqxWY4mx1",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Reproduction"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "Stamens"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "Insects"
+        }
+    ]
+}

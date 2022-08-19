@@ -1,0 +1,23 @@
+{
+    "name": "Crecimiento Flor",
+    "description": "En el crecimiento de la planta, la fotosíntesis ocupa un papel fundamental. Consiste en un proceso en el que las plantas son capaces de transformar la luz del sol, el dióxido de carbono del aire, el agua y los nutrientes en energía.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmddxDnhXFK7WavSjA4AC3tFuhjs74UD8jfaJTGkZL6Epm",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Growing"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "photosynthesis"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "Carbon dioxide"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "Energy"
+        }
+    ]
+}

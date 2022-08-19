@@ -10,37 +10,49 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     using Counters for Counters.Counter;
 
     Counters.Counter public tokenIdCounter;
- 
-   // Metadata information for each stage of the NFT on IPFS.
+
+    // Metadata information for each stage of the NFT on IPFS.
     string[] IpfsUri = [
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/seed.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-sprout.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-blooms.json"
-    ]; 
+        "https://gateway.pinata.cloud/ipfs/QmdyaJM6CQoNmVaPwkaJeCDhjAjn2vw3wJzhyXbT26n1aL",
+        "https://gateway.pinata.cloud/ipfs/QmZx4ti625joqrQR6uaAR97E8cVS6FzJwdbaVgykJjo3Fp",
+        "https://gateway.pinata.cloud/ipfs/QmaaRWA13XpdzbAXiTq8wGSjwfEcWWxR5sUae6WZ9DyHj8",
+        "https://gateway.pinata.cloud/ipfs/QmdRBFRQVsAfAfkTg6V3LSENwNAtaXw34wi7Cq3iRD1v8F",
+        "https://gateway.pinata.cloud/ipfs/QmQ8qSV3pV4NkV2V8SZwXCRhWWaDZRHNBTxtP8V83joCpN"
+    ];
 
     uint256 lastTimeStamp;
     uint256 interval;
 
-    constructor(uint _interval) ERC721("Flower Platzi", "fPLTZ") {
+    constructor(uint256 _interval) ERC721("Flower Platzi", "fPLTZ") {
         interval = _interval;
         lastTimeStamp = block.timestamp;
     }
 
-    function checkUpkeep(bytes calldata /* checkData */) external view override returns (bool upkeepNeeded, bytes memory /* performData */) {
+    function checkUpkeep(
+        bytes calldata /* checkData */
+    )
+        external
+        view
+        override
+        returns (bool upkeepNeeded, bytes memory performData)
+    {
         uint256 tokenId = tokenIdCounter.current() - 1;
         bool done;
-        if (flowerStage(tokenId) >= 2) {
+        if (flowerStage(tokenId) >= 4) {
             done = true;
         }
 
-        upkeepNeeded = !done && ((block.timestamp - lastTimeStamp) > interval);        
+        upkeepNeeded = !done && ((block.timestamp - lastTimeStamp) > interval);
         // We don't use the checkData in this example. The checkData is defined when the Upkeep was registered.
+        return (upkeepNeeded, performData);
     }
 
-    function performUpkeep(bytes calldata /* performData */) external override {
+    function performUpkeep(
+        bytes calldata /* performData */
+    ) external override {
         //We highly recommend revalidating the upkeep in the performUpkeep function
-        if ((block.timestamp - lastTimeStamp) > interval ) {
-            lastTimeStamp = block.timestamp;            
+        if ((block.timestamp - lastTimeStamp) > interval) {
+            lastTimeStamp = block.timestamp;
             uint256 tokenId = tokenIdCounter.current() - 1;
             growFlower(tokenId);
         }
@@ -55,7 +67,9 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     }
 
     function growFlower(uint256 _tokenId) public {
-        if(flowerStage(_tokenId) >= 2){return;}
+        if (flowerStage(_tokenId) >= 4) {
+            return;
+        }
         // Get the current stage of the flower and add 1
         uint256 newVal = flowerStage(_tokenId) + 1;
         // store the new URI
@@ -71,14 +85,20 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
         if (compareStrings(_uri, IpfsUri[0])) {
             return 0;
         }
-        // Sprout
-        if (
-            compareStrings(_uri, IpfsUri[1]) 
-        ) {
+        // Germination
+        if (compareStrings(_uri, IpfsUri[1])) {
             return 1;
         }
-        // Must be a Bloom
-        return 2;
+        // Growing
+        if (compareStrings(_uri, IpfsUri[2])) {
+            return 2;
+        }
+        // Flourished
+        if (compareStrings(_uri, IpfsUri[3])) {
+            return 3;
+        }
+        // Will reproduce again
+        return 4;
     }
 
     // helper function to compare strings

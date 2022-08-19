@@ -1,0 +1,19 @@
+{
+    "name": "Semilla Flor",
+    "description": "Puede ser considerada la primera o última fase del ciclo de vida de las plantas que se reproducen de forma sexual.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRyJCJXjbTzw3PQvMbY1Ea8ap9HMMcwtoXTHP42Jcwsum",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Seed"
+        },
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Start and end"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "Rose"
+        }
+    ]
+}
