@@ -47,6 +47,12 @@ Los pasos que debes seguir son:
 2. Desplegar el contrato inteligente.
 3. Realizar las pruebas de funcionamiento
 
+### Solucion
+
+- Contrato address: 0x0114E7dE85e905DeD98f999bA4eAA4e5FCa622A2
+- OpenSea: https://testnets.opensea.io/collection/nftflowers
+- Dapp realizada en react: https://keeper-flower-react.vercel.app/
+
 ## Recursos
 
 - [Qué es chainlink](https://chainlinkspanishcommunity.medium.com/qu%C3%A9-es-chainlink-6ea80f9ff95e)
