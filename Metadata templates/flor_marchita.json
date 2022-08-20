@@ -1,0 +1,15 @@
+{
+    "name": "Flor marchita",
+    "description": "Flor NFT en  estado marchito",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXPFCtEwKS31LVwGzGNsiUoKGFbr8RePt3CmFGWu5ufrK",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Marchita"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "Gris"
+        }
+    ]
+}
