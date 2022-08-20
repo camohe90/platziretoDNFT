@@ -15,7 +15,9 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     string[] IpfsUri = [
         "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/seed.json",
         "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-sprout.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-blooms.json"
+        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-blooms.json",
+         "https://gateway.pinata.cloud/ipfs/QmYXZMKaba8K18ZimVxz3QQLoDzt3Xb9ep7XxZcEbEQWc8",
+        "https://gateway.pinata.cloud/ipfs/QmfJKKCDPAusrAiLjWGs7HFzc551ZLNgW4gEDLQdx367r9"
     ]; 
 
     uint256 lastTimeStamp;

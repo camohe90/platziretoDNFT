@@ -1,0 +1,15 @@
+{
+    "name": "Flor Muerta",
+    "description": "Flor en estado muerto",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdgCwQueAqa4RNNEKsKAmCbLdBoLBrcwx62eLxoVUp3iF",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Muerta"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "NEGRA"
+        }
+    ]
+}
