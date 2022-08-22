@@ -1,0 +1,19 @@
+{
+  "name": "Ash-Greninja BattleBound",
+  "description": "Good looking splash art with the trainer and his pokemon using battle bond",
+  "image": "https://gateway.pinata.cloud/ipfs/QmZ5oKD9RP14QCCpt1SsNsohUB5vxYJwoKJCSnxL54sHS5",
+  "attributes": [
+    {
+        "trait-type": "Fifth_Phase",
+        "value": "Ninja"
+    },
+    {
+        "trait-type": "Pokemon_Color",
+        "value": "Blue"
+    },
+    {
+        "trait-type": "Category",
+        "value": "Dark"
+    }
+]
+}
