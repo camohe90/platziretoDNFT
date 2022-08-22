@@ -1,0 +1,11 @@
+{
+    "name": "Purple Shader",
+    "description": "A cool purple shader",
+    "image": "https://gateway.pinata.cloud/ipfs/QmP4c5TPzH4bVAxL7ckH82fJYnBroiUp2TYwEzTppjvcnU/sphere-purple.png",
+    "attributes": [
+        {
+            "trait-type": "ShaderColor",
+            "value": "PURPLE"
+        }
+    ]
+}

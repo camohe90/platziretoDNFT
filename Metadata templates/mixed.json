@@ -1,0 +1,11 @@
+{
+    "name": "Mixed Shader",
+    "description": "A cool color mixed shader",
+    "image": "https://gateway.pinata.cloud/ipfs/QmP4c5TPzH4bVAxL7ckH82fJYnBroiUp2TYwEzTppjvcnU/sphere-mixed.jpg",
+    "attributes": [
+        {
+            "trait-type": "ShaderColor",
+            "value": "MIXED"
+        }
+    ]
+}

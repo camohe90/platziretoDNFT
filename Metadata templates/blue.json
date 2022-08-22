@@ -1,0 +1,11 @@
+{
+    "name": "Blue Shader",
+    "description": "A cool blue shader",
+    "image": "https://gateway.pinata.cloud/ipfs/QmP4c5TPzH4bVAxL7ckH82fJYnBroiUp2TYwEzTppjvcnU/sphere-aqua.jpg",
+    "attributes": [
+        {
+            "trait-type": "ShaderColor",
+            "value": "BLUE"
+        }
+    ]
+}
