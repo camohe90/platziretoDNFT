@@ -1,0 +1,19 @@
+{
+    "name": "Froakie",
+    "description": "Pokemon base form",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeptJhKVa2mEgw6BP2mBKKz7rKMciQt9XHFz1jcus5fRm",
+    "attributes": [
+        {
+            "trait-type": "First Phase",
+            "value": "Bubble Frog"
+        },
+        {
+            "trait-type": "Color",
+            "value": "Blue"
+        },
+        {
+            "trait-type": "Category",
+            "value": "Water"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Frogadier",
+    "description": "Pokemon second form",
+    "image": "https://gateway.pinata.cloud/ipfs/Qme6RjjBzVFem7GCSMXHakurnbCG7QQoxNzZCRBghR49nE",
+    "attributes": [
+        {
+            "trait-type": "Second Phase",
+            "value": "Bubble Frog"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "Blue"
+        },
+        {
+            "trait-type": "Category",
+            "value": "Water"
+        }
+    ]
+}

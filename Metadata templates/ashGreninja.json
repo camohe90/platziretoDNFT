@@ -1,0 +1,19 @@
+{
+    "name": "Ash-Greninja",
+    "description": "Pokemon final form using battle bond with his trainer after defeating enemy's pokemon",
+    "image": "https://gateway.pinata.cloud/ipfs/QmV4WWZogQcCtgsKNm3FD78zrNtnZ5U6wtQpUPXvcWde3x",
+    "attributes": [
+        {
+            "trait-type": "Pokemon_Type",
+            "value": "Ninja"
+        },
+        {
+            "trait-type": "Pokemon_Color",
+            "value": "Blue"
+        },
+        {
+            "trait-type": "Style",
+            "value": "Stealth"
+        }
+    ]
+}

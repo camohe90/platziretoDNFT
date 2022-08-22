@@ -1,0 +1,19 @@
+{
+    "name": "Greninja",
+    "description": "Pokemon third form",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTVykm9gV3cwSwhq9vRbftHa8XcKFbCruafmHat6KkaEh",
+    "attributes": [
+        {
+            "trait-type": "Pokemon_Type",
+            "value": "Ninja"
+        },
+        {
+            "trait-type": "Pokemon_Color",
+            "value": "Blue"
+        },
+        {
+            "trait-type": "Style",
+            "value": "Stealth"
+        }
+    ]
+}
