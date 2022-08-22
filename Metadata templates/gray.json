@@ -1,0 +1,11 @@
+{
+    "name": "Gray Shader",
+    "description": "A cool gray shader",
+    "image": "https://gateway.pinata.cloud/ipfs/QmP4c5TPzH4bVAxL7ckH82fJYnBroiUp2TYwEzTppjvcnU/sphere-gray.jpg",
+    "attributes": [
+        {
+            "trait-type": "ShaderColor",
+            "value": "GRAY"
+        }
+    ]
+}
