@@ -44,7 +44,9 @@ Los pasos que debes seguir son:
 -------------------------------------------------------
 # Solucion
 
-## [X] Reto 1
+## Reto 1
+
+[X] Reto 1
 
 * contrato: 0xaFAAefe84D5059974af04c4a2C5833144cf1DE53
 
@@ -68,7 +70,9 @@ Usando Pokemon
 ![image](https://user-images.githubusercontent.com/41027286/186071752-bfdf90b2-91ad-4ff6-9aa7-999806a2d033.png)
 
 
-## [X] Reto 2
+## Reto 2
+
+[X] Reto 2
 
 * contrato: 0x60623c5916467B0378c91C4a535bDdc6d06DeEC3
 
@@ -99,4 +103,6 @@ https://rinkeby.etherscan.io/tx/0xae93fdc2f697159306911399571d4fc862482d7641ddd4
 
 ![image](https://user-images.githubusercontent.com/41027286/186082958-c22392c8-3fde-4556-975c-952591ed22bd.png)
 
-## [] Reto 3
+## Reto 3
+
+[] Reto 3
