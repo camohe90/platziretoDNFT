@@ -67,4 +67,27 @@ Usando Pokemon
 
 ## Reto 2
 
-* contrato: 
+* contrato: 0x60623c5916467B0378c91C4a535bDdc6d06DeEC3
+
+https://keepers.chain.link/rinkeby/20532400068560510943293901040443387277531400425084381226482019174743555611463
+
+- eevee
+![image](https://user-images.githubusercontent.com/41027286/186082000-a54a9f16-bb74-45f9-a248-cf67bd9848e3.png)
+
+
+- vaporeon
+![image](https://user-images.githubusercontent.com/41027286/186082173-4984ceec-6737-4dc7-9718-aecac4a984a9.png)
+
+![image](https://user-images.githubusercontent.com/41027286/186082264-d855baa3-0b94-4434-835a-eb1706a0bc58.png)
+
+
+- joldeon
+![image](https://user-images.githubusercontent.com/41027286/186082407-2837f01f-587a-4549-8d14-abe04c960278.png)
+
+
+- flareon
+![image](https://user-images.githubusercontent.com/41027286/186082550-9cc0f8c4-6a4a-4be4-a635-8ce561f5a632.png)
+
+- espeon
+![image](https://user-images.githubusercontent.com/41027286/186082958-c22392c8-3fde-4556-975c-952591ed22bd.png)
+
