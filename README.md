@@ -41,4 +41,26 @@ Los pasos que debes seguir son:
 * [Qué es chainlink](https://chainlinkspanishcommunity.medium.com/qu%C3%A9-es-chainlink-6ea80f9ff95e)
 * [Documentación de Chainlink ](https://docs.chain.link/docs)
 
-image.png
+-------------------------------------------------------
+
+## Reto 1
+
+* contrato: 0xaFAAefe84D5059974af04c4a2C5833144cf1DE53
+
+https://keepers.chain.link/rinkeby/75316194559453635653805086881478279144012432688849896661391897540417562183586
+
+Usando Pokemon
+- bulbasaur
+
+
+
+- ivysaur
+
+
+
+- venusaur
+
+
+## Reto 2
+
+* contrato: 
