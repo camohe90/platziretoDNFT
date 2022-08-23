@@ -1,0 +1,15 @@
+{
+    "name": "Espeon Pokemon",
+    "description": "Pokemon NFT con la que vamos a aprender",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmawink1SbUxpLLVCb6ctZEDAKoHSYKs7CzfJ7ui11ysuu",
+    "attributes": [
+        {
+            "trait-type": "EtapaPokemon",
+            "value": "Espeon"
+        },
+        {
+            "trait-type": "ColorPokemon",
+            "value": "MORADO"
+        }
+    ]
+}

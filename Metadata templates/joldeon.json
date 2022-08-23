@@ -1,0 +1,15 @@
+{
+    "name": "Joldeon Pokemon",
+    "description": "Pokemon NFT con la que vamos a aprender",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSGyf4GvchJAJp6q2ugoHio5rkGHpybhEjmNFpKmJXWFP",
+    "attributes": [
+        {
+            "trait-type": "EtapaPokemon",
+            "value": "Joldeon"
+        },
+        {
+            "trait-type": "ColorPokemon",
+            "value": "AMARILLO"
+        }
+    ]
+}
