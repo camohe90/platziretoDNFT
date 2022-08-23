@@ -105,4 +105,4 @@ https://rinkeby.etherscan.io/tx/0xae93fdc2f697159306911399571d4fc862482d7641ddd4
 
 ## Reto 3
 
-- [] Reto 3
+- [ ] Reto 3
