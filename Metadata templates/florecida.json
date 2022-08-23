@@ -1,14 +1,14 @@
 {
-    "name": "Semilla Flor",
-    "description": "Flor NFT con la que vamos a aprender",
+    "name": "Pokemon Pokemonecida",
+    "description": "Pokemon NFT con la que vamos a aprender",
     "image": "https://gateway.pinata.cloud/ipfs/QmeYMVmo4mC4DyEmwEbZUhf6tMMA5SdLZu8AAUKNqt5Xx9",
     "attributes": [
         {
-            "trait-type": "EtapaFLor",
-            "value": "Semilla"
+            "trait-type": "EtapaPokemon",
+            "value": "Pokemonecida"
         },
         {
-            "trait-type": "ColorFlor",
+            "trait-type": "ColorPokemon",
             "value": "CAFE"
         }
     ]
