@@ -1,0 +1,15 @@
+{
+    "name": "Abeja",
+    "description": "Abeja prueba",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVmLFajJc4qsHtH5P9Wo5ZKSExKw7jXwMDiuwURfdcPgj",
+    "attributes": [
+        {
+            "trait-type": "Abeja dibujo",
+            "value": "Abeja draw"
+        },
+        {
+            "trait-type": "Abeja pin",
+            "value": "Amarillo"
+        }
+    ]
+}
