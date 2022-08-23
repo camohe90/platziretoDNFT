@@ -1,15 +1,15 @@
 {
-    "name": "Semilla Pokemon",
+    "name": "Vaporeon Pokemon",
     "description": "Pokemon NFT con la que vamos a aprender",
-    "image": "https://gateway.pinata.cloud/ipfs/QmXQP9fDEGWGvAh6ZrAmsYks6RsQwjGvERn3JQRoCYxYh6",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPPJ7wetmdNkYsXZLrkhu5yh8JdL1kg1NJDUAF2xADW7Q",
     "attributes": [
         {
             "trait-type": "EtapaPokemon",
-            "value": "Semilla"
+            "value": "Vaporeon"
         },
         {
             "trait-type": "ColorPokemon",
-            "value": "CAFE"
+            "value": "CELESTE"
         }
     ]
 }

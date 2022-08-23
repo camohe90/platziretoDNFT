@@ -1,15 +1,15 @@
 {
-    "name": "Semilla Pokemon",
+    "name": "Flareon Pokemon",
     "description": "Pokemon NFT con la que vamos a aprender",
-    "image": "https://gateway.pinata.cloud/ipfs/QmXQP9fDEGWGvAh6ZrAmsYks6RsQwjGvERn3JQRoCYxYh6",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZKGmYtPLxY2Xy2KfYewZ71QEXcNaduYwWE2qKaQTm4AM",
     "attributes": [
         {
             "trait-type": "EtapaPokemon",
-            "value": "Semilla"
+            "value": "Flareon"
         },
         {
             "trait-type": "ColorPokemon",
-            "value": "CAFE"
+            "value": "NARANJA"
         }
     ]
 }
