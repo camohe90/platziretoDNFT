@@ -1,0 +1,24 @@
+{
+    "name": "Charmander",
+    "description": "POKFT",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPdRCb7Q7nTYeKCxdPZ9SCaxQH5FkhabRRmvd62XVfoRY",
+    "background_color": "E3350D",
+    "attributes": [
+        {
+            "trait-type": "Category",
+            "value": "Lizard"
+        },
+        {
+            "trait-type": "Type",
+            "value": "Fire"
+        },
+        {
+            "trait-type": "Abilities",
+            "value": "BLAZ"
+        },
+        {
+            "trait-type": "Weaknesses",
+            "value": "Water, Ground, Rock"
+        }
+    ]
+}

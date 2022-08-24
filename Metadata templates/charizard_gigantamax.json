@@ -1,0 +1,24 @@
+{
+    "nombre": "Charizard Gigantamax",
+    "descripción": "POKFT",
+    "imagen": "https://gateway.pinata.cloud/ipfs/QmU7JcdwEyHX63ppCjWhFu3kJ1asKbSuNi1Ak9x9gJEG9h",
+    "background_color": "E3350D",
+    "atributos": [
+        {
+            "tipo-rasgo": "Categoría",
+            "valor": "Llama"
+        },
+        {
+            "tipo-rasgo": "Tipo",
+            "value": "Fuego, Volador"
+        },
+        {
+            "tipo-rasgo": "Habilidades",
+            "value": "BLAZE"
+        },
+        {
+            "trait-type": "Weaknesses",
+            "value": "Water, Electric, Rock*4"
+        }
+    ]
+}
