@@ -1,0 +1,22 @@
+{
+  "name": "Chanul",
+  "scientific-name": "Humiriastrum procerum",
+  "image": "https://gateway.pinata.cloud/ipfs/QmeriTK2YQipMKvwpoayfnkbCBmjRrzT2zUbrirfCzo3yc",
+  "attributes": [
+    {
+      "trait-type": "color",
+      "value": "rosa-rojizo"
+    },
+    {
+      "trait-type": "veta",
+      "value": "suave con bandas marrones"
+    }
+  ],
+  "collection-data": [
+    {
+      "date": "02/09/2017",
+      "department": "Valle",
+      "Municipality": "Guacarí"
+    }
+  ]
+}

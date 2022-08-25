@@ -1,0 +1,22 @@
+{
+  "name": "Sapan",
+  "scientific-name": "Clathrotropis brunnea",
+  "image": "https://gateway.pinata.cloud/ipfs/QmRhJ2h5BxW75ad8uLSBGGMxbq2yeayECk68FiAc2VSn5L",
+  "attributes": [
+    {
+      "trait-type": "color",
+      "value": "catsaño oscuro"
+    },
+    {
+      "trait-type": "veta",
+      "value": "finas y oscuras"
+    }
+  ],
+  "collection-data": [
+    {
+      "date": "11/17/2010",
+      "department": "Bolivar",
+      "Municipality": "Magangue"
+    }
+  ]
+}
