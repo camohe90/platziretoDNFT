@@ -81,5 +81,15 @@ Check this contract [here](https://rinkeby.etherscan.io/address/0x5a742e312dd6a1
 
 </details>
 
+<details>
+<summary>Challenge 3</summary>
+
+## [Magic Pets](https://github.com/Oriplus/magic-pets-interface)
+Magic Pets is a collection of Dynamic NFTs to raise funds. The contract owns the NFT once minted. At first, it is an egg that will change into an animal when purchased. Data is stored using IPFS
+
+Visit [Magic Pets](https://wispy-bar-9298.on.fleek.co/)
+
+</details>
+
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
