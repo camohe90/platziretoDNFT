@@ -1,0 +1,22 @@
+{
+  "name": "Choiba",
+  "scientific-name": "Dipteryx oleifera",
+  "image": "https://gateway.pinata.cloud/ipfs/Qmdu8ArJAwRaWAhNpDxHsuGF2LC9YtjiBcyLq6asWSDr9y",
+  "attributes": [
+    {
+      "trait-type": "color",
+      "value": "marron-amarillento"
+    },
+    {
+      "trait-type": "veta",
+      "value": "finas y oscuras"
+    }
+  ],
+  "collection-data": [
+    {
+      "date": "12/07/2020",
+      "department": "Antioquia",
+      "Municipality": "Turbo"
+    }
+  ]
+}

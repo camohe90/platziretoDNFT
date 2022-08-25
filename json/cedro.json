@@ -1,0 +1,22 @@
+{
+  "name": "Cedro",
+  "scientific-name": "Cedrela odorata",
+  "image": "https://gateway.pinata.cloud/ipfs/QmXVkj3aHkdxY9C57QGzhNmE6guUj72UsR5wqGy1Q7iPtj",
+  "attributes": [
+    {
+      "trait-type": "color",
+      "value": "rojizo"
+    },
+    {
+      "trait-type": "veta",
+      "value": "textura gruesa"
+    }
+  ],
+  "collection-data": [
+    {
+      "date": "02/10/2018",
+      "department": "Magdalena",
+      "Municipality": "Ariguaní"
+    }
+  ]
+}
