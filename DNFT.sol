@@ -6,22 +6,25 @@ import "@chainlink/contracts/src/v0.8/KeeperCompatible.sol";
 import "@openzeppelin/contracts@4.6.0/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts@4.6.0/utils/Counters.sol";
 
-contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
+contract keeperPerro is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     using Counters for Counters.Counter;
 
     Counters.Counter public tokenIdCounter;
  
    // Metadata information for each stage of the NFT on IPFS.
     string[] IpfsUri = [
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/seed.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-sprout.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-blooms.json"
+        "https://gateway.pinata.cloud/ipfs/QmYXgSkU3RbB7Ug8ZiKMZPi9rVD4ZvZMoxhCNsfSMGq5wN",
+        "https://gateway.pinata.cloud/ipfs/QmZqzKhcfQidRa511SPmAsbeWkLZJnxr2CK8kjHoVkaL4x",
+        "https://gateway.pinata.cloud/ipfs/QmSmAiENA6eQVRkbpycFRgka6YDkAjdvwnpyTuAb2GHsbL",
+        "https://gateway.pinata.cloud/ipfs/QmWqJwUtK3PYFWwrtx4qXyHxxstAEUKNWToMSbLyE23nk2",
+        "https://gateway.pinata.cloud/ipfs/QmZg4vgRsefazyVQjFvCiRzu6dAN67QLsb2bFDFH9ibYg1"
+        
     ]; 
 
     uint256 lastTimeStamp;
     uint256 interval;
 
-    constructor(uint _interval) ERC721("Flower Platzi", "fPLTZ") {
+    constructor(uint _interval) ERC721("Perro GOLDEN", "PERROGLD") {
         interval = _interval;
         lastTimeStamp = block.timestamp;
     }
@@ -29,7 +32,7 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     function checkUpkeep(bytes calldata /* checkData */) external view override returns (bool upkeepNeeded, bytes memory /* performData */) {
         uint256 tokenId = tokenIdCounter.current() - 1;
         bool done;
-        if (flowerStage(tokenId) >= 2) {
+        if (flowerStage(tokenId) >= 4) {
             done = true;
         }
 
@@ -55,7 +58,7 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     }
 
     function growFlower(uint256 _tokenId) public {
-        if(flowerStage(_tokenId) >= 2){return;}
+        if(flowerStage(_tokenId) >= 4){return;}
         // Get the current stage of the flower and add 1
         uint256 newVal = flowerStage(_tokenId) + 1;
         // store the new URI
@@ -77,8 +80,23 @@ contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
         ) {
             return 1;
         }
+        if (
+            compareStrings(_uri, IpfsUri[2]) 
+        ) {
+            return 2;
+        }
+        if (
+            compareStrings(_uri, IpfsUri[3]) 
+        ) {
+            return 3;
+        }
+        if (
+            compareStrings(_uri, IpfsUri[4]) 
+        ) {
+            return 4;
+        }
         // Must be a Bloom
-        return 2;
+        return 5;
     }
 
     // helper function to compare strings

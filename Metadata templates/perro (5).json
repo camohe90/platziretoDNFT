@@ -1,0 +1,15 @@
+{
+    "name": "Perro Viejo Golden Retriever",
+    "description": "Perro NFT Viejo Golden Retriever",
+    "image": "https://gateway.pinata.cloud/ipfs/QmemJWiPwH1XSeYZaFc8K4Nmtd51Aw1tDcVk67x6G27QnW",
+    "attributes": [
+        {
+            "trait-type": "EtapaPerro",
+            "value": "Viejo"
+        },
+        {
+            "trait-type": "TamanoPerro",
+            "value": "GRANDE"
+        }
+    ]
+}
