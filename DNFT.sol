@@ -6,22 +6,23 @@ import "@chainlink/contracts/src/v0.8/KeeperCompatible.sol";
 import "@openzeppelin/contracts@4.6.0/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts@4.6.0/utils/Counters.sol";
 
-contract keeperFlower is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
+contract keeperPerro is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
     using Counters for Counters.Counter;
 
     Counters.Counter public tokenIdCounter;
  
    // Metadata information for each stage of the NFT on IPFS.
     string[] IpfsUri = [
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/seed.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-sprout.json",
-        "https://ipfs.io/ipfs/QmYaTsyxTDnrG4toc8721w62rL4ZBKXQTGj9c9Rpdrntou/purple-blooms.json"
+        "https://gateway.pinata.cloud/ipfs/QmYXgSkU3RbB7Ug8ZiKMZPi9rVD4ZvZMoxhCNsfSMGq5wN",
+        "https://gateway.pinata.cloud/ipfs/QmZqzKhcfQidRa511SPmAsbeWkLZJnxr2CK8kjHoVkaL4x",
+        "https://gateway.pinata.cloud/ipfs/QmSmAiENA6eQVRkbpycFRgka6YDkAjdvwnpyTuAb2GHsbL"
+        
     ]; 
 
     uint256 lastTimeStamp;
     uint256 interval;
 
-    constructor(uint _interval) ERC721("Flower Platzi", "fPLTZ") {
+    constructor(uint _interval) ERC721("Perro GOLDEN", "PERROGLD") {
         interval = _interval;
         lastTimeStamp = block.timestamp;
     }

@@ -1,0 +1,15 @@
+{
+    "name": "Perro Mediano Golden Retriver",
+    "description": "Perro NFT Mediano Golden Retriver",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPx42GiPVEbMtBD734H2ib1myF3N1HSXyhJXFTBhQAc24/perro2.png",
+    "attributes": [
+        {
+            "trait-type": "EtapaPerro",
+            "value": "Mediano"
+        },
+        {
+            "trait-type": "TamanoPerro",
+            "value": "MEDIANO"
+        }
+    ]
+}

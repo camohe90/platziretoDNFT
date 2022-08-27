@@ -1,0 +1,15 @@
+{
+    "name": "Perro Cachorro Golden Retriver",
+    "description": "Perro NFT Cachorro Golden Retriver",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPx42GiPVEbMtBD734H2ib1myF3N1HSXyhJXFTBhQAc24/perro1.png",
+    "attributes": [
+        {
+            "trait-type": "EtapaPerro",
+            "value": "Cachorro"
+        },
+        {
+            "trait-type": "TamanoPerro",
+            "value": "PEQUENO"
+        }
+    ]
+}
