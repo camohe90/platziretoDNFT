@@ -1,0 +1,15 @@
+{
+    "name": "Fase 3 Flor",
+    "description": "Flor NFT va a dar un nuevo paso",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbsDg4vVB15jh3fNpyvJ8Be3b9f2Yih5YMacHrr8yNVDY",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "Creciendo"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "CAFE"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Semilla Creciendo Flor",
+    "description": "Flor NFT va a dar un nuevo paso",
+    "image": "https://gateway.pinata.cloud/ipfs/QmexqEm8XvRWcnzZvjogf5op5JhBwLxbshxVKYZMgJ5DGc",
+    "attributes": [
+        {
+            "trait-type": "EtapaFLor",
+            "value": "SemillaCreciendo"
+        },
+        {
+            "trait-type": "ColorFlor",
+            "value": "CAFE"
+        }
+    ]
+}
