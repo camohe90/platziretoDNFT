@@ -2,8 +2,8 @@ async function main() {
   const[deployer] = await ethers.getSigners();
   console.log("Deploying contracts with the account: ", deployer.address);
   console.log("Account balance: ", (await deployer.getBalance()).toString());
-  const contract = await ethers.getContractFactory("keeperFlower");
-  const deploy = await contract.deploy(10);
+  const contract = await ethers.getContractFactory("keeperChrist");
+  const deploy = await contract.deploy(300);
   console.log("Contract deployed to address: ", deploy.address);
 }
 

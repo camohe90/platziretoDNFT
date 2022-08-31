@@ -1,0 +1,16 @@
+{
+    "name": "Jesús acepta la pesada Cruz",
+    "description": "Los soldados lo llevaron dentro del palacio y convocaron a toda la guardia. Lo vistieron con un manto de púrpura, hicieron una corona de espinas y se la colocaron. Y comenzaron a saludarlo: '¡Salud, Rey de los Judíos!', luego le quitaron el manto de púrpura y le pusieron de nuevo sus vestiduras y así lo hicieron salir para crucificarlo. Los judíos le presentan la cruz. Jesús se abraza con ella y en ella quiere redimir al mundo. María, al saber la inicua sentencia de Pilato, sale de su casa y se dirige al Calvario para ver a su Hijo. Los enemigos obligan a Jesús a cargar la cruz, aumentando así su afrenta y su tormento.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZAeaH6r1NVG5AJCaFKkkWQaPHGX9Hwpdb8cffEmTv7WS",
+    "attributes": [
+        {
+            "trait-type":"Evento",
+            "value":"Via Crucis"
+        
+        },
+        {
+            "trait-type":"Estacion",
+            "value":"Segunda"
+        }
+    ]
+}
