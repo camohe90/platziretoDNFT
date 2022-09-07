@@ -1,6 +1,6 @@
 # Dinamic NFT challenge - Platzi Ethereum Developer Program 
 
-## Description: 
+### Description: 
 
 The idea was to learn how to deploy a contract in a testnet and interact with it by minting NFTs. The initial NFT had 3 phases which had to be changed (by changing the metadata) through the ChainLink upkeep service using a timestamp. In the challenge we then had to edit the contract and add two more phases to the NFTs. 
 
