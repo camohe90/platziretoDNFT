@@ -1,4 +1,4 @@
-# Aprendamos a crear NFT's dinámicos
+  # Aprendamos a crear NFT's dinámicos
 
 ## Reto 1
 
@@ -40,4 +40,36 @@ Los pasos que debes seguir son:
 
 * [Qué es chainlink](https://chainlinkspanishcommunity.medium.com/qu%C3%A9-es-chainlink-6ea80f9ff95e)
 * [Documentación de Chainlink ](https://docs.chain.link/docs)
+
+## Solucion
+
+## Reto 1
+
+- [ :heavy_check_mark: ] Reto 1
+
+* contrato https://rinkeby.etherscan.io/address/0xeFbae0477438445d0CF769407d40C33a8bF07FC9
+
+https://testnets.opensea.io/assets/rinkeby/0xeFbae0477438445d0CF769407d40C33a8bF07FC9/0
+
+https://keepers.chain.link/rinkeby/83359575109068254611716961897829256404431142044162062151145341460634586188267
+
+![image](https://raw.githubusercontent.com/sass3r/platziretoDNFT/main/image/PlatziFlower.png)
+
+## Reto 2
+
+- [ :heavy_check_mark: ] Reto 2
+
+* contrato https://rinkeby.etherscan.io/address/0xa9a24F50AABF8Ac11314f2Ac7757d6975EA0D8Fd
+
+https://testnets.opensea.io/assets/rinkeby/0xa9a24F50AABF8Ac11314f2Ac7757d6975EA0D8Fd/0
+
+https://keepers.chain.link/rinkeby/42408081557971670021939672083491241438436363170187826057988418013179942498781
+
+![image](https://raw.githubusercontent.com/sass3r/platziretoDNFT/main/image/WayOfTheCross.png)
+
+## Reto 3
+
+- [ :heavy_check_mark: ] Reto 3
+
+![image](https://raw.githubusercontent.com/sass3r/platziretoDNFT/main/image/ipfsUpload.png)
 
