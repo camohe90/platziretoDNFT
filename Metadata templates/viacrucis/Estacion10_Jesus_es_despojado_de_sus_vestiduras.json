@@ -1,0 +1,16 @@
+{
+    "name": "Llega Jesús al Calvario y le despojan de sus vestiduras",
+    "description": "Ha terminado el tormento de la subida al Calvario para padecer el tormento de la Crucifixión. Le arrancan sus vestidos, ya pegados a la carne, y le dan vino mezclado con hiel.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZwr2DAGyReNnBEf89J2wJM9SRBiBnoSSmV1CqXpL69yf",
+    "attributes": [
+        {
+            "trait-type":"Evento",
+            "value":"Via Crucis"
+        
+        },
+        {
+            "trait-type":"Estacion",
+            "value":"Decima"
+        }
+    ]
+}

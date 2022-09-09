@@ -1,0 +1,35 @@
+{
+  "name": "platziretodnft",
+  "version": "1.0.0",
+  "description": "Dynamic NFT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sass3r/platziretoDNFT.git"
+  },
+  "keywords": [
+    "ETH",
+    "NFT"
+  ],
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sass3r/platziretoDNFT/issues"
+  },
+  "homepage": "https://github.com/sass3r/platziretoDNFT#readme",
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.6",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "@chainlink/contracts": "^0.4.1",
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@openzeppelin/contracts": "^4.6.0",
+    "ethers": "^5.7.0",
+    "hardhat": "^2.10.2",
+    "hardhat-abi-exporter": "^2.10.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Jesús es descendido de la Cruz y puesto en los brazos de su santísima madre",
+    "description": "Cuánto más ha sufrido María al verle crucificado, al no haberle podido dar el más insignificante auxilio, al verle morir entre tormentos, con tanto más amor le ha recibido en sus brazos. Compadece a María.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTKcdCB97E8zEM2b8z5TGSjYAFfCC7T2prbgn6qgVHh9H",
+    "attributes": [
+        {
+            "trait-type":"Evento",
+            "value":"Via Crucis"
+        
+        },
+        {
+            "trait-type":"Estacion",
+            "value":"Decima tercera"
+        }
+    ]
+}

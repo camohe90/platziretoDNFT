@@ -1,0 +1,16 @@
+{
+    "name": "Jesus condenado a muerte",
+    "description": "Arrestaron a Jesús y lo condujeron a la casa del sumo sacerdote Caifás, allí deseaban acusarlo de falsos testimonios. Fue el mismo Sumo Sacerdote quien perdió los estribos al escuchar a Jesús responder que él volvería sentado a la derecha del Todopoderoso. El Sumo Sacerdote rasgó sus vestiduras y solicitó su muerte. Luego Jesús compareció ante Pilato, gobernador de estas tierras, para ser acusado, pero este jamás respondió nada. Pero durante esas fiestas Pilato estaba acostumbrado a dar libertad a un preso, que el pueblo eligiera: Ellos respondieron: 'A Barrabás'. Y el pueblo solicitó la crucificción de Jesús. Entonces Pilato hizo traer agua y se lavó las manos delante de la multitud, así se declaró inocente de esta sangre. Liberó a Barrabás y entregó a Jesús para que sea crucificado.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQgSyEYiREheGvXEZBV8efe3JY4TCjWLmo6nk2Un4igEr",
+    "attributes": [
+        {
+            "trait-type":"Evento",
+            "value":"Via Crucis"
+        
+        },
+        {
+            "trait-type":"Estacion",
+            "value":"Primera"
+        }
+    ]
+}
