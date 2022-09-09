@@ -12,7 +12,7 @@ Next, you can find two contracts as solution to this [Challenge](https://github.
 <details>
 <summary>Challenge 1</summary>
 
-## [KeeperFlower](https://github.com/Oriplus/retoDNFT/blob/reto/contracts/KeeperFlower.sol)
+## [KeeperFlower](https://github.com/Oriplus/retoDNFT/blob/main/contracts/KeeperFlower.sol)
 
 It's a DNFT that shows three stages of flower growth:
 
@@ -43,7 +43,7 @@ Check this contract [here](https://rinkeby.etherscan.io/address/0x70da28b73c9361
 <details>
 <summary>Challenge 2</summary>
 
-## [KeeperOrder](https://github.com/Oriplus/retoDNFT/blob/reto/contracts/KeeperOrder.sol)
+## [KeeperOrder](https://github.com/Oriplus/retoDNFT/blob/main/contracts/KeeperOrder.sol)
 It's a DNFT that shows five stages of an order for customers who shop online and want to see the whole process of their purchase, giving them a better shopping experience because they can track their orders.
 
 Order status are:
