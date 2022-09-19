@@ -1,43 +1,36 @@
-# Aprendamos a crear NFT's dinámicos
+## DESCRIPTION
 
-## Reto 1
+Solución al reto: NFT Dinámicos de Platzi.
 
-Vamos a aprender a crear NFT's dinámicos, lo que significa que pueden cambiar su metadata dependiendo de ciertas condiciones que definamos. 
+## Reto:
 
-Para lograrlo necesitamos conectarnos un herramientas que nos provea la información para automaizar nuestro contrato inteligente, es esta ocasión vamos a usar algunos servicios de chainlink
+- [x] Reto 1
+- Se hizo el contrato donde se llamaban las imagenes y se manejaba toda la lógica y se desplego en la red de Rinkeby:
+[Contrato](https://rinkeby.etherscan.io/address/0x7aef7bc45b1097c1068748ebd54daa2868f1fd47)
+- Se hizo el nft dinámico con keepers.chain.link donde se automatizo su comportamiento:
+[Keepers](https://keepers.chain.link/rinkeby/1678972853997080263796572151476178232165201496349363518773567827352230619061)
+- El NFT se publicó y se actualizó automaticamente en la testnet de opensea.
+[NFT Dinámico en Opensea](https://testnets.opensea.io/assets/rinkeby/0x7aef7bc45b1097c1068748ebd54daa2868f1fd47/0)
+![RETO 1](https://gateway.pinata.cloud/ipfs/QmRsWBx8FcWEmoztPqinTX9cY4VT4kBE6cYfsm2FHYxEAJ)
 
-Los pasos que debes seguir son:
-
-1. Debes subir las imagenes de la metadata que quieres que cambie del NFT a una red IPFS, puede usar [pinata](https://www.pinata.cloud/)
-2. En remix debes desplegar el contrato inteligente, para ellos necesitas tokens para la red de prueba rinkeby, que puedes solicitar en este [faucet](https://www.pinata.cloud/)
-3. Debemos validar que nuestro contrato inteligente se desplego correctamente en [rinkeby](https://rinkeby.etherscan.io/) y que podamos visualizar nuestro NFT en el ambiente de pruebas de [OpenSea](https://testnets.opensea.io/)
-4. Vamos a crear en la pagina de chainlink ese elemento que nos va a permitir automatizar el cambio de la metadata de nuestro NFT, para ello debemos ingresar en la pagina [keeper](https://keepers.chain.link)
-5. Seleccionamos la opción "register new upkeep"
-6. A continuación seleccionamos "Custom-logic"
-7. Debemos ingresar la dirección del contrato inteligente que desplegamos en Remix
-8. Ingresamos los siguientes valores Upkeep name, Gas limit: 200000, Starting balance (LINK):5, Your email address
-9. Aprobamos la transacción y esperamos que se proceso para la red de chainlink.
-10. Ya podemos ver como nuestro NFT va a cambiar metadata dependiendo del tiempo que hayamos establecido al momento de desplegar el contrato y sera el que ejecute el keeper de chainlink.
-11. Para validar que efectivamete la metadata de nuestro NFT esta cambiando, podemos usar las funciones de tokenURI que nos permite saber que metada tiene determinado NFT o la función flowerStage que retorna un número entre 0-2 y podriamos ver como va incrementado.
-12. Si quiere visualizar como cambia la metadata de tu NFT en opensea tienes que ingresar a la colección que creaste, ingresar en el primer elemento y en la esquina superior derecha selección la opción actualizar metadata, finalmente debes actualizar la ventana para poder ver los cambios.
-
-![Actualizar metadata](image/uptadeMetadata_1.jpg)
-
-## Reto 2
-
-1. Modifica el código original del repositorio para permitir que tu NFT tenga 5 cambios de metadata.
-2. Realizar el despliegue del contrato módifico 
-3. Crear una nueva automatización por tiempo como se ejecuto en el paso 1.
-
-## Reto 3 (Opcional)
-
-1. Crear una interfaz gráfica con react que permita subir la imagen, el nombre, la descripción,  caracteristicas del NFT y que se encargue de generar el archivo JSON de metadata y lo suba a la red IPFS de su preferencia 
-2. Desplegar el contrato inteligente.
-3. Realizar las pruebas de funcionamiento
+- [x] Reto 2
+- Para el segundo reto se hizo un video sobre Ethereum que fue desarrollado con Python y la libreria Manim que permite crear animaciones (principalmente matemáticas) con código. Este video es el contenido del NFT.
+[Código del video](https://github.com/joelesdar/Ethereum-Animation)
+- Se hicieron los archivos JSON en los que se pone en cada uno de los 5 como título una de las principales etapas de Ethereum junto con su año.
+- Ejemplo del archivo [json](https://gateway.pinata.cloud/ipfs/QmQRUE5czXDdqTvuMgosSEBYpo8VFD1SNXZTdmMr4XFpu2)
+- Se hizo y se desplegó el contrato con las funcionalidades pedidas.
+[Contrato](https://rinkeby.etherscan.io/tx/0x9f5febfdf5a60d11f2b977a40dd7b88f20a15dcc014056f5c9c64d8118306e9b)
+- Ejemplo de un titular:
+- Se hizo el keeper para hacer el NFT dinámico:
+[Keepers](https://keepers.chain.link/rinkeby/69649965584962064041634173852577496346144740776765314310602954990715922451325)
+![Etapa 1](https://gateway.pinata.cloud/ipfs/QmZWZ7rET4zkBiJhXRWX2TC7vjXUA48UCRZRxbVWUKGRss)
+- Otras etapas:
+[Etapa 2](https://gateway.pinata.cloud/ipfs/QmX8dyCmmJoYuBydFzHLn6zbP9quFrAP7kP9HqL6ntd7g4)
+[Etapa 3](https://gateway.pinata.cloud/ipfs/QmQacj9MJE7DsYBnpnHdFhSKqU7uSfKJwuquLi3Z1LWwHn)
+[Etapa 4](https://gateway.pinata.cloud/ipfs/QmS7GzMVLcRRU36TEkJYHDDuCR1AjD6XkfLbfFNkdwVpWJ)
+[Etapa 5](https://gateway.pinata.cloud/ipfs/QmVjHnMAcPMX9mCWj27BM5soZkMRQ5mvWavEtns6HLN1hb)
+- [NFT Dinámico en Opensea](https://testnets.opensea.io/assets/rinkeby/0x92b240ad86ac24b6d5191a1da47186463a2e2447/0)
 
 
-## Recursos
-
-* [Qué es chainlink](https://chainlinkspanishcommunity.medium.com/qu%C3%A9-es-chainlink-6ea80f9ff95e)
-* [Documentación de Chainlink ](https://docs.chain.link/docs)
-
+- [ ] Tercer problema (Opcional)
+- En proceso.
