@@ -1,3 +1,31 @@
+**NFTs Dinámicos**
+
+Proyecto de estudio de NFTs dinámicos.
+
+Se creó un NFT con 5 cambios de metadata, que simula el Registro de la Propiedad Inmueble de Argentina. El NFT representa un inmueble en particular, y los cambios de la metadata simulan la transmisión del dominio del inmueble entre distintos titulares.
+
+El archivo JSON contiene los datos típicos solicitados por el registro, como la ubicación del inmueble, la superficie total, la localidad, el código postal, su titular actual y el número de folio del libro del registro. Los datos del inmueble se mantienen y varía su titular.
+
+La metadata reside en el archivo json junto con las imágenes hosteadas a IPFS en https://www.pinata.cloud/
+
+Se desplegó el contrato inteligente en la red de prueba Rinkeby.
+
+Se automatizó el cambio de la metadata del NFT dinámico con Chainlink Keepers https://keepers.chain.link/rinkeby
+
+El NFT quedó actualizado y disponible para su visualización en la colección de la address con la que fue minteado, en la testnet de Open Sea.
+
+Ejemplo del archivo json
+
+El NFT quedó actualizado y disponible para su visualización en la colección de la address con la que fue minteado, en la testnet de Open Sea.
+
+Ejemplo de un titular:
+
+TITULAR-3
+
+Otros titulares: TITULAR-1 TITULAR-2 TITULAR-4 TITULAR-5
+
+-------
+
 # Aprendamos a crear NFT's dinámicos
 
 ## Reto 1
